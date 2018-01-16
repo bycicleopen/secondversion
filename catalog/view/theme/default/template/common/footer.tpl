@@ -201,42 +201,7 @@
 	</footer>
 	
 
-	
-	
-	
-	<!-- Script for Google map in Popup -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWM9qYoD8XEn70oc8kFnR1lzXnV2223vA&amp;callback=initMap" async="" defer=""></script>
-	
-	<!-- Scripts -->
-	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-	<script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
-	<script src="js/scripts.js"></script>
-	
-	
 
-<script type="text/javascript" src="catalog/view/javascript/jquery/ui/jquery-ui-1.8.16.custom.min.js"></script>
-<link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/ui/themes/ui-lightness/jquery-ui-1.8.16.custom.css" />
-<script type="text/javascript" src="catalog/view/javascript/common.js"></script>
-<?php foreach ($scripts as $script) { ?>
-<script type="text/javascript" src="<?php echo $script; ?>"></script>
-<?php } ?>
-	
-	
-	
-	<?php if ($stores) { ?>
-<script type="text/javascript"><!--
-$(document).ready(function() {
-<?php foreach ($stores as $store) { ?>
-$('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></iframe>');
-<?php } ?>
-});
-//--></script>
-<?php } ?>
-	
-	
-	
 
 	<!-- SVG Icons -->
 	<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">

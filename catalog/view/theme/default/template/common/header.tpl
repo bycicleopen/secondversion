@@ -59,56 +59,181 @@
 <?php } ?>
 </head>
 <body class="<?php echo $class; ?>">
-<nav id="top">
-  <div class="container">
-    <?php echo $currency; ?>
-    <?php echo $language; ?>
-    <div id="top-links" class="nav pull-right">
-      <ul class="list-inline">
-        <li><a href="<?php echo $contact; ?>"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md"><?php echo $telephone; ?></span></li>
-        <li class="dropdown"><a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_account; ?></span> <span class="caret"></span></a>
-          <ul class="dropdown-menu dropdown-menu-right">
-            <?php if ($logged) { ?>
-            <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
-            <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
-            <li><a href="<?php echo $transaction; ?>"><?php echo $text_transaction; ?></a></li>
-            <li><a href="<?php echo $download; ?>"><?php echo $text_download; ?></a></li>
-            <li><a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a></li>
-            <?php } else { ?>
-            <li><a href="<?php echo $register; ?>"><?php echo $text_register; ?></a></li>
-            <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
-            <?php } ?>
-          </ul>
-        </li>
-        <li><a href="<?php echo $wishlist; ?>" id="wishlist-total" title="<?php echo $text_wishlist; ?>"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_wishlist; ?></span></a></li>
-        <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
-        <li><a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_checkout; ?></span></a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<header>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div id="logo">
-          <?php if ($logo) { ?>
-            <?php if ($home == $og_url) { ?>
-              <img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" />
-            <?php } else { ?>
-              <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
-            <?php } ?>
-          <?php } else { ?>
-            <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
-          <?php } ?>
-        </div>
-      </div>
-      <div class="col-sm-5"><?php echo $search; ?>
-      </div>
-      <div class="col-sm-3"><?php echo $cart; ?></div>
-    </div>
-  </div>
-</header>
+
+
+
+
+ <!-- Header -->
+	<header class="header">
+		<!-- header top -->
+				<div class="header-top hidden-sm hidden-xs">
+			<div class="container">
+			
+				<div class="row">
+					
+					<div class="col-md-6">
+			
+					    <?php echo $language; ?>
+						<nav class="header-nav header-devider">
+							<menu class="header-nav_items">
+									
+									
+									<?php foreach ($informations as $information) { ?>
+										<?php if ($information['sort_order']<'700'){?>
+										<li class="header-nav_item"><a href="<?php echo $information['href']; ?>" class="header-nav_link"><?php echo $information['title']; ?></a></li>
+										<?php if ($information['sort_order']=='1'){ $aboutInf = $information['title']; $aboutInfHref = $information['href']; } ?>
+										
+										<?php }else {?>	
+											<?php if ($information['sort_order']=='710'){ $bycicleInf = $information['title']; $bycicleInfHref = $information['href']; } ?>
+										    <?php if ($information['sort_order']=='720'){ $mountainInf = $information['title']; $mountainInfHref = $information['href']; } ?>
+											<?php if ($information['sort_order']=='730'){ $partsInf = $information['title']; $partsInfHref = $information['href']; } ?>
+											<?php if ($information['sort_order']=='740'){ $helmetInf = $information['title']; $helmetInfHref = $information['href']; } ?>						
+										<?php if ($information['sort_order']=='760'){ $helmetForInf = $information['title']; $helmetForInfHref = $information['href']; } ?>
+										<?php if ($information['sort_order']=='770'){ $actionInf = $information['title']; $actiomInfHref = $information['href']; } ?>										
+										<?php if ($information['sort_order']=='780'){ $ridingInf = $information['title']; $ridingInfHref = $information['href']; } ?>										
+										<?php if ($information['sort_order']=='810'){ $actionsInf = $information['title']; $actionsInfHref = $information['href']; } ?>											
+										<?php if ($information['sort_order']=='820'){ $shippingInf = $information['title']; $shippingInfHref = $shipping['href']; } ?>	
+										
+										<?php if ($information['sort_order']=='830'){ $newsInf = $information['title']; $newsInfHref = $information['href']; } ?>	
+										<?php if ($information['sort_order']=='840'){ $warrantyInf = $information['title']; $warrantyInfHref = $information['href']; } ?>											
+										<?php if ($information['sort_order']=='850'){ $howToInf = $information['title']; $howToInfHref = $information['href']; } ?>	
+										<?php if ($information['sort_order']=='860'){ $reclamationInf = $information['title']; $reclamationInfHref = $information['href']; } ?>	
+										<?php if ($information['sort_order']=='870'){ $questionsInf = $information['title']; $questionsInfHref = $information['href']; } ?>											
+										<?php if ($information['sort_order']=='900'){ $schemaInf = $information['title']; $schemaInfHref = $information['href']; } ?>											
+										<?php } ?>	
+										
+									<?php } ?>	
+							
+								<li class="header-nav_item">
+									<a href="<?php echo $contact; ?>" class="header-nav_link"><?php echo $text_contact; ?></a></li>
+								
+								
+							</menu>
+						</nav>
+						
+					</div>
+					
+	
+					
+					
+					
+
+					<div class="col-md-6">
+
+						<div class="header-user">
+							<ul class="header-user_items header-devider">
+								<li class="header-user_item">
+									<a href="#" class="header-user_link">
+										<span class="header-user-icon">
+											<span class="icon">
+												<svg>
+													<use xlink:href="#icon_prcode"></use>
+												</svg>
+											</span>
+										</span>
+										<span class="header-user-text">Введите промокод</span>
+									</a>
+								</li>
+							</ul>
+
+							<ul class="header-user_items">
+								<li class="">
+			
+									<div class="col-sm-3"><?php echo $cart; ?></div>
+									
+								</li>
+
+			
+								
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+	</header>
+
+		<!-- header bottom -->
+	<header>	
+		<div class="header-bottom">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-3 col-md-4">
+						<a href="/" class="header-logo">
+							<picture>
+								<img src="catalog/view/theme/default/image/logo.svg" alt="ВЕЛОСКЛАД Интернет-магазин велосипедов">
+							</picture>
+						</a>
+					</div>
+
+					<div class="col-lg-4 col-md-5">
+						<div class="header-search-wrap">
+							<div class="header-popular">
+								Популярное:
+								<menu class="header-popular_list">
+									<li class="header-popular_item">
+										<a href="http://localhost/bycicles/index.php?route=information/information&amp;information_id=7" class="header-popular_link link">Велосипед</a></li>
+									<li class="header-popular_item">
+										<a href="http://localhost/bycicles/index.php?route=information/information&amp;information_id=8" class="header-popular_link link">Горные</a></li>
+									<li class="header-popular_item">
+										<a href="http://localhost/bycicles/index.php?route=information/information&amp;information_id=9" class="header-popular_link link">Запчасти</a></li>
+									<li class="header-popular_item">
+										<a href="http://localhost/bycicles/index.php?route=information/information&amp;information_id=10" class="header-popular_link link">Шлем</a></li>												
+								</menu>
+							</div>
+
+
+								<?php echo $search; ?>
+      
+ 
+
+
+						</div>
+					</div>
+
+					<div class="col-lg-5 col-md-3">
+						<div class="header-phone">
+							<div class="phone-wrap">
+								<a href="tel:+380685001002" class="phone-call">+38(068) 500-10-02</a>
+								<span class="icon">
+									<svg>
+										<use xlink:href="#icon_sellphone"></use>
+									</svg>
+								</span>
+								<time class="phone-time">с 9:00 до 18:00 без выходных</time>
+							</div>
+
+							<a href="#callback" class="btn btn_cta header-cta popup-btn visible-lg">
+								<span class="btn-icon">
+									<span class="icon">
+										<svg>
+											<use xlink:href="#icon_phone"></use>
+										</svg>
+									</span>
+								</span>
+								<span class="btn-text">Заказать звонок</span>
+							</a>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+    </header>
+
+
+
+
+
+
 <?php if ($categories) { ?>
 <div class="container">
   <nav id="menu" class="navbar">

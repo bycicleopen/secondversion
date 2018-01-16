@@ -1,45 +1,10 @@
 <?php echo $header; ?>
 <div class="container">
-
-
-	<!-- Breadcrumbs -->
-	<div class="breadcrumbs">
-		<div class="container">
-			<ul class="breadcrumbs-items">
-			
-			<?php $i = 1; $j = count($breadcrumbs) ?>
-			<?php foreach ($breadcrumbs as $breadcrumb) { ?>
-				<?php if($i!=$j) {?>
-				<li class="breadcrumbs-item">				
-						<a href="<?php echo $breadcrumb['href']; ?>" class="link breadcrumbs-link"><?php echo $breadcrumb['text']; ?></a>
-						<?php $i++ ?>
-					
-					<span class="breadcrumbs-link_next">
-						<span class="icon">
-							<svg>
-								<use xlink:href="#icon_crumbarr"></use>
-							</svg>
-						</span>
-					</span>
-				</li>	
-				<?php } ?>
-			<?php } ?>
-
-				<li class="breadcrumbs-item"><?php echo $heading_title; ?>
-					<span class="breadcrumbs-link_next">
-						<span class="icon">
-							<svg>
-								<use xlink:href="#icon_crumbarr"></use>
-							</svg>
-						</span>
-					</span>
-				</li>
-			</ul>
-		</div>
-	</div>
-
-  
-  
+  <ul class="breadcrumb">
+    <?php foreach ($breadcrumbs as $breadcrumb) { ?>
+    <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+    <?php } ?>
+  </ul>
   <div class="row"><?php echo $column_left; ?>
     <?php if ($column_left && $column_right) { ?>
     <?php $class = 'col-sm-6'; ?>

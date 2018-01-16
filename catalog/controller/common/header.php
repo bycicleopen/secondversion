@@ -88,6 +88,32 @@ class ControllerCommonHeader extends Controller {
 		$data['contact'] = $this->url->link('information/contact');
 		$data['telephone'] = $this->config->get('config_telephone');
 
+		
+				/*Add information for bycicles*/
+		$data['text_information'] = $this->language->get('text_information');
+		
+				$data['informations'] = array();
+		/*Add information for bycicles sort_order*/
+		foreach ($this->model_catalog_information->getInformations() as $result) {
+			if ($result['bottom']) {
+				$data['informations'][] = array(
+					'title' => $result['title'],
+					'sort_order' => $result['sort_order'], 	
+					'href'  => $this->url->link('information/information', 'information_id=' . $result['information_id'])
+				);
+			}
+    	}
+		
+		
+		/*Add contact for bycicle here*/
+		$data['contact'] = $this->url->link('information/contact');	
+		$data['text_contact'] = $this->language->get('text_contact');
+
+		$this->load->model('catalog/information');
+		
+		
+		
+		
 		// Menu
 		$this->load->model('catalog/category');
 
