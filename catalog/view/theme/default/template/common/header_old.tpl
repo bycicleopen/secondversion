@@ -35,13 +35,13 @@
 
 <!-- for bycicles-->
 <link href="catalog/view/theme/default/stylesheet/bootstrap.css" rel="stylesheet">
-<link href="catalog/view/theme/default/stylesheet/general.css" rel="stylesheet"><!-- conflict style-->
+<!--conflict cart--link href="catalog/view/theme/default/stylesheet/general.css" rel="stylesheet"-->
 <link href="catalog/view/theme/default/stylesheet/normal.css" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/styles.css" rel="stylesheet"-->
 <!--conflict cart--script src="http://code.jquery.com/jquery-1.10.2.js"></script-->
 <!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
 <!--script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script-->
-<!--script src="catalog/view/javascript/scripts.js"></script-->
+<script src="catalog/view/javascript/scripts.js"></script>
 
 
 <?php foreach ($styles as $style) { ?>
@@ -110,52 +110,43 @@
   </div>
 </header>
 <?php if ($categories) { ?>
+<div class="nav hidden-sm hidden-xs">
 <div class="container">
+<div class="nav-wrap">
   <nav id="menu" class="navbar">
     <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
       <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
     </div>
     <div class="collapse navbar-collapse navbar-ex1-collapse">
-     
-
-
-	 <ul class="nav navbar-nav">
-
+      <ul class="nav navbar-nav">
         <?php foreach ($categories as $category) { ?>
         <?php if ($category['children']) { ?>
-       
-	   <li class="dropdown"><a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']."__"; ?></a>
+        <li class="dropdown"><a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']."__"; ?></a>
           <div class="dropdown-menu">
             <div class="dropdown-inner">
-            
-
-			<?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
+              <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
               <ul class="list-unstyled">
                 <?php foreach ($children as $child) { ?>
                 <li><a href="<?php echo $child['href']; ?>"><?php echo $child['name']; ?></a></li>
                 <?php } ?>
               </ul>
-             <?php } ?>
-			  
-			  
+              <?php } ?>
             </div>
             <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
         </li>
-		
-		
         <?php } else { ?>
         <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
         <?php } ?>
         <?php } ?>
       </ul>
-	  
-	  
     </div>
   </nav>
 </div>
+</div>
+</div>
 <?php } ?>
 
-	<header>
+			<!-- header menu -->
 		<div class="nav hidden-sm hidden-xs">
 			<div class="container">
 				<div class="nav-wrap">
@@ -171,38 +162,51 @@
 					</a>
 					<nav class="nav-list">
 						<menu class="nav-items">
-						
-<?php if ($categories) { ?>
-    <?php foreach ($categories as $category) { ?>
-    <li class="nav-item"><a href="<?php echo $category['href']; ?>" class="nav-link"><span><?php echo $category['name']; ?></span></a>
-      <?php if ($category['children']) { ?>
-     
-	 
-        <?php for ($i = 0; $i < count($category['children']);) { ?>
-        <ul class="nav-items_sub">
-          <?php $j = $i + ceil(count($category['children']) / $category['column']); ?>
-          <?php for (; $i < $j; $i++) { ?>
-          <?php if (isset($category['children'][$i])) { ?>
-          <li class="nav-item_sub"><a href="<?php echo $category['children'][$i]['href']; ?>" class="nav-link_sub" ><?php echo $category['children'][$i]['name']; ?></a></li>
-          <?php } ?>
-          <?php } ?>
-        </ul>
-        <?php } ?>
-      <?php } ?>
-    </li>
-    <?php } ?>
-  </ul>
+							<li class="nav-item">
+								<a href="#" class="nav-link">
+									<span>Велосипеды</span>
+								</a>
+								<ul class="nav-items_sub">
+									<li class="nav-item_sub"><a href="#" class="nav-link_sub">Багажники</a></li>
+									<li class="nav-item_sub"><a href="#" class="nav-link_sub">Держатели телефонов</a></li>
+									<li class="nav-item_sub"><a href="#" class="nav-link_sub">Звонки</a></li>
+									<li class="nav-item_sub"><a href="#" class="nav-link_sub last-link">Все товары</a></li>
+								</ul>
+							</li>
 
-<?php } ?>
+							<li class="nav-item">
+								<a href="#" class="nav-link">
+									<span>Аксесуары</span>
+								</a>
+							</li>
 
-		
+							<li class="nav-item">
+								<a href="#" class="nav-link">
+									<span>Запчасти</span>
+								</a>
+							</li>
+
+							<li class="nav-item">
+								<a href="#" class="nav-link">
+									<span>Инструменты и ремонт</span>
+								</a>
+
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">
+									<span>Экипировка</span>
+								</a>
+								
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">
+									<span>Активный отдых</span>
+								</a>								
+							</li>
 							
 						</menu>
 					</nav>
+
 				</div>
 			</div>
 		</div>
-	</header>					
-					
-</section>		
-	
