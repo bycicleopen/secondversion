@@ -1,4 +1,4 @@
-									<?php foreach ($informations as $information) { ?>
+	<?php foreach ($informations as $information) { ?>
 										<?php if ($information['sort_order']<'700'){?>
 										
 										<?php if ($information['sort_order']=='1'){ $aboutInf = $information['title']; $aboutInfHref = $information['href']; } ?>

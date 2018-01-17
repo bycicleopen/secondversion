@@ -59,10 +59,6 @@
 <?php } ?>
 </head>
 <body class="<?php echo $class; ?>">
-
-
-
-
  <!-- Header -->
 	<header class="header">
 		<!-- header top -->
@@ -77,7 +73,7 @@
 						<nav class="header-nav header-devider">
 							<menu class="header-nav_items">
 									
-									
+									<?php var_dump($informations) ?>
 									<?php foreach ($informations as $information) { ?>
 										<?php if ($information['sort_order']<'700'){?>
 										<li class="header-nav_item"><a href="<?php echo $information['href']; ?>" class="header-nav_link"><?php echo $information['title']; ?></a></li>
@@ -88,18 +84,17 @@
 										    <?php if ($information['sort_order']=='720'){ $mountainInf = $information['title']; $mountainInfHref = $information['href']; } ?>
 											<?php if ($information['sort_order']=='730'){ $partsInf = $information['title']; $partsInfHref = $information['href']; } ?>
 											<?php if ($information['sort_order']=='740'){ $helmetInf = $information['title']; $helmetInfHref = $information['href']; } ?>						
-										<?php if ($information['sort_order']=='760'){ $helmetForInf = $information['title']; $helmetForInfHref = $information['href']; } ?>
-										<?php if ($information['sort_order']=='770'){ $actionInf = $information['title']; $actiomInfHref = $information['href']; } ?>										
-										<?php if ($information['sort_order']=='780'){ $ridingInf = $information['title']; $ridingInfHref = $information['href']; } ?>										
-										<?php if ($information['sort_order']=='810'){ $actionsInf = $information['title']; $actionsInfHref = $information['href']; } ?>											
-										<?php if ($information['sort_order']=='820'){ $shippingInf = $information['title']; $shippingInfHref = $shipping['href']; } ?>	
-										
-										<?php if ($information['sort_order']=='830'){ $newsInf = $information['title']; $newsInfHref = $information['href']; } ?>	
-										<?php if ($information['sort_order']=='840'){ $warrantyInf = $information['title']; $warrantyInfHref = $information['href']; } ?>											
-										<?php if ($information['sort_order']=='850'){ $howToInf = $information['title']; $howToInfHref = $information['href']; } ?>	
-										<?php if ($information['sort_order']=='860'){ $reclamationInf = $information['title']; $reclamationInfHref = $information['href']; } ?>	
-										<?php if ($information['sort_order']=='870'){ $questionsInf = $information['title']; $questionsInfHref = $information['href']; } ?>											
-										<?php if ($information['sort_order']=='900'){ $schemaInf = $information['title']; $schemaInfHref = $information['href']; } ?>											
+											<?php if ($information['sort_order']=='760'){ $helmetForInf = $information['title']; $helmetForInfHref = $information['href']; } ?>
+											<?php if ($information['sort_order']=='770'){ $actionInf = $information['title']; $actiomInfHref = $information['href']; } ?>										
+											<?php if ($information['sort_order']=='780'){ $ridingInf = $information['title']; $ridingInfHref = $information['href']; } ?>										
+											<?php if ($information['sort_order']=='810'){ $actionsInf = $information['title']; $actionsInfHref = $information['href']; } ?>											
+											<?php if ($information['sort_order']=='820'){ $shippingInf = $information['title']; $shippingInfHref = $shipping['href']; } ?>	
+											<?php if ($information['sort_order']=='830'){ $newsInf = $information['title']; $newsInfHref = $information['href']; } ?>	
+											<?php if ($information['sort_order']=='840'){ $warrantyInf = $information['title']; $warrantyInfHref = $information['href']; } ?>											
+											<?php if ($information['sort_order']=='850'){ $howToInf = $information['title']; $howToInfHref = $information['href']; } ?>	
+											<?php if ($information['sort_order']=='860'){ $reclamationInf = $information['title']; $reclamationInfHref = $information['href']; } ?>	
+											<?php if ($information['sort_order']=='870'){ $questionsInf = $information['title']; $questionsInfHref = $information['href']; } ?>											
+											<?php if ($information['sort_order']=='900'){ $schemaInf = $information['title']; $schemaInfHref = $information['href']; } ?>											
 										<?php } ?>	
 										
 									<?php } ?>	
