@@ -409,11 +409,9 @@ CREATE TABLE `bcc_banner_image` (
   `link` VARCHAR(255) COLLATE utf8_general_ci NOT NULL,
   `image` VARCHAR(255) COLLATE utf8_general_ci NOT NULL,
   `sort_order` INTEGER(3) NOT NULL DEFAULT 0,
-  `product_id` INTEGER(11) DEFAULT NULL,
-  `product_description` VARCHAR(256) COLLATE utf8_general_ci DEFAULT NULL,
   PRIMARY KEY (`banner_image_id`)
 )ENGINE=MyISAM
-AUTO_INCREMENT=241 AVG_ROW_LENGTH=88 CHARACTER SET 'utf8' COLLATE 'utf8_general_ci'
+AUTO_INCREMENT=307 AVG_ROW_LENGTH=84 CHARACTER SET 'utf8' COLLATE 'utf8_general_ci'
 COMMENT=''
 ;
 
@@ -434,7 +432,7 @@ CREATE TABLE `bcc_cart` (
   PRIMARY KEY (`cart_id`),
   KEY `cart_id` (`api_id`, `customer_id`, `session_id`, `product_id`, `recurring_id`)
 )ENGINE=InnoDB
-AUTO_INCREMENT=12 CHARACTER SET 'utf8' COLLATE 'utf8_general_ci'
+AUTO_INCREMENT=13 AVG_ROW_LENGTH=16384 CHARACTER SET 'utf8' COLLATE 'utf8_general_ci'
 COMMENT=''
 ;
 
@@ -1731,7 +1729,7 @@ CREATE TABLE `bcc_product` (
   `date_modified` DATETIME NOT NULL,
   PRIMARY KEY (`product_id`)
 )ENGINE=MyISAM
-AUTO_INCREMENT=50 AVG_ROW_LENGTH=148 CHARACTER SET 'utf8' COLLATE 'utf8_general_ci'
+AUTO_INCREMENT=50 AVG_ROW_LENGTH=149 CHARACTER SET 'utf8' COLLATE 'utf8_general_ci'
 COMMENT=''
 ;
 
@@ -1767,7 +1765,7 @@ CREATE TABLE `bcc_product_description` (
   PRIMARY KEY (`product_id`, `language_id`),
   KEY `name` (`name`)
 )ENGINE=MyISAM
-AVG_ROW_LENGTH=1519 CHARACTER SET 'utf8' COLLATE 'utf8_general_ci'
+AVG_ROW_LENGTH=1464 CHARACTER SET 'utf8' COLLATE 'utf8_general_ci'
 COMMENT=''
 ;
 
@@ -1816,7 +1814,7 @@ CREATE TABLE `bcc_product_image` (
   PRIMARY KEY (`product_image_id`),
   KEY `product_id` (`product_id`)
 )ENGINE=MyISAM
-AUTO_INCREMENT=2357 AVG_ROW_LENGTH=44 CHARACTER SET 'utf8' COLLATE 'utf8_general_ci'
+AUTO_INCREMENT=2417 AVG_ROW_LENGTH=44 CHARACTER SET 'utf8' COLLATE 'utf8_general_ci'
 COMMENT=''
 ;
 
@@ -1898,7 +1896,7 @@ CREATE TABLE `bcc_product_reward` (
   `points` INTEGER(8) NOT NULL DEFAULT 0,
   PRIMARY KEY (`product_reward_id`)
 )ENGINE=MyISAM
-AUTO_INCREMENT=547 AVG_ROW_LENGTH=17 ROW_FORMAT=FIXED CHARACTER SET 'utf8' COLLATE 'utf8_general_ci'
+AUTO_INCREMENT=557 AVG_ROW_LENGTH=17 ROW_FORMAT=FIXED CHARACTER SET 'utf8' COLLATE 'utf8_general_ci'
 COMMENT=''
 ;
 
@@ -1917,7 +1915,7 @@ CREATE TABLE `bcc_product_special` (
   PRIMARY KEY (`product_special_id`),
   KEY `product_id` (`product_id`)
 )ENGINE=MyISAM
-AUTO_INCREMENT=442 AVG_ROW_LENGTH=30 ROW_FORMAT=FIXED CHARACTER SET 'utf8' COLLATE 'utf8_general_ci'
+AUTO_INCREMENT=448 AVG_ROW_LENGTH=30 ROW_FORMAT=FIXED CHARACTER SET 'utf8' COLLATE 'utf8_general_ci'
 COMMENT=''
 ;
 
@@ -2293,7 +2291,7 @@ CREATE TABLE `bcc_url_alias` (
   KEY `query` (`query`),
   KEY `keyword` (`keyword`)
 )ENGINE=MyISAM
-AUTO_INCREMENT=879 AVG_ROW_LENGTH=35 CHARACTER SET 'utf8' COLLATE 'utf8_general_ci'
+AUTO_INCREMENT=889 AVG_ROW_LENGTH=35 CHARACTER SET 'utf8' COLLATE 'utf8_general_ci'
 COMMENT=''
 ;
 
@@ -2572,49 +2570,57 @@ COMMIT;
 # Data for the `bcc_banner_image` table  (LIMIT -457,500)
 #
 
-INSERT INTO `bcc_banner_image` (`banner_image_id`, `banner_id`, `language_id`, `title`, `link`, `image`, `sort_order`, `product_id`, `product_description`) VALUES 
-  (87,6,1,'HP Banner','index.php?route=product/manufacturer/info&amp;manufacturer_id=7','catalog/demo/compaq_presario.jpg',0,NULL,''),
-  (88,8,1,'Harley Davidson','','catalog/demo/manufacturer/harley.png',0,NULL,NULL),
-  (89,8,1,'Dell','','catalog/demo/manufacturer/dell.png',0,NULL,NULL),
-  (90,8,1,'Disney','','catalog/demo/manufacturer/disney.png',0,NULL,NULL),
-  (91,8,1,'Coca Cola','','catalog/demo/manufacturer/cocacola.png',0,NULL,NULL),
-  (92,8,1,'Burger King','','catalog/demo/manufacturer/burgerking.png',0,NULL,NULL),
-  (93,8,1,'Canon','','catalog/demo/manufacturer/canon.png',0,NULL,NULL),
-  (94,8,1,'NFL','','catalog/demo/manufacturer/nfl.png',0,NULL,NULL),
-  (95,8,1,'RedBull','','catalog/demo/manufacturer/redbull.png',0,NULL,NULL),
-  (96,8,1,'Sony','','catalog/demo/manufacturer/sony.png',0,NULL,NULL),
-  (97,8,1,'Starbucks','','catalog/demo/manufacturer/starbucks.png',0,NULL,NULL),
-  (98,8,1,'Nintendo','','catalog/demo/manufacturer/nintendo.png',0,NULL,NULL),
-  (100,6,2,'HP Banner','index.php?route=product/manufacturer/info&amp;manufacturer_id=7','catalog/demo/compaq_presario.jpg',0,NULL,NULL),
-  (101,8,2,'NFL','','catalog/demo/manufacturer/nfl.png',0,NULL,NULL),
-  (102,8,2,'RedBull','','catalog/demo/manufacturer/redbull.png',0,NULL,NULL),
-  (103,8,2,'Sony','','catalog/demo/manufacturer/sony.png',0,NULL,NULL),
-  (104,8,2,'Coca Cola','','catalog/demo/manufacturer/cocacola.png',0,NULL,NULL),
-  (105,8,2,'Burger King','','catalog/demo/manufacturer/burgerking.png',0,NULL,NULL),
-  (106,8,2,'Canon','','catalog/demo/manufacturer/canon.png',0,NULL,NULL),
-  (107,8,2,'Harley Davidson','','catalog/demo/manufacturer/harley.png',0,NULL,NULL),
-  (108,8,2,'Dell','','catalog/demo/manufacturer/dell.png',0,NULL,NULL),
-  (109,8,2,'Disney','','catalog/demo/manufacturer/disney.png',0,NULL,NULL),
-  (111,8,2,'Starbucks','','catalog/demo/manufacturer/starbucks.png',0,NULL,NULL),
-  (112,8,2,'Nintendo','','catalog/demo/manufacturer/nintendo.png',0,NULL,NULL),
-  (114,6,3,'HP Banner','index.php?route=product/manufacturer/info&amp;manufacturer_id=7','catalog/demo/compaq_presario.jpg',0,NULL,NULL),
-  (115,8,3,'NFL','','catalog/demo/manufacturer/nfl.png',0,NULL,NULL),
-  (116,8,3,'RedBull','','catalog/demo/manufacturer/redbull.png',0,NULL,NULL),
-  (117,8,3,'Sony','','catalog/demo/manufacturer/sony.png',0,NULL,NULL),
-  (118,8,3,'Coca Cola','','catalog/demo/manufacturer/cocacola.png',0,NULL,NULL),
-  (119,8,3,'Burger King','','catalog/demo/manufacturer/burgerking.png',0,NULL,NULL),
-  (120,8,3,'Canon','','catalog/demo/manufacturer/canon.png',0,NULL,NULL),
-  (121,8,3,'Harley Davidson','','catalog/demo/manufacturer/harley.png',0,NULL,NULL),
-  (122,8,3,'Dell','','catalog/demo/manufacturer/dell.png',0,NULL,NULL),
-  (123,8,3,'Disney','','catalog/demo/manufacturer/disney.png',0,NULL,NULL),
-  (125,8,3,'Starbucks','','catalog/demo/manufacturer/starbucks.png',0,NULL,NULL),
-  (126,8,3,'Nintendo','','catalog/demo/manufacturer/nintendo.png',0,NULL,NULL),
-  (235,7,1,'???????','index.php?route=product/product&amp;path=57&amp;product_id=50','catalog/item-4.jpg',0,NULL,NULL),
-  (236,7,1,'???Kinetic Sniper Disk 24_2','index.php?route=product/product&amp;path=57&amp;product_id=49','catalog/slider-bike.png',1,NULL,''),
-  (237,7,3,'???????','','catalog/item-4.jpg',0,NULL,NULL),
-  (238,7,3,'???Kinetic Sniper Disk 24_2','index.php?route=product/product&amp;path=57&amp;product_id=49','catalog/slider-bike.png',0,NULL,'? ????????????? ?????????? ??????????? ?? 18 ???????, ?????????????? ?????, ??????? ??????? ??????? ???? ??????? ????? ??????????, ???????? ? ??????? ???????? ???????!'),
-  (239,7,2,'woman','index.php?route=product/product&amp;path=57&amp;product_id=49','catalog/item-4.jpg',0,NULL,NULL),
-  (240,7,2,'Kinetic Sniper Disk 24_2','','catalog/slider-bike.png',1,NULL,'Eng? ????????????? ?????????? ??????????? ?? 18 ???????, ?????????????? ?????, ??????? ??????? ??????? ???? ??????? ????? ??????????, ???????? ? ??????? ???????? ???????!');
+INSERT INTO `bcc_banner_image` (`banner_image_id`, `banner_id`, `language_id`, `title`, `link`, `image`, `sort_order`) VALUES 
+  (87,6,1,'HP Banner','index.php?route=product/manufacturer/info&amp;manufacturer_id=7','catalog/demo/compaq_presario.jpg',0),
+  (88,8,1,'Harley Davidson','','catalog/demo/manufacturer/harley.png',0),
+  (89,8,1,'Dell','','catalog/demo/manufacturer/dell.png',0),
+  (90,8,1,'Disney','','catalog/demo/manufacturer/disney.png',0),
+  (91,8,1,'Coca Cola','','catalog/demo/manufacturer/cocacola.png',0),
+  (92,8,1,'Burger King','','catalog/demo/manufacturer/burgerking.png',0),
+  (93,8,1,'Canon','','catalog/demo/manufacturer/canon.png',0),
+  (94,8,1,'NFL','','catalog/demo/manufacturer/nfl.png',0),
+  (95,8,1,'RedBull','','catalog/demo/manufacturer/redbull.png',0),
+  (96,8,1,'Sony','','catalog/demo/manufacturer/sony.png',0),
+  (97,8,1,'Starbucks','','catalog/demo/manufacturer/starbucks.png',0),
+  (98,8,1,'Nintendo','','catalog/demo/manufacturer/nintendo.png',0),
+  (100,6,2,'HP Banner','index.php?route=product/manufacturer/info&amp;manufacturer_id=7','catalog/demo/compaq_presario.jpg',0),
+  (101,8,2,'NFL','','catalog/demo/manufacturer/nfl.png',0),
+  (102,8,2,'RedBull','','catalog/demo/manufacturer/redbull.png',0),
+  (103,8,2,'Sony','','catalog/demo/manufacturer/sony.png',0),
+  (104,8,2,'Coca Cola','','catalog/demo/manufacturer/cocacola.png',0),
+  (105,8,2,'Burger King','','catalog/demo/manufacturer/burgerking.png',0),
+  (106,8,2,'Canon','','catalog/demo/manufacturer/canon.png',0),
+  (107,8,2,'Harley Davidson','','catalog/demo/manufacturer/harley.png',0),
+  (108,8,2,'Dell','','catalog/demo/manufacturer/dell.png',0),
+  (109,8,2,'Disney','','catalog/demo/manufacturer/disney.png',0),
+  (111,8,2,'Starbucks','','catalog/demo/manufacturer/starbucks.png',0),
+  (112,8,2,'Nintendo','','catalog/demo/manufacturer/nintendo.png',0),
+  (114,6,3,'HP Banner','index.php?route=product/manufacturer/info&amp;manufacturer_id=7','catalog/demo/compaq_presario.jpg',0),
+  (115,8,3,'NFL','','catalog/demo/manufacturer/nfl.png',0),
+  (116,8,3,'RedBull','','catalog/demo/manufacturer/redbull.png',0),
+  (117,8,3,'Sony','','catalog/demo/manufacturer/sony.png',0),
+  (118,8,3,'Coca Cola','','catalog/demo/manufacturer/cocacola.png',0),
+  (119,8,3,'Burger King','','catalog/demo/manufacturer/burgerking.png',0),
+  (120,8,3,'Canon','','catalog/demo/manufacturer/canon.png',0),
+  (121,8,3,'Harley Davidson','','catalog/demo/manufacturer/harley.png',0),
+  (122,8,3,'Dell','','catalog/demo/manufacturer/dell.png',0),
+  (123,8,3,'Disney','','catalog/demo/manufacturer/disney.png',0),
+  (125,8,3,'Starbucks','','catalog/demo/manufacturer/starbucks.png',0),
+  (126,8,3,'Nintendo','','catalog/demo/manufacturer/nintendo.png',0),
+  (301,7,1,'???Kinetic Sniper Disk 24_2','http://localhost/basic/index.php?route=product/product&amp;path=57&amp;product_id=49','catalog/slider-bike.png',1),
+  (302,7,1,'???????','http://localhost/basic/index.php?route=product/product&amp;path=57&amp;product_id=50','catalog/slider-bike.png',2),
+  (303,7,3,'???Kinetic Sniper Disk 24_2','http://localhost/basic/index.php?route=product/product&amp;path=57&amp;product_id=49','catalog/slider-bike.png',1),
+  (304,7,3,'???????','http://localhost/basic/index.php?route=product/product&amp;path=57&amp;product_id=50','catalog/logo.png',2),
+  (305,7,2,'woman','http://localhost/basic/index.php?route=product/product&amp;path=57&amp;product_id=50','catalog/logo.png',0),
+  (306,7,2,'Kinetic Sniper Disk 24_2','http://localhost/basic/index.php?route=product/product&amp;path=57&amp;product_id=49','catalog/slider-bike.png',1);
+COMMIT;
+
+#
+# Data for the `bcc_cart` table  (LIMIT -498,500)
+#
+
+INSERT INTO `bcc_cart` (`cart_id`, `api_id`, `customer_id`, `session_id`, `product_id`, `recurring_id`, `option`, `quantity`, `date_added`) VALUES 
+  (12,0,0,'pcctmntampvm7q7vsn5v061r40',49,0,'[]',1,'2018-01-18 17:43:18');
 COMMIT;
 
 #
@@ -3720,13 +3726,13 @@ INSERT INTO `bcc_product` (`product_id`, `model`, `sku`, `upc`, `ean`, `jan`, `i
   (40,'????? 11','','','','','','','',970,5,'catalog/demo/iphone_1.jpg',8,1,101.0000,0,9,'2009-02-03',10.00,1,0.00,0.00,0.00,1,1,1,0,1,3,'2009-02-03 21:07:12','2011-09-30 01:06:53'),
   (41,'????? 14','','','','','','','',977,5,'catalog/demo/imac_1.jpg',8,1,100.0000,0,9,'2009-02-03',5.00,1,0.00,0.00,0.00,1,1,1,0,1,5,'2009-02-03 21:07:26','2011-09-30 01:06:44'),
   (42,'????? 15','','','','','','','',990,5,'catalog/demo/apple_cinema_30.jpg',8,1,100.0000,400,9,'2009-02-04',12.50,1,1.00,2.00,3.00,1,1,2,0,1,6,'2009-02-03 21:07:37','2018-01-16 12:13:27'),
-  (43,'????? 16','','','','','','','',929,5,'catalog/demo/macbook_1.jpg',8,0,500.0000,0,9,'2009-02-03',0.00,1,0.00,0.00,0.00,2,1,1,0,1,0,'2009-02-03 21:07:49','2011-09-30 01:05:46'),
+  (43,'????? 16','','','','','','','',929,5,'catalog/demo/macbook_1.jpg',8,0,500.0000,0,9,'2009-02-03',0.00,1,0.00,0.00,0.00,2,1,1,0,1,3,'2009-02-03 21:07:49','2011-09-30 01:05:46'),
   (44,'????? 17','','','','','','','',1000,5,'catalog/demo/macbook_air_1.jpg',8,1,1000.0000,0,9,'2009-02-03',0.00,1,0.00,0.00,0.00,2,1,1,0,1,0,'2009-02-03 21:08:00','2011-09-30 01:05:53'),
   (45,'????? 18','','','','','','','',998,5,'catalog/demo/macbook_pro_1.jpg',8,1,2000.0000,0,100,'2009-02-03',0.00,1,0.00,0.00,0.00,2,1,1,0,1,0,'2009-02-03 21:08:17','2011-09-15 22:22:01'),
   (46,'????? 19','','','','','','','',1000,5,'catalog/demo/sony_vaio_1.jpg',10,1,1000.0000,0,9,'2009-02-03',0.00,1,0.00,0.00,0.00,2,1,1,0,1,0,'2009-02-03 21:08:29','2011-09-30 01:06:39'),
   (47,'????? 21','','','','','','','',1000,5,'catalog/demo/hp_1.jpg',7,1,100.0000,400,9,'2009-02-03',1.00,1,0.00,0.00,0.00,1,0,1,0,1,78,'2009-02-03 21:08:40','2011-09-30 01:05:28'),
   (48,'????? 20','test 1','','','','','','test 2',995,5,'catalog/demo/ipod_classic_1.jpg',8,1,100.0000,0,9,'2009-02-08',1.00,1,0.00,0.00,0.00,2,1,1,0,1,0,'2009-02-08 17:21:51','2011-09-30 01:07:06'),
-  (49,'SAM1','','','','','','','',0,8,'catalog/demo/samsung_tab_1.jpg',0,1,199.9900,0,9,'2011-04-25',0.00,1,0.00,0.00,0.00,1,1,1,1,1,5,'2011-04-26 08:57:34','2011-09-30 01:06:23');
+  (49,'SAM1','','','','','','','',999,8,'catalog/demo/samsung_tab_1.jpg',0,1,200.0000,0,0,'2011-04-26',0.00,1,0.00,0.00,0.00,1,1,1,1,1,11,'2011-04-26 08:57:34','2018-01-18 17:48:56');
 COMMIT;
 
 #
@@ -3810,9 +3816,9 @@ INSERT INTO `bcc_product_description` (`product_id`, `language_id`, `name`, `des
   (48,1,'iPod Classic','&lt;div class=&quot;cpt_product_description &quot;&gt;\r\n\t&lt;div&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\t&lt;strong&gt;More room to move.&lt;/strong&gt;&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\tWith 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\t&lt;strong&gt;Cover Flow.&lt;/strong&gt;&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\tBrowse through your music collection by flipping through album art. Select an album to turn it over and see the track list.&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\t&lt;strong&gt;Enhanced interface.&lt;/strong&gt;&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\tExperience a whole new way to browse and view your music and video.&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\t&lt;strong&gt;Sleeker design.&lt;/strong&gt;&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\tBeautiful, durable, and sleeker than ever, iPod classic now features an anodized aluminum and polished stainless steel enclosure with rounded edges.&lt;/p&gt;\r\n\t&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;!-- cpt_container_end --&gt;','','iPod Classic','','',''),
   (48,2,'iPod Classic','&lt;div class=&quot;cpt_product_description &quot;&gt;\r\n\t&lt;div&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\t&lt;strong&gt;More room to move.&lt;/strong&gt;&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\tWith 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\t&lt;strong&gt;Cover Flow.&lt;/strong&gt;&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\tBrowse through your music collection by flipping through album art. Select an album to turn it over and see the track list.&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\t&lt;strong&gt;Enhanced interface.&lt;/strong&gt;&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\tExperience a whole new way to browse and view your music and video.&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\t&lt;strong&gt;Sleeker design.&lt;/strong&gt;&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\tBeautiful, durable, and sleeker than ever, iPod classic now features an anodized aluminum and polished stainless steel enclosure with rounded edges.&lt;/p&gt;\r\n\t&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;!-- cpt_container_end --&gt;','','iPod Classic','','',''),
   (48,3,'iPod Classic','&lt;div class=&quot;cpt_product_description &quot;&gt;\r\n\t&lt;div&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\t&lt;strong&gt;More room to move.&lt;/strong&gt;&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\tWith 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\t&lt;strong&gt;Cover Flow.&lt;/strong&gt;&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\tBrowse through your music collection by flipping through album art. Select an album to turn it over and see the track list.&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\t&lt;strong&gt;Enhanced interface.&lt;/strong&gt;&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\tExperience a whole new way to browse and view your music and video.&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\t&lt;strong&gt;Sleeker design.&lt;/strong&gt;&lt;/p&gt;\r\n\t\t&lt;p&gt;\r\n\t\t\tBeautiful, durable, and sleeker than ever, iPod classic now features an anodized aluminum and polished stainless steel enclosure with rounded edges.&lt;/p&gt;\r\n\t&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;!-- cpt_container_end --&gt;','','iPod Classic','','',''),
-  (49,1,'Samsung Galaxy Tab 10.1','&lt;p&gt;\r\n\tSamsung Galaxy Tab 10.1, is the world&amp;rsquo;s thinnest tablet, measuring 8.6 mm thickness, running with Android 3.0 Honeycomb OS on a 1GHz dual-core Tegra 2 processor, similar to its younger brother Samsung Galaxy Tab 8.9.&lt;/p&gt;\r\n&lt;p&gt;\r\n\tSamsung Galaxy Tab 10.1 gives pure Android 3.0 experience, adding its new TouchWiz UX or TouchWiz 4.0 &amp;ndash; includes a live panel, which lets you to customize with different content, such as your pictures, bookmarks, and social feeds, sporting a 10.1 inches WXGA capacitive touch screen with 1280 x 800 pixels of resolution, equipped with 3 megapixel rear camera with LED flash and a 2 megapixel front camera, HSPA+ connectivity up to 21Mbps, 720p HD video recording capability, 1080p HD playback, DLNA support, Bluetooth 2.1, USB 2.0, gyroscope, Wi-Fi 802.11 a/b/g/n, micro-SD slot, 3.5mm headphone jack, and SIM slot, including the Samsung Stick &amp;ndash; a Bluetooth microphone that can be carried in a pocket like a pen and sound dock with powered subwoofer.&lt;/p&gt;\r\n&lt;p&gt;\r\n\tSamsung Galaxy Tab 10.1 will come in 16GB / 32GB / 64GB verities and pre-loaded with Social Hub, Reader&amp;rsquo;s Hub, Music Hub and Samsung Mini Apps Tray &amp;ndash; which gives you access to more commonly used apps to help ease multitasking and it is capable of Adobe Flash Player 10.2, powered by 6860mAh battery that gives you 10hours of video-playback time.&amp;nbsp;&amp;auml;&amp;ouml;&lt;/p&gt;\r\n','','Samsung Galaxy Tab 10.1','','',''),
-  (49,2,'Samsung Galaxy Tab 10.1','&lt;p&gt;\r\n\tSamsung Galaxy Tab 10.1, is the world&amp;rsquo;s thinnest tablet, measuring 8.6 mm thickness, running with Android 3.0 Honeycomb OS on a 1GHz dual-core Tegra 2 processor, similar to its younger brother Samsung Galaxy Tab 8.9.&lt;/p&gt;\r\n&lt;p&gt;\r\n\tSamsung Galaxy Tab 10.1 gives pure Android 3.0 experience, adding its new TouchWiz UX or TouchWiz 4.0 &amp;ndash; includes a live panel, which lets you to customize with different content, such as your pictures, bookmarks, and social feeds, sporting a 10.1 inches WXGA capacitive touch screen with 1280 x 800 pixels of resolution, equipped with 3 megapixel rear camera with LED flash and a 2 megapixel front camera, HSPA+ connectivity up to 21Mbps, 720p HD video recording capability, 1080p HD playback, DLNA support, Bluetooth 2.1, USB 2.0, gyroscope, Wi-Fi 802.11 a/b/g/n, micro-SD slot, 3.5mm headphone jack, and SIM slot, including the Samsung Stick &amp;ndash; a Bluetooth microphone that can be carried in a pocket like a pen and sound dock with powered subwoofer.&lt;/p&gt;\r\n&lt;p&gt;\r\n\tSamsung Galaxy Tab 10.1 will come in 16GB / 32GB / 64GB verities and pre-loaded with Social Hub, Reader&amp;rsquo;s Hub, Music Hub and Samsung Mini Apps Tray &amp;ndash; which gives you access to more commonly used apps to help ease multitasking and it is capable of Adobe Flash Player 10.2, powered by 6860mAh battery that gives you 10hours of video-playback time.&amp;nbsp;&amp;auml;&amp;ouml;&lt;/p&gt;\r\n','','Samsung Galaxy Tab 10.1','','',''),
-  (49,3,'Samsung Galaxy Tab 10.1','&lt;p&gt;\r\n\tSamsung Galaxy Tab 10.1, is the world&amp;rsquo;s thinnest tablet, measuring 8.6 mm thickness, running with Android 3.0 Honeycomb OS on a 1GHz dual-core Tegra 2 processor, similar to its younger brother Samsung Galaxy Tab 8.9.&lt;/p&gt;\r\n&lt;p&gt;\r\n\tSamsung Galaxy Tab 10.1 gives pure Android 3.0 experience, adding its new TouchWiz UX or TouchWiz 4.0 &amp;ndash; includes a live panel, which lets you to customize with different content, such as your pictures, bookmarks, and social feeds, sporting a 10.1 inches WXGA capacitive touch screen with 1280 x 800 pixels of resolution, equipped with 3 megapixel rear camera with LED flash and a 2 megapixel front camera, HSPA+ connectivity up to 21Mbps, 720p HD video recording capability, 1080p HD playback, DLNA support, Bluetooth 2.1, USB 2.0, gyroscope, Wi-Fi 802.11 a/b/g/n, micro-SD slot, 3.5mm headphone jack, and SIM slot, including the Samsung Stick &amp;ndash; a Bluetooth microphone that can be carried in a pocket like a pen and sound dock with powered subwoofer.&lt;/p&gt;\r\n&lt;p&gt;\r\n\tSamsung Galaxy Tab 10.1 will come in 16GB / 32GB / 64GB verities and pre-loaded with Social Hub, Reader&amp;rsquo;s Hub, Music Hub and Samsung Mini Apps Tray &amp;ndash; which gives you access to more commonly used apps to help ease multitasking and it is capable of Adobe Flash Player 10.2, powered by 6860mAh battery that gives you 10hours of video-playback time.&amp;nbsp;&amp;auml;&amp;ouml;&lt;/p&gt;\r\n','','Samsung Galaxy Tab 10.1','','','');
+  (49,1,'Kinetic Sniper Disk','&lt;p&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;? ????????????? ?????????? ??????????? ?? 18 ???????, ?????????????? ?????, ??????? ??????? ??????? ???? ??????? ????? ??????????, ???????? ? ??????? ???????? ???????!&lt;/span&gt;&lt;br&gt;&lt;/p&gt;\r\n','?????? ?????????','Samsung Galaxy Tab 10.1','','',''),
+  (49,2,'EnKinetic Sniper Disk','&lt;p&gt;Tinager bycicle has an ??????????? ?? 18 ???????, ?????????????? ?????, ??????? ??????? ??????? ???? ??????? ????? ??????????, ???????? ? ??????? ???????? ???????!&lt;br&gt;&lt;/p&gt;\r\n','Mount Bycicle','Samsung Galaxy Tab 10.1','','',''),
+  (49,3,'???Kinetic Sniper Disk','&lt;p&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;? ???????????? ?????????? ??????????? ?? 18 ???????, ?????????????? ?????, ??????? ??????? ??????? ???? ??????? ????? ??????????, ???????? ? ??????? ???????? ???????!&lt;/span&gt;&lt;br&gt;&lt;/p&gt;\r\n','???????? ?????????','Samsung Galaxy Tab 10.1','','','');
 COMMIT;
 
 #
@@ -3876,12 +3882,6 @@ INSERT INTO `bcc_product_image` (`product_image_id`, `product_id`, `image`, `sor
   (2035,28,'catalog/demo/htc_touch_hd_2.jpg',0),
   (2320,47,'catalog/demo/hp_2.jpg',0),
   (2321,47,'catalog/demo/hp_3.jpg',0),
-  (2322,49,'catalog/demo/samsung_tab_2.jpg',0),
-  (2323,49,'catalog/demo/samsung_tab_3.jpg',0),
-  (2324,49,'catalog/demo/samsung_tab_4.jpg',0),
-  (2325,49,'catalog/demo/samsung_tab_5.jpg',0),
-  (2326,49,'catalog/demo/samsung_tab_6.jpg',0),
-  (2327,49,'catalog/demo/samsung_tab_7.jpg',0),
   (2344,30,'catalog/demo/canon_eos_5d_3.jpg',0),
   (2345,30,'catalog/demo/canon_eos_5d_2.jpg',0),
   (2350,41,'catalog/demo/imac_2.jpg',0),
@@ -3890,7 +3890,13 @@ INSERT INTO `bcc_product_image` (`product_image_id`, `product_id`, `image`, `sor
   (2353,42,'catalog/demo/hp_1.jpg',0),
   (2354,42,'catalog/demo/compaq_presario.jpg',0),
   (2355,42,'catalog/demo/canon_eos_5d_1.jpg',0),
-  (2356,42,'catalog/demo/canon_eos_5d_2.jpg',0);
+  (2356,42,'catalog/demo/canon_eos_5d_2.jpg',0),
+  (2411,49,'catalog/demo/samsung_tab_2.jpg',0),
+  (2412,49,'catalog/demo/samsung_tab_3.jpg',0),
+  (2413,49,'catalog/demo/samsung_tab_4.jpg',0),
+  (2414,49,'catalog/demo/samsung_tab_5.jpg',0),
+  (2415,49,'catalog/demo/samsung_tab_6.jpg',0),
+  (2416,49,'catalog/demo/samsung_tab_7.jpg',0);
 COMMIT;
 
 #
@@ -3966,25 +3972,26 @@ INSERT INTO `bcc_product_reward` (`product_reward_id`, `product_id`, `customer_g
   (379,28,1,400),
   (425,35,1,0),
   (519,47,1,300),
-  (521,49,1,1000),
   (539,30,1,200),
   (545,41,1,0),
-  (546,42,1,100);
+  (546,42,1,100),
+  (556,49,1,1000);
 COMMIT;
 
 #
-# Data for the `bcc_product_special` table  (LIMIT -495,500)
+# Data for the `bcc_product_special` table  (LIMIT -494,500)
 #
 
 INSERT INTO `bcc_product_special` (`product_special_id`, `product_id`, `customer_group_id`, `priority`, `price`, `date_start`, `date_end`) VALUES 
   (438,30,1,1,80.0000,'0000-00-00','0000-00-00'),
   (439,30,1,2,90.0000,'0000-00-00','0000-00-00'),
   (440,42,1,1,90.0000,'2018-01-16','2018-02-16'),
-  (441,42,1,1,70.0000,'2018-01-16','2018-02-16');
+  (441,42,1,1,70.0000,'2018-01-16','2018-02-16'),
+  (447,49,1,1,150.0000,'2018-01-10','2018-03-30');
 COMMIT;
 
 #
-# Data for the `bcc_product_to_category` table  (LIMIT -472,500)
+# Data for the `bcc_product_to_category` table  (LIMIT -471,500)
 #
 
 INSERT INTO `bcc_product_to_category` (`product_id`, `category_id`, `main_category`) VALUES 
@@ -4014,15 +4021,17 @@ INSERT INTO `bcc_product_to_category` (`product_id`, `category_id`, `main_catego
   (47,20,0),
   (48,20,1),
   (48,34,0),
-  (49,57,1);
+  (49,26,1),
+  (49,57,0);
 COMMIT;
 
 #
-# Data for the `bcc_product_to_layout` table  (LIMIT -498,500)
+# Data for the `bcc_product_to_layout` table  (LIMIT -497,500)
 #
 
 INSERT INTO `bcc_product_to_layout` (`product_id`, `store_id`, `layout_id`) VALUES 
-  (42,0,0);
+  (42,0,0),
+  (49,0,0);
 COMMIT;
 
 #
@@ -4443,7 +4452,6 @@ INSERT INTO `bcc_url_alias` (`url_alias_id`, `query`, `keyword`) VALUES
   (816,'product_id=31','nikon-d300'),
   (817,'product_id=29','palm-treo-pro'),
   (818,'product_id=35','product-8'),
-  (819,'product_id=49','samsung-galaxy-tab-10-1'),
   (820,'product_id=33','samsung-syncmaster-941bw'),
   (821,'product_id=46','sony-vaio'),
   (823,'product_id=40','iphone'),
@@ -4476,7 +4484,8 @@ INSERT INTO `bcc_url_alias` (`url_alias_id`, `query`, `keyword`) VALUES
   (874,'information_id=10',''),
   (875,'information_id=11',''),
   (877,'information_id=13',''),
-  (878,'information_id=14','');
+  (878,'information_id=14',''),
+  (888,'product_id=49','samsung-galaxy-tab-10-1');
 COMMIT;
 
 #
