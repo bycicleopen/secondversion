@@ -36,8 +36,8 @@ class ControllerExtensionModuleSlideshow extends Controller {
 					'psprice' =>  $special,
 					'benefit'  => $benefit,
 					'date_end'  => $result['date_end'],
-					//'product_description'  => $result['product_description'],
-					//'short_description'  => $result['short_description'],
+					'description'  => $product_info['description'],
+					'short_description'  => $product_info['tag'],
 					'image' => $this->model_tool_image->resize($result['image'], $setting['width'], $setting['height'])
 				);
 			}

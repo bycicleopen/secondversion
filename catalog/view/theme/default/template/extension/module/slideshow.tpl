@@ -14,16 +14,20 @@
    
    				<!-- slider item -->
 				<div class="slider-item">
-					<a href="#" class="slider-link"></a>
+					<a href="<?php echo $banner['link']; ?>" class="slider-link"></a>
 					<div class="slider-item-content">
 						<div class="slider-text">
-							<span class="slider-title">Горный велосипед</span>
+							<span class="slider-title"><?php echo $banner['short_description']; ?></span>
 							<span class="slider-title_sub"><?php echo $banner['title']; ?>"</span>
-							<p class="slider-descr">У подросткового велосипеда трансмиссия на 18 передач, амортизирующая вилка, которая поможет сделать езду намного более комфортной, надёжные и простых дисковые тормоза!</p>
-							<div class="slider-price-wrap">
-								<span class="slider-price"><?php echo $banner['psprice']; ?></span>
-								<span class="slider-price_old"><?php echo $banner['price']; ?></span>
-							</div>
+							<p class="slider-descr"><?php echo $banner['description']; ?></p>
+							<div class="slider-price-wrap">			
+							<?php if($banner['benefit']) {?>
+							<span class="slider-price"><?php echo $banner['psprice']; ?></span>
+							<span class="slider-price_old"><?php echo $banner['price']; ?></span>
+							<?php } else{?>		
+							<span class="slider-price"><?php echo $banner['price']; ?></span>
+							<?php } ?>				
+						</div>
 							
 							
 						<?php if ($banner['link']) { ?>	
@@ -32,7 +36,7 @@
 						
 						</div>
 						
-						<img src="<?php echo $banner['image']; ?>" alt="<?php echo $banner['title']; ?>" class="slider-image hidden-xs hidden-sm">
+						<a href="<?php echo $banner['link']; ?>"><img src="<?php echo $banner['image']; ?>" alt="<?php echo $banner['title']; ?>" class="slider-image hidden-xs hidden-sm"></a>
 						
 						<?php if($banner['benefit']) {?>
 						<span class="slider-price-bonus hidden-xs hidden-sm">+<?php echo $banner['benefit']; ?>
