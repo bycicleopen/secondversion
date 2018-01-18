@@ -1,4 +1,3 @@
-
 	<!-- Slider -->
 	<section class="slider">
 		<div class="container">
@@ -10,10 +9,8 @@
 
   <?php foreach ($banners as $banner) { ?>
  
-
  <div class="item">
    
-
    
    				<!-- slider item -->
 				<div class="slider-item">
@@ -34,19 +31,23 @@
 						<?php } ?>
 						
 						</div>
+						
 						<img src="<?php echo $banner['image']; ?>" alt="<?php echo $banner['title']; ?>" class="slider-image hidden-xs hidden-sm">
-						 
-						<span class="slider-price-bonus hidden-xs hidden-sm">+1350
-							<span class="slider-price-bonus_currency">грн*</span>
+						
+						<?php if($banner['benefit']) {?>
+						<span class="slider-price-bonus hidden-xs hidden-sm">+<?php echo $banner['benefit']; ?>
+						<span class="slider-price-bonus_currency">грн*</span>
 						</span>
+						
+						
 						<span class="slider-price-bonus_descr hidden-xs hidden-sm">* Внимание, БОНУС действительный до <?php echo $banner['date_end']; ?></span>
+						<?php } ?>
 					</div>
 				</div>
    
    
    
    
-
   
   
   </div>
@@ -54,9 +55,7 @@
   
   
   <?php } ?>
-
   
-
   
   
   </div>
@@ -69,11 +68,6 @@
 </div>
 </div>
 </section>
-
-
-
-
-
 <script type="text/javascript"><!--
 $('#slideshow<?php echo $module; ?>').owlCarousel({
 	items: 6,
@@ -84,3 +78,4 @@ $('#slideshow<?php echo $module; ?>').owlCarousel({
 	pagination: true
 });
 --></script>
+

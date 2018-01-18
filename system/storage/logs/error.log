@@ -8382,3 +8382,1416 @@
 2018-01-17 12:45:17 - PHP Notice:  Undefined index: price in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 28
 2018-01-17 12:45:17 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 42
 2018-01-17 12:45:17 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 7:09:09 - PHP Notice:  Undefined variable: query_txt in D:\usr\www\basic\catalog\model\design\banner.php on line 13
+2018-01-18 7:09:09 - PHP Warning:  mysqli::query(): Empty query in D:\usr\www\basic\system\library\db\mysqli.php on line 18
+2018-01-18 7:09:09 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 15
+2018-01-18 7:09:09 - PHP Warning:  Invalid argument supplied for foreach() in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 16
+2018-01-18 7:09:11 - PHP Notice:  Undefined variable: query_txt in D:\usr\www\basic\catalog\model\design\banner.php on line 13
+2018-01-18 7:09:11 - PHP Warning:  mysqli::query(): Empty query in D:\usr\www\basic\system\library\db\mysqli.php on line 18
+2018-01-18 7:09:11 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 15
+2018-01-18 7:09:11 - PHP Warning:  Invalid argument supplied for foreach() in D:\usr\www\basic\catalog\controller\extension\module\carousel.php on line 16
+2018-01-18 7:09:13 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 7:09:55 - PHP Warning:  mysqli::query() expects parameter 1 to be string, object given in D:\usr\www\basic\system\library\db\mysqli.php on line 18
+2018-01-18 7:09:55 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 15
+2018-01-18 7:09:55 - PHP Warning:  Invalid argument supplied for foreach() in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 16
+2018-01-18 7:09:55 - PHP Warning:  mysqli::query() expects parameter 1 to be string, object given in D:\usr\www\basic\system\library\db\mysqli.php on line 18
+2018-01-18 7:09:55 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 15
+2018-01-18 7:09:55 - PHP Warning:  Invalid argument supplied for foreach() in D:\usr\www\basic\catalog\controller\extension\module\carousel.php on line 16
+2018-01-18 7:09:55 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 7:10:57 - PHP Notice:  Undefined variable: query_txt in D:\usr\www\basic\catalog\model\design\banner.php on line 6
+2018-01-18 7:10:57 - PHP Warning:  mysqli::query(): Empty query in D:\usr\www\basic\system\library\db\mysqli.php on line 18
+2018-01-18 7:10:57 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 8
+2018-01-18 7:10:57 - PHP Warning:  Invalid argument supplied for foreach() in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 16
+2018-01-18 7:10:57 - PHP Notice:  Undefined variable: query_txt in D:\usr\www\basic\catalog\model\design\banner.php on line 6
+2018-01-18 7:10:57 - PHP Warning:  mysqli::query(): Empty query in D:\usr\www\basic\system\library\db\mysqli.php on line 18
+2018-01-18 7:10:57 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 8
+2018-01-18 7:10:57 - PHP Warning:  Invalid argument supplied for foreach() in D:\usr\www\basic\catalog\controller\extension\module\carousel.php on line 16
+2018-01-18 7:10:57 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 7:11:38 - PHP Notice:  Undefined index: psprice in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 27
+2018-01-18 7:11:38 - PHP Notice:  Undefined index: price in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 28
+2018-01-18 7:11:38 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 42
+2018-01-18 7:11:38 - PHP Notice:  Undefined index: psprice in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 27
+2018-01-18 7:11:38 - PHP Notice:  Undefined index: price in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 28
+2018-01-18 7:11:38 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 42
+2018-01-18 7:11:38 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 7:12:51 - PHP Notice:  Undefined index: psprice in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 27
+2018-01-18 7:12:51 - PHP Notice:  Undefined index: price in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 28
+2018-01-18 7:12:51 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 42
+2018-01-18 7:12:51 - PHP Notice:  Undefined index: psprice in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 27
+2018-01-18 7:12:51 - PHP Notice:  Undefined index: price in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 28
+2018-01-18 7:12:51 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 42
+2018-01-18 7:12:51 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 7:18:36 - PHP Notice:  Undefined index: psprice in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 27
+2018-01-18 7:18:36 - PHP Notice:  Undefined index: price in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 28
+2018-01-18 7:18:36 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 42
+2018-01-18 7:18:36 - PHP Notice:  Undefined index: psprice in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 27
+2018-01-18 7:18:36 - PHP Notice:  Undefined index: price in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 28
+2018-01-18 7:18:36 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 42
+2018-01-18 7:18:36 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 7:32:36 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:32:36 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 22 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:32:36 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 23 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:32:36 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:32:36 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 22 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:32:36 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 23 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:32:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:32:36 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 7:36:04 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:04 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 22 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:04 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 23 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:04 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:04 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 22 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:04 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 23 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:04 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:04 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:05 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 7:36:55 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:55 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 22 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:55 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 23 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:55 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:55 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 22 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:55 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 23 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:55 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:36:55 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 7:42:26 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 7:43:49 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 7:55:33 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 7:55:43 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 7:57:11 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 25 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:57:11 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 26 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:57:11 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 27 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:57:11 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 25 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:57:11 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 26 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:57:11 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 27 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:57:11 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 7:57:11 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 8:04:56 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 25 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:04:56 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 26 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:04:56 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 27 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:04:56 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 25 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:04:56 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 26 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:04:56 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 27 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:04:56 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:04:56 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 8:16:14 - PHP Notice:  Undefined variable: productresults in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28
+2018-01-18 8:16:14 - PHP Notice:  Undefined variable: productresults in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28
+2018-01-18 8:16:14 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:16:14 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:16:14 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:16:14 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:16:14 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:16:14 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:16:14 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:16:14 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:16:14 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:16:14 - PHP Notice:  Undefined variable: productresults in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28
+2018-01-18 8:16:14 - PHP Notice:  Undefined variable: productresults in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28
+2018-01-18 8:16:14 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:16:14 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:16:14 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:16:14 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:16:14 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:16:14 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:16:14 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:16:14 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:16:14 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:16:14 - PHP Notice:  Undefined index: psprice in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 27
+2018-01-18 8:16:14 - PHP Notice:  Undefined index: psprice in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 27
+2018-01-18 8:16:14 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 8:17:08 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:17:08 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:17:08 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:17:08 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:17:08 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:17:08 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:17:08 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:17:08 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:17:08 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:17:08 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:17:08 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:17:08 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:17:08 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:17:08 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:17:08 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:17:08 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:17:08 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:17:08 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:17:08 - PHP Notice:  Undefined index: psprice in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 27
+2018-01-18 8:17:08 - PHP Notice:  Undefined index: psprice in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 27
+2018-01-18 8:17:08 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 8:21:05 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:21:05 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:21:05 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:21:05 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:21:05 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:21:05 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:21:05 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:21:05 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:21:05 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:21:05 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 29 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:21:05 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:21:05 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:21:05 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:21:05 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:21:05 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:21:05 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:21:05 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:21:05 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:21:05 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:21:05 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:21:05 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:21:05 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:21:05 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:21:05 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:21:05 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:21:05 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:21:05 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:21:05 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 29 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:21:05 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:21:05 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:21:05 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:21:05 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:21:05 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:21:05 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:21:05 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:21:05 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:21:05 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 8:27:37 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:27:37 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 22 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: 0 in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 24
+2018-01-18 8:27:37 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 24 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:27:37 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:27:37 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 22 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: 240 in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 24
+2018-01-18 8:27:37 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 24 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:27:37 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:27:37 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 8:28:48 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:28:48 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 22 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: 0 in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 24
+2018-01-18 8:28:48 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 24 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:28:48 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:28:48 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 22 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: 240 in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 24
+2018-01-18 8:28:48 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 24 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:28:48 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:28:48 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 26
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: price in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 26
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: 0 in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 27
+2018-01-18 8:30:01 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 27 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:30:01 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:30:01 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:30:01 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:30:01 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: price in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 30
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: price in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 39
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 8:30:01 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 23 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:30:01 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:30:01 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:30:01 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:30:01 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 26
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: 242 in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 27
+2018-01-18 8:30:01 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 27 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:30:01 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:30:01 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:30:01 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:30:01 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 8:30:01 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 8:30:34 - PHP Notice:  Undefined variable: 0 in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28
+2018-01-18 8:30:34 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:30:34 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:30:34 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:30:34 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:30:34 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:30:34 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:30:34 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:30:34 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:30:34 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:30:34 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 24 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:30:34 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:30:34 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:30:34 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:30:34 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:30:34 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:30:34 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:30:34 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:30:34 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:30:34 - PHP Notice:  Undefined variable: 242 in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28
+2018-01-18 8:30:34 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:30:34 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:30:34 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:30:34 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:30:34 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:30:34 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:30:34 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:30:34 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:30:34 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:30:34 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 8:31:15 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 24 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:31:15 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:31:15 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:31:15 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:31:15 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:31:15 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:31:15 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:31:15 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:31:15 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:31:15 - PHP Notice:  Undefined variable: 242 in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 29
+2018-01-18 8:31:15 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 29 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:31:15 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:31:15 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:31:15 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:31:15 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:31:15 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:31:15 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:31:15 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:31:15 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:31:15 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 8:31:36 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 24 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:31:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:31:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:31:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:31:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:31:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:31:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:31:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:31:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:31:36 - PHP Notice:  Undefined variable: 242 in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 29
+2018-01-18 8:31:36 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 29 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:31:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:31:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:31:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:31:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:31:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:31:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:31:36 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:31:36 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:31:36 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 8:56:28 - PHP Notice:  Undefined index: tax_class_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28
+2018-01-18 8:56:28 - PHP Notice:  Undefined variable: 199.99 in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 33
+2018-01-18 8:56:28 - PHP Warning:  Missing argument 2 for Cart\Currency::format(), called in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 33 and defined in D:\usr\www\basic\system\library\cart\currency.php on line 24
+2018-01-18 8:56:28 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:56:28 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 25
+2018-01-18 8:56:28 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:56:28 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 26
+2018-01-18 8:56:28 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:56:28 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 27
+2018-01-18 8:56:28 - PHP Notice:  Undefined variable: currency in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:56:28 - PHP Notice:  Undefined index:  in D:\usr\www\basic\system\library\cart\currency.php on line 30
+2018-01-18 8:56:28 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 9:03:48 - PHP Notice:  Undefined variable: benefit in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 48
+2018-01-18 9:03:48 - PHP Notice:  Undefined index: tax_class_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28
+2018-01-18 9:03:48 - PHP Notice:  Undefined variable: benefit in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 48
+2018-01-18 9:03:49 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 9:05:09 - PHP Notice:  Undefined index: special in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 31
+2018-01-18 9:05:09 - PHP Notice:  Undefined index: tax_class_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 31
+2018-01-18 9:05:09 - PHP Notice:  Undefined index: tax_class_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28
+2018-01-18 9:05:09 - PHP Notice:  Undefined index: special in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 31
+2018-01-18 9:05:09 - PHP Notice:  Undefined index: tax_class_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 31
+2018-01-18 9:05:09 - PHP Notice:  Undefined index: tax_class_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 34
+2018-01-18 9:05:09 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 9:05:36 - PHP Notice:  Undefined index: special in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 31
+2018-01-18 9:05:36 - PHP Notice:  Undefined index: tax_class_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 31
+2018-01-18 9:05:36 - PHP Notice:  Undefined index: tax_class_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28
+2018-01-18 9:05:36 - PHP Notice:  Undefined index: special in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 31
+2018-01-18 9:05:36 - PHP Notice:  Undefined index: tax_class_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 31
+2018-01-18 9:05:36 - PHP Notice:  Undefined index: tax_class_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 34
+2018-01-18 9:05:36 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 9:06:05 - PHP Notice:  Undefined index: special in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 31
+2018-01-18 9:06:05 - PHP Notice:  Undefined index: tax_class_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 31
+2018-01-18 9:06:05 - PHP Notice:  Undefined index: tax_class_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28
+2018-01-18 9:06:05 - PHP Notice:  Undefined index: special in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 31
+2018-01-18 9:06:05 - PHP Notice:  Undefined index: tax_class_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 31
+2018-01-18 9:06:05 - PHP Notice:  Use of undefined constant mull - assumed 'mull' in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 34
+2018-01-18 9:06:06 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 9:06:41 - PHP Notice:  Undefined index: tax_class_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 31
+2018-01-18 9:06:41 - PHP Notice:  Undefined index: tax_class_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 28
+2018-01-18 9:06:41 - PHP Notice:  Undefined index: tax_class_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 31
+2018-01-18 9:06:41 - PHP Notice:  Use of undefined constant mull - assumed 'mull' in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 34
+2018-01-18 9:06:41 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 9:07:52 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 10:39:19 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 54
+2018-01-18 10:39:19 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 54
+2018-01-18 10:39:19 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 10:40:21 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 55
+2018-01-18 10:40:21 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 55
+2018-01-18 10:40:21 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 10:43:45 - PHP Notice:  Undefined variable: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 57
+2018-01-18 10:43:45 - PHP Notice:  Undefined variable: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 57
+2018-01-18 10:43:45 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 10:44:37 - PHP Notice:  Undefined variable: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 58
+2018-01-18 10:44:37 - PHP Notice:  Undefined variable: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 58
+2018-01-18 10:44:37 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 10:44:51 - PHP Notice:  Undefined variable: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 58
+2018-01-18 10:44:51 - PHP Notice:  Undefined variable: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 58
+2018-01-18 10:44:51 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 10:45:21 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 10:47:52 - PHP Notice:  Array to string conversion in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21
+2018-01-18 10:47:52 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 10:48:51 - PHP Notice:  Array to string conversion in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21
+2018-01-18 10:48:51 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 10:49:14 - PHP Notice:  Array to string conversion in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21
+2018-01-18 10:49:14 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 10:50:40 - PHP Notice:  Array to string conversion in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21
+2018-01-18 10:50:40 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:00:15 - PHP Notice:  Array to string conversion in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21
+2018-01-18 11:00:15 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:01:22 - PHP Notice:  Array to string conversion in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21
+2018-01-18 11:01:22 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:02:13 - PHP Notice:  Array to string conversion in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21
+2018-01-18 11:02:13 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:03:48 - PHP Notice:  Array to string conversion in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 21
+2018-01-18 11:03:48 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:14:16 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:17:21 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:18:06 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:21:11 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:23:39 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:24:21 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:24:46 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:25:20 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:26:02 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:28:53 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:28:58 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:28:58 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:29:22 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:29:25 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:30:02 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:30:05 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:30:23 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:30:58 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:33:13 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:33:17 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:34:01 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:34:08 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:34:37 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:35:42 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:36:27 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:37:44 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:37:48 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:38:41 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:38:44 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:39:22 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:39:33 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:39:38 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:39:40 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:39:46 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:40:27 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:40:31 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:40:34 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:41:34 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:42:48 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:43:48 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:44:09 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:44:48 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:46:36 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:47:11 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:47:35 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:47:58 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:48:20 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:48:37 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:49:17 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:49:38 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:50:17 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:50:45 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:51:45 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:52:13 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:53:03 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:53:05 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:53:49 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:54:34 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:55:04 - PHP Notice:  Undefined index: product_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 19
+2018-01-18 11:55:04 - PHP Notice:  Undefined index: product_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 19
+2018-01-18 11:55:04 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:55:42 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:56:46 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 11:57:16 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 12:00:33 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 12:04:21 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 12:05:52 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 12:09:17 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 12:09:47 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 12:10:19 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 12:10:31 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 12:11:44 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 12:12:38 - PHP Notice:  Undefined variable: resultt in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 22
+2018-01-18 12:12:38 - PHP Notice:  Undefined variable: resultt in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 22
+2018-01-18 12:12:38 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 12:13:36 - PHP Notice:  Undefined variable: resultt in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 22
+2018-01-18 12:13:36 - PHP Notice:  Undefined variable: product_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 26
+2018-01-18 12:13:36 - PHP Notice:  Undefined variable: resultt in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 22
+2018-01-18 12:13:36 - PHP Notice:  Undefined variable: product_id in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 26
+2018-01-18 12:13:36 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 12:14:14 - PHP Notice:  Undefined variable: resultt in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 22
+2018-01-18 12:14:14 - PHP Notice:  Undefined variable: resultt in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 22
+2018-01-18 12:14:14 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 12:16:12 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 12:16:35 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:23:43 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:24:26 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:24:56 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:25:37 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:26:07 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:26:58 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:27:04 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:28:11 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:29:14 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:32:36 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:35:00 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:35:13 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:35:22 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:35:25 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:35:28 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:35:30 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:35:32 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:36:25 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:36:30 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:37:38 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:48:17 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:48:51 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:49:28 - PHP Unknown:  Object of class stdClass could not be converted to string in D:\usr\www\basic\catalog\model\design\banner.php on line 9
+2018-01-18 13:49:28 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:50:21 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:50:37 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:50:45 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:52:42 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:54:09 - PHP Notice:  Use of undefined constant product_id - assumed 'product_id' in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 13:54:09 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:54:21 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:54:26 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 13:56:02 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:05:15 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:05:15 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:05:15 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:05:15 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:05:15 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:05:15 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:05:15 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:06:05 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:06:05 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:06:05 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:06:05 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:06:05 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:06:05 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:06:05 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:06:46 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:06:46 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:06:46 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:06:47 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:06:47 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:06:47 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:06:47 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:07:24 - PHP Notice:  Undefined variable: result in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:07:24 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:07:24 - PHP Notice:  Undefined variable: result in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:07:24 - PHP Notice:  Trying to get property of non-object in D:\usr\www\basic\catalog\model\design\banner.php on line 26
+2018-01-18 14:07:24 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:07:41 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:08:38 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:08:38 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:08:38 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:08:42 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:08:42 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:08:42 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:08:58 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:08:58 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:08:58 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:09:48 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:09:48 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:09:48 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:15:07 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:15:07 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:15:07 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:16:31 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:16:31 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:16:31 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:17:57 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:17:57 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:17:57 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:18:50 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:18:50 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:18:50 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:19:53 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:19:53 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:19:53 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:19:53 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:19:53 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:19:53 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:19:53 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:21:07 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:21:07 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:21:07 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:21:07 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:21:07 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:21:07 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:21:08 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:21:30 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:21:30 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:21:30 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:21:30 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:21:30 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:21:30 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:21:30 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:21:46 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:21:46 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:21:46 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:21:46 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:21:46 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:21:46 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:21:46 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:23:40 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:23:40 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:23:40 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:23:40 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:23:40 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:23:40 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:23:40 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:24:06 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:24:06 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:24:06 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:24:06 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:24:06 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:24:06 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:24:06 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:24:17 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:24:17 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:24:17 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:24:17 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:24:17 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:24:17 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:24:17 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:25:46 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:25:46 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:25:46 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:25:46 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:25:46 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Notice:  Uninitialized string offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:25:46 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:26:13 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:26:13 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:26:13 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:26:13 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:26:13 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Notice:  Uninitialized string offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 10
+2018-01-18 14:26:13 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:26:36 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:26:36 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:26:36 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:26:36 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:26:36 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Notice:  Uninitialized string offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:26:36 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 2 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 4 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 5 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 6 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 9 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:27:18 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:27:18 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:27:18 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:27:18 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:27:18 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 2 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 4 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 5 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 6 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 7 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 9 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Warning:  Illegal string offset 'link' in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Uninitialized string offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:18 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:27:52 - PHP Notice:  Undefined offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:52 - PHP Notice:  Undefined offset: 1 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:52 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:27:52 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:27:52 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:27:52 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:27:52 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:27:52 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:27:52 - PHP Notice:  Undefined offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:52 - PHP Notice:  Undefined offset: 1 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:52 - PHP Notice:  Undefined offset: 2 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:52 - PHP Notice:  Undefined offset: 3 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:52 - PHP Notice:  Undefined offset: 4 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:52 - PHP Notice:  Undefined offset: 5 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:52 - PHP Notice:  Undefined offset: 6 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:52 - PHP Notice:  Undefined offset: 7 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:52 - PHP Notice:  Undefined offset: 8 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:52 - PHP Notice:  Undefined offset: 9 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:52 - PHP Notice:  Undefined offset: 10 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:27:53 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:28:17 - PHP Notice:  Undefined offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:28:17 - PHP Notice:  Undefined offset: 1 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:28:17 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:28:17 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:28:17 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:28:17 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:28:17 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:28:17 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:28:17 - PHP Notice:  Undefined offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:28:17 - PHP Notice:  Undefined offset: 1 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:28:17 - PHP Notice:  Undefined offset: 2 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:28:17 - PHP Notice:  Undefined offset: 3 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:28:17 - PHP Notice:  Undefined offset: 4 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:28:17 - PHP Notice:  Undefined offset: 5 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:28:17 - PHP Notice:  Undefined offset: 6 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:28:17 - PHP Notice:  Undefined offset: 7 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:28:17 - PHP Notice:  Undefined offset: 8 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:28:17 - PHP Notice:  Undefined offset: 9 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:28:17 - PHP Notice:  Undefined offset: 10 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:28:17 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:29:54 - PHP Notice:  Undefined offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:29:54 - PHP Notice:  Undefined offset: 1 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:29:54 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:29:54 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:29:54 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:29:54 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:29:54 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:29:54 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:29:54 - PHP Notice:  Undefined offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:29:54 - PHP Notice:  Undefined offset: 1 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:29:54 - PHP Notice:  Undefined offset: 2 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:29:54 - PHP Notice:  Undefined offset: 3 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:29:54 - PHP Notice:  Undefined offset: 4 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:29:54 - PHP Notice:  Undefined offset: 5 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:29:54 - PHP Notice:  Undefined offset: 6 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:29:54 - PHP Notice:  Undefined offset: 7 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:29:54 - PHP Notice:  Undefined offset: 8 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:29:54 - PHP Notice:  Undefined offset: 9 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:29:54 - PHP Notice:  Undefined offset: 10 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:29:54 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:30:26 - PHP Notice:  Undefined offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:30:26 - PHP Notice:  Undefined offset: 1 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:30:26 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:30:26 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:30:26 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:30:26 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:30:26 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:30:26 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:30:26 - PHP Notice:  Undefined offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:30:26 - PHP Notice:  Undefined offset: 1 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:30:26 - PHP Notice:  Undefined offset: 2 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:30:26 - PHP Notice:  Undefined offset: 3 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:30:26 - PHP Notice:  Undefined offset: 4 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:30:26 - PHP Notice:  Undefined offset: 5 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:30:26 - PHP Notice:  Undefined offset: 6 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:30:26 - PHP Notice:  Undefined offset: 7 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:30:26 - PHP Notice:  Undefined offset: 8 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:30:26 - PHP Notice:  Undefined offset: 9 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:30:26 - PHP Notice:  Undefined offset: 10 in D:\usr\www\basic\catalog\model\design\banner.php on line 11
+2018-01-18 14:30:26 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:31:10 - PHP Notice:  Undefined offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:31:10 - PHP Notice:  Undefined offset: 1 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:31:10 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:31:10 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:31:10 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:31:10 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:31:10 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:31:10 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:31:10 - PHP Notice:  Undefined offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:31:10 - PHP Notice:  Undefined offset: 1 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:31:10 - PHP Notice:  Undefined offset: 2 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:31:10 - PHP Notice:  Undefined offset: 3 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:31:10 - PHP Notice:  Undefined offset: 4 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:31:10 - PHP Notice:  Undefined offset: 5 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:31:10 - PHP Notice:  Undefined offset: 6 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:31:10 - PHP Notice:  Undefined offset: 7 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:31:10 - PHP Notice:  Undefined offset: 8 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:31:10 - PHP Notice:  Undefined offset: 9 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:31:10 - PHP Notice:  Undefined offset: 10 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:31:10 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:35:33 - PHP Notice:  Undefined offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:35:33 - PHP Notice:  Undefined offset: 1 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:35:33 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:35:33 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:35:33 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:35:33 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:35:33 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:35:33 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:35:33 - PHP Notice:  Undefined offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:35:33 - PHP Notice:  Undefined offset: 1 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:35:33 - PHP Notice:  Undefined offset: 2 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:35:33 - PHP Notice:  Undefined offset: 3 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:35:33 - PHP Notice:  Undefined offset: 4 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:35:33 - PHP Notice:  Undefined offset: 5 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:35:33 - PHP Notice:  Undefined offset: 6 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:35:33 - PHP Notice:  Undefined offset: 7 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:35:33 - PHP Notice:  Undefined offset: 8 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:35:33 - PHP Notice:  Undefined offset: 9 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:35:33 - PHP Notice:  Undefined offset: 10 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:35:33 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:36:12 - PHP Notice:  Undefined offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:12 - PHP Notice:  Undefined offset: 1 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:12 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:36:12 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:36:12 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:36:12 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:36:12 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:36:12 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:36:12 - PHP Notice:  Undefined offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:12 - PHP Notice:  Undefined offset: 1 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:12 - PHP Notice:  Undefined offset: 2 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:12 - PHP Notice:  Undefined offset: 3 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:12 - PHP Notice:  Undefined offset: 4 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:12 - PHP Notice:  Undefined offset: 5 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:12 - PHP Notice:  Undefined offset: 6 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:12 - PHP Notice:  Undefined offset: 7 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:12 - PHP Notice:  Undefined offset: 8 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:12 - PHP Notice:  Undefined offset: 9 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:12 - PHP Notice:  Undefined offset: 10 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:12 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:36:13 - PHP Notice:  Undefined offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:13 - PHP Notice:  Undefined offset: 1 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:13 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:36:13 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:36:13 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:36:13 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:36:13 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:36:13 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:36:13 - PHP Notice:  Undefined offset: 0 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:13 - PHP Notice:  Undefined offset: 1 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:13 - PHP Notice:  Undefined offset: 2 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:13 - PHP Notice:  Undefined offset: 3 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:13 - PHP Notice:  Undefined offset: 4 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:13 - PHP Notice:  Undefined offset: 5 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:13 - PHP Notice:  Undefined offset: 6 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:13 - PHP Notice:  Undefined offset: 7 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:13 - PHP Notice:  Undefined offset: 8 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:13 - PHP Notice:  Undefined offset: 9 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:13 - PHP Notice:  Undefined offset: 10 in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:36:13 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:36:31 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:36:31 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:36:31 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:36:31 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:36:31 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:36:31 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:36:31 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:36:40 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:36:40 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:36:40 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:36:40 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:36:40 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:36:40 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:36:40 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:37:30 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:37:30 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:37:30 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:37:30 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:37:30 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:37:30 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:37:30 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:37:35 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:37:35 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:37:35 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:37:35 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:37:35 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:37:35 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:37:35 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:38:00 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:38:00 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:38:00 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:38:00 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:38:00 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:38:00 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:38:00 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:39:59 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:39:59 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:39:59 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:39:59 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:39:59 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:39:59 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:40:00 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:40:32 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:40:32 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:40:32 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:40:32 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:40:32 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:40:32 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:40:32 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:40:51 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:40:51 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:40:51 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:40:51 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:40:51 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:40:51 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:40:51 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:41:21 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:41:21 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:41:21 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:41:21 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:41:21 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:41:21 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:41:21 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:41:51 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:41:51 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:41:51 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:41:51 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:41:51 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:41:51 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:41:51 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:43:25 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:43:25 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:43:25 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:43:25 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:43:25 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:43:25 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:43:25 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:44:34 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:44:34 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:44:34 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:44:34 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 14:44:34 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 14:44:34 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 14:44:34 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 14:52:41 - PHP Notice:  Undefined variable: query_txt in D:\usr\www\basic\catalog\model\design\banner.php on line 14
+2018-01-18 14:52:41 - PHP Warning:  mysqli::query(): Empty query in D:\usr\www\basic\system\library\db\mysqli.php on line 18
+2018-01-18 15:00:45 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:00:45 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:00:45 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:00:45 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:00:45 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:00:45 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:04:18 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:04:18 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:04:18 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:04:18 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:04:18 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:04:18 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:05:36 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:05:36 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:05:36 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:05:36 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:05:36 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:05:36 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:07:10 - PHP Unknown:  Object of class stdClass could not be converted to string in D:\usr\www\basic\catalog\model\design\banner.php on line 17
+2018-01-18 15:07:10 - PHP Unknown:  Object of class stdClass could not be converted to string in D:\usr\www\basic\catalog\model\design\banner.php on line 17
+2018-01-18 15:07:10 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:07:10 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:07:10 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:07:10 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:07:10 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:07:10 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:07:50 - PHP Unknown:  Object of class stdClass could not be converted to string in D:\usr\www\basic\catalog\model\design\banner.php on line 17
+2018-01-18 15:07:50 - PHP Unknown:  Object of class stdClass could not be converted to string in D:\usr\www\basic\catalog\model\design\banner.php on line 17
+2018-01-18 15:07:50 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:07:50 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:07:50 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:07:50 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:07:50 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:07:50 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:08:03 - PHP Unknown:  Object of class stdClass could not be converted to string in D:\usr\www\basic\catalog\model\design\banner.php on line 17
+2018-01-18 15:08:03 - PHP Unknown:  Object of class stdClass could not be converted to string in D:\usr\www\basic\catalog\model\design\banner.php on line 17
+2018-01-18 15:08:03 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:08:03 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:08:03 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:08:03 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:08:03 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:08:03 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:08:04 - PHP Unknown:  Object of class stdClass could not be converted to string in D:\usr\www\basic\catalog\model\design\banner.php on line 17
+2018-01-18 15:08:04 - PHP Unknown:  Object of class stdClass could not be converted to string in D:\usr\www\basic\catalog\model\design\banner.php on line 17
+2018-01-18 15:08:04 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:08:04 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:08:04 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:08:04 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:08:04 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:08:04 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:09:04 - PHP Unknown:  Object of class stdClass could not be converted to string in D:\usr\www\basic\catalog\model\design\banner.php on line 17
+2018-01-18 15:09:04 - PHP Unknown:  Object of class stdClass could not be converted to string in D:\usr\www\basic\catalog\model\design\banner.php on line 17
+2018-01-18 15:09:04 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:09:04 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:09:04 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:09:04 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:09:04 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:09:04 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:09:04 - PHP Notice:  Undefined variable: date_end_query in D:\usr\www\basic\catalog\model\design\banner.php on line 20
+2018-01-18 15:09:04 - PHP Notice:  Undefined variable: date_end_query in D:\usr\www\basic\catalog\model\design\banner.php on line 20
+2018-01-18 15:09:04 - PHP Notice:  Undefined variable: date_end_query in D:\usr\www\basic\catalog\model\design\banner.php on line 20
+2018-01-18 15:09:04 - PHP Notice:  Undefined variable: date_end_query in D:\usr\www\basic\catalog\model\design\banner.php on line 20
+2018-01-18 15:09:04 - PHP Notice:  Undefined variable: date_end_query in D:\usr\www\basic\catalog\model\design\banner.php on line 20
+2018-01-18 15:09:04 - PHP Notice:  Undefined variable: date_end_query in D:\usr\www\basic\catalog\model\design\banner.php on line 20
+2018-01-18 15:09:04 - PHP Notice:  Undefined variable: date_end_query in D:\usr\www\basic\catalog\model\design\banner.php on line 20
+2018-01-18 15:09:04 - PHP Notice:  Undefined variable: date_end_query in D:\usr\www\basic\catalog\model\design\banner.php on line 20
+2018-01-18 15:09:04 - PHP Notice:  Undefined variable: date_end_query in D:\usr\www\basic\catalog\model\design\banner.php on line 20
+2018-01-18 15:09:04 - PHP Notice:  Undefined variable: date_end_query in D:\usr\www\basic\catalog\model\design\banner.php on line 20
+2018-01-18 15:09:04 - PHP Notice:  Undefined variable: date_end_query in D:\usr\www\basic\catalog\model\design\banner.php on line 20
+2018-01-18 15:09:04 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 15:11:42 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:11:42 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:11:42 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:11:42 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:11:42 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:11:42 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:11:42 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 15:12:18 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:12:18 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:12:18 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:12:18 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:12:18 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 43
+2018-01-18 15:12:18 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 15:12:52 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:12:52 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:12:52 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:12:52 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:12:52 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 43
+2018-01-18 15:12:52 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 15:14:36 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\model\design\banner.php on line 17
+2018-01-18 15:14:36 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:14:36 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:14:36 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:14:36 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:14:36 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\slideshow.tpl on line 43
+2018-01-18 15:14:36 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 15:15:03 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\model\design\banner.php on line 17
+2018-01-18 15:15:03 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:15:03 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:15:03 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 41
+2018-01-18 15:15:03 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 42
+2018-01-18 15:15:03 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 15:16:20 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\model\design\banner.php on line 17
+2018-01-18 15:16:20 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 46
+2018-01-18 15:16:20 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 47
+2018-01-18 15:16:20 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 46
+2018-01-18 15:16:20 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 47
+2018-01-18 15:16:20 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 15:17:24 - PHP Notice:  Undefined index: date_end in D:\usr\www\basic\catalog\model\design\banner.php on line 16
+2018-01-18 15:17:24 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 39
+2018-01-18 15:17:24 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:17:24 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 39
+2018-01-18 15:17:24 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:17:25 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 15:17:46 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 39
+2018-01-18 15:17:46 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:17:46 - PHP Notice:  Undefined index: product_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 39
+2018-01-18 15:17:46 - PHP Notice:  Undefined index: short_description in D:\usr\www\basic\catalog\controller\extension\module\slideshow.php on line 40
+2018-01-18 15:17:46 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-01-18 15:18:11 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
