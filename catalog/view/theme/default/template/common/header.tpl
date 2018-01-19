@@ -173,13 +173,13 @@
 								Популярное:
 								<menu class="header-popular_list">
 									<li class="header-popular_item">
-										<a href="http://localhost/bycicles/index.php?route=information/information&amp;information_id=7" class="header-popular_link link">Велосипед</a></li>
+										<a href="http://localhost/basic/index.php?route=product/search&search=Велосипед" class="header-popular_link link">Велосипед</a></li>
 									<li class="header-popular_item">
-										<a href="http://localhost/bycicles/index.php?route=information/information&amp;information_id=8" class="header-popular_link link">Горные</a></li>
+										<a href="http://localhost/basic/index.php?route=product/search&search=Горные" class="header-popular_link link">Горные</a></li>
 									<li class="header-popular_item">
-										<a href="http://localhost/bycicles/index.php?route=information/information&amp;information_id=9" class="header-popular_link link">Запчасти</a></li>
+										<a href="http://localhost/basic/index.php?route=product/search&search=Запчасти" class="header-popular_link link">Запчасти</a></li>
 									<li class="header-popular_item">
-										<a href="http://localhost/bycicles/index.php?route=information/information&amp;information_id=10" class="header-popular_link link">Шлем</a></li>												
+										<a href="http://localhost/basic/index.php?route=product/search&search=Шлем" class="header-popular_link link">Шлем</a></li>												
 								</menu>
 							</div>
 
@@ -279,7 +279,7 @@
 		<div class="nav hidden-sm hidden-xs">
 			<div class="container">
 				<div class="nav-wrap">
-					<a href="#" class="nav-link link-discount">
+					<a href="http://localhost/basic/index.php?route=product/special" class="nav-link link-discount">
 						<span class="btn-icon">
 							<span class="icon">
 								<svg>
