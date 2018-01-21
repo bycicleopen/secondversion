@@ -5,6 +5,53 @@
     <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
     <?php } ?>
   </ul>
+  
+        <div class="row">
+        <?php foreach ($products as $product) { ?>
+        <div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" /></a></div>
+            <div>
+              <div class="caption">
+                <h4><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h4>
+                <p><?php echo $product['description']; ?></p>
+                <?php if ($product['price']) { ?>
+                <p class="price">
+                  <?php if (!$product['special']) { ?>
+                  <?php echo $product['price']; ?>
+                  <?php } else { ?>
+                  <span class="price-new"><?php echo $product['special']; ?></span> <span class="price-old"><?php echo $product['price']; ?></span>
+                  <?php } ?>
+                  <?php if ($product['tax']) { ?>
+                  <span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
+                  <?php } ?>
+                </p>
+                <?php } ?>
+                <?php if ($product['rating']) { ?>
+                <div class="rating">
+                  <?php for ($i = 1; $i <= 5; $i++) { ?>
+                  <?php if ($product['rating'] < $i) { ?>
+                  <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span>
+                  <?php } else { ?>
+                  <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span>
+                  <?php } ?>
+                  <?php } ?>
+                </div>
+                <?php } ?>
+              </div>
+              <div class="button-group">
+                <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span>."бк"</button>
+                <button type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-heart"></i></button>
+                <button type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-exchange"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <?php } ?>
+      </div>
+  
+  
+  
   <div class="row"><?php echo $column_left; ?>
     <?php if ($column_left && $column_right) { ?>
     <?php $class = 'col-sm-6'; ?>
@@ -21,8 +68,6 @@
         <?php $class = 'col-sm-8'; ?>
         <?php } ?>
         <div class="<?php echo $class; ?>">
-
-
           <?php if ($thumb || $images) { ?>
           <ul class="thumbnails">
             <?php if ($thumb) { ?>
@@ -35,12 +80,6 @@
             <?php } ?>
           </ul>
           <?php } ?>
-
-
-
-
-
-
           <ul class="nav nav-tabs">
             <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
             <?php if ($attribute_groups) { ?>
@@ -144,8 +183,6 @@
           </ul>
           <?php if ($price) { ?>
           <ul class="list-unstyled">
-
-
             <?php if (!$special) { ?>
             <li>
               <h2><?php echo $price; ?></h2>
@@ -156,9 +193,6 @@
               <h2><?php echo $special; ?></h2>
             </li>
             <?php } ?>
-
-
-
             <?php if ($tax) { ?>
             <li><?php echo $text_tax; ?> <?php echo $tax; ?></li>
             <?php } ?>
@@ -175,8 +209,6 @@
             <?php } ?>
           </ul>
           <?php } ?>
-
-
           <div id="product">
             <?php if ($options) { ?>
             <hr>
@@ -405,9 +437,499 @@
         <?php } ?>
       </p>
       <?php } ?>
+
+
+
+      <!-- Item Content -->
+      <div class="page-content">
+        <div class="container">
+          <main class="content">
+            <div class="item-title">
+              <h1 class="title main-title">Optimabikes Motion DD 29" 2017</h1>
+              <div class="item-addition">
+                <div class="item-addition-article">Артикул:
+                  <span class="item-addition-article-number">53175667</span>
+                </div>
+                <div class="item-addition-rating">
+                  <ul class="rating">
+                    <li class="rating-list">
+									<span class="icon icon_rating icon_rating-fill">
+										<svg>
+                                          <use xlink:href="#icon_star"></use>
+                                        </svg>
+									</span>
+                    </li>
+                    <li class="rating-list">
+									<span class="icon icon_rating icon_rating-fill">
+										<svg>
+                                          <use xlink:href="#icon_star"></use>
+                                        </svg>
+									</span>
+                    </li>
+                    <li class="rating-list">
+									<span class="icon icon_rating icon_rating-fill">
+										<svg>
+                                          <use xlink:href="#icon_star"></use>
+                                        </svg>
+									</span>
+                    </li>
+                    <li class="rating-list">
+									<span class="icon icon_rating icon_rating-fill">
+										<svg>
+                                          <use xlink:href="#icon_star"></use>
+                                        </svg>
+									</span>
+                    </li>
+                    <li class="rating-list">
+									<span class="icon icon_rating">
+										<svg>
+                                          <use xlink:href="#icon_star"></use>
+                                        </svg>
+									</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="item-content">
+              <div class="row">
+
+                <div class="col-lg-9">
+                  <!-- item top -->
+                  <div class="item-top">
+                    <div class="row">
+                      <!-- item photo -->
+                      <div class="col-lg-7 col-md-6 col-sm-6">
+                        <div class="item-photo">
+                          <img src="images/item/1-big.jpg" alt="green" class="item-photo-image">
+                        </div>
+                        <!-- item photo mini -->
+                        <ul class="popup-gallery item-photo-items">
+                          <li class="item-photo-item">
+                            <a href="images/item/1-big.jpg" class="item-photo-link_min">
+                              <img src="images/item/1-min.jpg" alt="green" class="item-photo-image_min">
+                            </a>
+                          </li>
+                          <li class="item-photo-item">
+                            <a href="images/item/2-big.jpg" class="item-photo-link_min">
+                              <img src="images/item/2-min.jpg" alt="blue" class="item-photo-image_min">
+                            </a>
+                          </li>
+                          <li class="item-photo-item">
+                            <a href="images/item/3-big.jpg" class="item-photo-link_min">
+                              <img src="images/item/3-min.jpg" alt="orange" class="item-photo-image_min">
+                            </a>
+                          </li>
+                          <li class="item-photo-item">
+                            <a href="images/item/4-big.jpg" class="item-photo-link_min">
+                              <img src="images/item/4-min.jpg" alt="frame" class="item-photo-image_min">
+                            </a>
+                          </li>
+                          <li class="item-photo-item">
+                            <a href="images/item/5-big.jpg" class="item-photo-link_min">
+                              <img src="images/item/5-min.jpg" alt="breaks" class="item-photo-image_min">
+                            </a>
+                          </li>
+                          <li class="item-photo-item">
+                            <a href="images/item/6-big.jpg" class="item-photo-link_min">
+                              <img src="images/item/6-min.jpg" alt="saddle" class="item-photo-image_min">
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- item information -->
+                      <div class="col-lg-5 col-md-6 col-sm-6">
+                        <div class="item-info">
+                          <!-- size and color -->
+                          <div class="item-info-type">
+                            <div class="row">
+                              <!-- size -->
+                              <div class="col-md-6 col-sm-6">
+                                <span class="info-type-label">Размер рамы:</span>
+                                <!-- select -->
+                                <div class="select-wrap select-size">
+                                  <select id="item-size" name="size" class="input input_select">
+                                    <option value="150">150-165 (15-16.5)</option>
+                                    <option value="165">165-180 (17-18.5)</option>
+                                    <option value="175">175-190 (19-20.5)</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <!-- color -->
+                              <div class="col-md-6 col-sm-6">
+                                <span class="info-type-label">Цвет:</span>
+														<span class="info-type-color">
+															<span style="background-color: #06f64c"></span>
+															<span style="background-color: #019cf8"></span>
+															<span style="background-color: #fc4b19"></span>
+														</span>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- price -->
+                          <div class="item-info-price">
+                            <div class="row">
+                              <div class="col-md-6 col-sm-6">
+                                <!-- price bonus -->
+                                <div class="info-price-bonus-wrap">
+															<span class="info-price-bonus-sum">+263<span class="info-price-bonus-currancy">грн</span>
+															</span>
+                                  <span class="info-price-bonus-descr">бонус до 14.09.2017</span>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-sm-6">
+                                <!-- item price -->
+                                <div class="info-price-wrap">
+                                  <span class="info-price">5259 грн</span>
+                                  <span class="info-price-old">6573 грн</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- purchase form-->
+				  
+  <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
+      <div class="row">
+
+				
+			 <div class="form-group">
+              <label class="control-label" for="input-quantity"><?php echo $entry_qty; ?></label>
+              <input type="text" name="quantity" value="<?php echo $minimum; ?>" size="2" id="input-quantity" class="form-control" />
+              <input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />
+              <br />
+              <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+            </div>
+		 </div>
+ </div>		 
+						  
+						  
+                          <div class="item-info-purchase">
+                            <div class="row">
+                              <!-- amount -->
+                              <div class="col-md-6 col-sm-6">
+                                <div class="info-purchase-count">
+                                  <button class="input_control input_minus">
+																<span class="icon icon_control">
+																	<svg>
+                                                                      <use xlink:href="#icon_minus"></use>
+                                                                    </svg>
+																</span>
+                                  </button>
+
+                                  <input type="text" class="input input_count" value="1">
+
+                                  <button class="input_control input_plus">
+																<span class="icon icon_control">
+																	<svg>
+                                                                      <use xlink:href="#icon_plus"></use>
+                                                                    </svg>
+																</span>
+                                  </button>
+                                </div>
+                              </div>
+							  
+							  
+
+			
+                              <!-- button -->
+                              <div class="col-md-6 col-sm-6">
+                                <a href="#addtocart" class="btn btn_act btn_purchase popup-btn">
+															<span class="btn-icon">
+																<span class="icon">
+																	<svg>
+                                                                      <use xlink:href="#icon_cart"></use>
+                                                                    </svg>
+																</span>
+															</span>
+                                  <span class="btn-text">Купить</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- actions -->
+                          <div class="item-info-actions">
+                            <div class="row">
+                              <!-- add to fav and compare -->
+                              <div class="col-md-6 col-sm-6">
+                                <div class="info-actions-wrap">
+                                  <a href="#addtofav" class="info-actions-link popup-btn">
+																<span class="btn-icon">
+																	<span class="icon">
+																		<svg>
+                                                                          <use xlink:href="#icon_favourite"></use>
+                                                                        </svg>
+																	</span>
+																</span>
+                                    <span class="btn-text">В избранные</span>
+                                  </a>
+                                  <a href="#addtocompare" class="info-actions-link popup-btn">
+																<span class="btn-icon">
+																	<span class="icon">
+																		<svg>
+                                                                          <use xlink:href="#icon_compare"></use>
+                                                                        </svg>
+																	</span>
+																</span>
+                                    <span class="btn-text">К сравнению</span>
+                                  </a>
+                                </div>
+                              </div>
+                              <!-- one click cta -->
+                              <div class="col-md-6 col-sm-6">
+                                <div class="item-info-oneclick">
+                                  <a href="#oneclick" class="link info-oneclick-link popup-btn">Купить в 1 клик</a>
+                                </div>
+                              </div>
+
+
+                            </div>
+                          </div>
+                          <!-- item bonus -->
+                          <div class="item-info-bonus">
+                            <div class="info-bonus-title">
+													<span class="btn-icon">
+														<span class="icon">
+															<svg>
+                                                              <use xlink:href="#icon_gift"></use>
+                                                            </svg>
+														</span>
+													</span>
+                              <span class="info-bonus-text">Специальное предложение</span>
+                            </div>
+                            <p class="info-bonus-descr">При покупке велосипеда — в подарок замок!</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- item aside -->
+                <div class="col-lg-3 visible-lg">
+                  <aside class="aside">
+                    <div class="item-aside-wrap">
+                      <!-- delivery -->
+                      <div class="item-aside">
+                        <h6 class="title item-aside-title">
+											<span class="btn-icon">
+												<span class="icon">
+													<svg>
+                                                      <use xlink:href="#icon_delivery"></use>
+                                                    </svg>
+												</span>
+											</span>
+                          <span class="item-aside-title-text">Доставка</span>
+                        </h6>
+                        <ul class="marked">
+                          <li class="marked-list marked-list_mini">
+                            <p>бесплатная доставка всех велосипедов по Украине</p>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- payment -->
+                      <div class="item-aside">
+                        <h6 class="title item-aside-title">
+											<span class="btn-icon">
+												<span class="icon">
+													<svg>
+                                                      <use xlink:href="#icon_payment"></use>
+                                                    </svg>
+												</span>
+											</span>
+                          <span class="item-aside-title-text">Оплата</span>
+                        </h6>
+                        <ul class="marked">
+                          <li class="marked-list marked-list_mini">
+                            <p>полная предоплата</p>
+                          </li>
+                          <li class="marked-list marked-list_mini">
+                            <p>наложеный платеж (2% комиссия)</p>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- garantee -->
+                      <div class="item-aside">
+                        <h6 class="title item-aside-title">
+											<span class="btn-icon">
+												<span class="icon">
+													<svg>
+                                                      <use xlink:href="#icon_service"></use>
+                                                    </svg>
+												</span>
+											</span>
+                          <span class="item-aside-title-text">Гарантия</span>
+                        </h6>
+                        <ul class="marked">
+                          <li class="marked-list marked-list_mini">
+                            <p>6 месяцев на оборудование официальной гарантии от производителя</p>
+                          </li>
+                          <li class="marked-list marked-list_mini">
+                            <p>60 месяцев на раму</p>
+                          </li>
+                          <li class="marked-list marked-list_mini">
+                            <p>обмен/возврат товара в течении 14 дней</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="similar">
+                      <h4 class="title similar-title">Похожие товары</h4>
+                      <article class="similar-item">
+                        <div class="similar-item-image">
+                          <a href="#" class="similar-item-image-link">
+                            <img src="images/similar/item-1.jpg" alt="Spark DD 29 2017">
+                          </a>
+                        </div>
+                        <div class="similar-item-content">
+                          <h3 class="similar-item-title">
+                            <a href="#" class="similar-item-link">Spark DD 29" 2017</a>
+                          </h3>
+                          <div class="similar-item-price-wrap">
+                            <span class="similar-item-price">8320 грн</span>
+                            <span class="similar-item-price_old">10313 грн</span>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="similar-item">
+                        <div class="similar-item-image">
+                          <a href="#" class="similar-item-image-link">
+                            <img src="images/similar/item-2.jpg" alt="Vision Planetary Hub 26 2016">
+                          </a>
+                        </div>
+                        <div class="similar-item-content">
+                          <h3 class="similar-item-title">
+                            <a href="#" class="similar-item-link">Vision Planetary Hub 26" 2016</a>
+                          </h3>
+                          <div class="similar-item-price-wrap">
+                            <span class="similar-item-price">6573 грн</span>
+                            <span class="similar-item-price_old">5990 грн</span>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="similar-item">
+                        <div class="similar-item-image">
+                          <a href="#" class="similar-item-image-link">
+                            <img src="images/similar/item-3.jpg" alt="Urban 28 2017">
+                          </a>
+                        </div>
+                        <div class="similar-item-content">
+                          <h3 class="similar-item-title">
+                            <a href="#" class="similar-item-link">Urban 28" 2017</a>
+                          </h3>
+                          <div class="similar-item-price-wrap">
+                            <span class="similar-item-price">3290 грн</span>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="similar-item">
+                        <div class="similar-item-image">
+                          <a href="#" class="similar-item-image-link">
+                            <img src="images/similar/item-4.jpg" alt="Comfort Female Planetary Hub 28 2017">
+                          </a>
+                        </div>
+                        <div class="similar-item-content">
+                          <h3 class="similar-item-title">
+                            <a href="#" class="similar-item-link">Comfort Female Planetary Hub 28" 2017</a>
+                          </h3>
+                          <div class="similar-item-price-wrap">
+                            <span class="similar-item-price">5175 грн</span>
+                            <span class="similar-item-price_old">5440 грн</span>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="similar-item">
+                        <div class="similar-item-image">
+                          <a href="#" class="similar-item-image-link">
+                            <img src="images/similar/item-5.jpg" alt="Smart 20 2017">
+                          </a>
+                        </div>
+                        <div class="similar-item-content">
+                          <h3 class="similar-item-title">
+                            <a href="#" class="similar-item-link">Smart 20" 2017</a>
+                          </h3>
+                          <div class="similar-item-price-wrap">
+                            <span class="similar-item-price">3211 грн</span>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                  </aside>
+                </div>
+              </div>
+            </div>
+          </main>
+
+
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script type="text/javascript"><!--
 $('select[name=\'recurring_id\'], input[name="quantity"]').change(function(){
 	$.ajax({

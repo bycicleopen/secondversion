@@ -37,7 +37,11 @@
 <link href="catalog/view/theme/default/stylesheet/bootstrap.css" rel="stylesheet">
 <link href="catalog/view/theme/default/stylesheet/general.css" rel="stylesheet"><!-- conflict style-->
 <link href="catalog/view/theme/default/stylesheet/normal.css" rel="stylesheet">
-<link href="catalog/view/theme/default/stylesheet/styles.css" rel="stylesheet"-->
+<link href="catalog/view/theme/default/stylesheet/styles.css" rel="stylesheet">
+	<link rel="stylesheet" href="js/magnific-popup/magnific-popup.css">
+	<!-- Script for Google map in Popup -->
+	<!--script-- src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWM9qYoD8XEn70oc8kFnR1lzXnV2223vA&amp;callback=initMap" async="" defer=""></script-->
+
 <!--conflict cart--script src="http://code.jquery.com/jquery-1.10.2.js"></script-->
 <!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
 <!--script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script-->
@@ -138,7 +142,7 @@
 									
 								</li>
 
-			
+
 								
 							</ul>
 

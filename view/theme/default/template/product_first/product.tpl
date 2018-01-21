@@ -21,8 +21,6 @@
         <?php $class = 'col-sm-8'; ?>
         <?php } ?>
         <div class="<?php echo $class; ?>">
-
-
           <?php if ($thumb || $images) { ?>
           <ul class="thumbnails">
             <?php if ($thumb) { ?>
@@ -35,12 +33,6 @@
             <?php } ?>
           </ul>
           <?php } ?>
-
-
-
-
-
-
           <ul class="nav nav-tabs">
             <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
             <?php if ($attribute_groups) { ?>
@@ -144,8 +136,6 @@
           </ul>
           <?php if ($price) { ?>
           <ul class="list-unstyled">
-
-
             <?php if (!$special) { ?>
             <li>
               <h2><?php echo $price; ?></h2>
@@ -156,9 +146,6 @@
               <h2><?php echo $special; ?></h2>
             </li>
             <?php } ?>
-
-
-
             <?php if ($tax) { ?>
             <li><?php echo $text_tax; ?> <?php echo $tax; ?></li>
             <?php } ?>
@@ -175,8 +162,6 @@
             <?php } ?>
           </ul>
           <?php } ?>
-
-
           <div id="product">
             <?php if ($options) { ?>
             <hr>

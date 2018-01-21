@@ -21,9 +21,9 @@
         <?php $class = 'col-sm-8'; ?>
         <?php } ?>
         <div class="<?php echo $class; ?>">
+       
 
-
-          <?php if ($thumb || $images) { ?>
+	   <?php if ($thumb || $images) { ?>
           <ul class="thumbnails">
             <?php if ($thumb) { ?>
             <li><a class="thumbnail" href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a></li>
@@ -35,13 +35,9 @@
             <?php } ?>
           </ul>
           <?php } ?>
-
-
-
-
-
-
-          <ul class="nav nav-tabs">
+         
+		 
+		 <ul class="nav nav-tabs">
             <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
             <?php if ($attribute_groups) { ?>
             <li><a href="#tab-specification" data-toggle="tab"><?php echo $tab_attribute; ?></a></li>
@@ -144,8 +140,6 @@
           </ul>
           <?php if ($price) { ?>
           <ul class="list-unstyled">
-
-
             <?php if (!$special) { ?>
             <li>
               <h2><?php echo $price; ?></h2>
@@ -156,9 +150,6 @@
               <h2><?php echo $special; ?></h2>
             </li>
             <?php } ?>
-
-
-
             <?php if ($tax) { ?>
             <li><?php echo $text_tax; ?> <?php echo $tax; ?></li>
             <?php } ?>
@@ -175,13 +166,17 @@
             <?php } ?>
           </ul>
           <?php } ?>
-
-
           <div id="product">
             <?php if ($options) { ?>
             <hr>
+			
+			
+			
             <h3><?php echo $text_option; ?></h3>
             <?php foreach ($options as $option) { ?>
+			
+			
+
             <?php if ($option['type'] == 'select') { ?>
             <div class="form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
               <label class="control-label" for="input-option<?php echo $option['product_option_id']; ?>"><?php echo $option['name']; ?></label>
@@ -197,6 +192,9 @@
               </select>
             </div>
             <?php } ?>
+			
+			
+			
             <?php if ($option['type'] == 'radio') { ?>
             <div class="form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
               <label class="control-label"><?php echo $option['name']; ?></label>
@@ -238,6 +236,8 @@
                 <?php } ?>
               </div>
             </div>
+			
+			
             <?php } ?>
             <?php if ($option['type'] == 'text') { ?>
             <div class="form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
@@ -258,6 +258,10 @@
               <input type="hidden" name="option[<?php echo $option['product_option_id']; ?>]" value="" id="input-option<?php echo $option['product_option_id']; ?>" />
             </div>
             <?php } ?>
+			
+			
+			
+			
             <?php if ($option['type'] == 'date') { ?>
             <div class="form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
               <label class="control-label" for="input-option<?php echo $option['product_option_id']; ?>"><?php echo $option['name']; ?></label>
@@ -268,6 +272,8 @@
                 </span></div>
             </div>
             <?php } ?>
+			
+			
             <?php if ($option['type'] == 'datetime') { ?>
             <div class="form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
               <label class="control-label" for="input-option<?php echo $option['product_option_id']; ?>"><?php echo $option['name']; ?></label>
@@ -278,6 +284,8 @@
                 </span></div>
             </div>
             <?php } ?>
+			
+			
             <?php if ($option['type'] == 'time') { ?>
             <div class="form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
               <label class="control-label" for="input-option<?php echo $option['product_option_id']; ?>"><?php echo $option['name']; ?></label>
@@ -288,6 +296,8 @@
                 </span></div>
             </div>
             <?php } ?>
+			
+			
             <?php } ?>
             <?php } ?>
             <?php if ($recurrings) { ?>
