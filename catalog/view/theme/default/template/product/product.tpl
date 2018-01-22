@@ -94,13 +94,15 @@
 									<div class="col-lg-5 col-md-6 col-sm-6">
 										<div class="item-info">
 											<!-- size and color -->
-									 <?php if ($options) { ?>		
+									 <?php if ($options) { ?>	
+									 <div class="row">
 									 <?php foreach ($options as $option) { ?>
 											<div class="item-info-type">
 												<div class="row">
 													
 													
 													
+													<!-- size -->
 													
 													
 
@@ -139,15 +141,17 @@
 																
 																				<!-- color -->
 																				<div class="col-md-6 col-sm-6">
-																				<span class="info-type-label">Цвет:</span>
+																				
 																															
 																
 																				<div class="form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
-																				<label class="control-label"><?php echo $option['name']; ?></label>
+																				<span class="info-type-label"><label class="control-label"><?php echo $option['name']; ?></label></span>
 																				<div id="input-option<?php echo $option['product_option_id']; ?>">
+																				
+																				<span class="info-type-color">
 																				<?php foreach ($option['product_option_value'] as $option_value) { ?>
-																				<div class="radio">
-              
+																				<span style="background-color:<?php echo $option_value['sort_order']; ?>">
+																			
 																				<label>
 																				<input type="radio" name="option[<?php echo $option['product_option_id']; ?>]" value="<?php echo $option_value['product_option_value_id']; ?>" />
 																				<?php if ($option_value['image']) { ?>
@@ -160,9 +164,10 @@
 																				<?php } ?>
 																				</label>
 				
-				  
-																				</div>
+				  </span>
+																				
 																				<?php } ?>
+																				</span>
 																					</div>
 																				</div>
 				
@@ -179,7 +184,9 @@
 												</div>
 											</div>
 											
+											
 											<?php } ?>
+											</div>
 											<?php } ?>
 											
 											
