@@ -305,8 +305,9 @@ class ControllerProductProduct extends Controller {
 			}
 
 			$data['images'] = array();
-			//var_dump($results);
+
 			$results = $this->model_catalog_product->getProductImages($this->request->get['product_id']);
+
 			foreach ($results as $result) {
 				$data['images'][] = array(
 					'popup' => $this->model_tool_image->resize($result['image'], $this->config->get($this->config->get('config_theme') . '_image_popup_width'), $this->config->get($this->config->get('config_theme') . '_image_popup_height')),
@@ -319,11 +320,9 @@ class ControllerProductProduct extends Controller {
 			} else {
 				$data['price'] = false;
 			}
+
 			if ((float)$product_info['special']) {
 				$data['special'] = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
-				$data['benefit'] = $this->currency->format($this->tax->calculate($product_info['mybenefit'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
-				$data['date_end'] = $product_info['date_end'];
-
 			} else {
 				$data['special'] = false;
 			}
@@ -433,7 +432,6 @@ class ControllerProductProduct extends Controller {
 
 				if ((float)$result['special']) {
 					$special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
-
 				} else {
 					$special = false;
 				}
