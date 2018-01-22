@@ -1,5 +1,39 @@
 <?php echo $header; ?>
+	<!-- Breadcrumbs -->
+	<div class="breadcrumbs">
+		<div class="container">
+			<ul class="breadcrumbs-items">
+			
+			<?php $i = 1; $j = count($breadcrumbs) ?>
+			<?php foreach ($breadcrumbs as $breadcrumb) { ?>
+				<?php if($i!=$j) {?>
+				<li class="breadcrumbs-item">				
+						<a href="<?php echo $breadcrumb['href']; ?>" class="link breadcrumbs-link"><?php echo $breadcrumb['text']; ?></a>
+						<?php $i++ ?>
+					
+					<span class="breadcrumbs-link_next">
+						<span class="icon">
+							<svg>
+								<use xlink:href="#icon_crumbarr"></use>
+							</svg>
+						</span>
+					</span>
+				</li>	
+				<?php } ?>
+			<?php } ?>
 
+				<li class="breadcrumbs-item"><?php echo $heading_title; ?>
+					<span class="breadcrumbs-link_next">
+						<span class="icon">
+							<svg>
+								<use xlink:href="#icon_crumbarr"></use>
+							</svg>
+						</span>
+					</span>
+				</li>
+			</ul>
+		</div>
+	</div>
 
 <section>
 <!-- Item Content -->
@@ -96,26 +130,22 @@
 											<!-- size and color -->
 									 <?php if ($options) { ?>	
 									 <div class="row">
-									 <?php foreach ($options as $option) { ?>
+										<?php foreach ($options as $option) { ?>
 											<div class="item-info-type">
 												<div class="row">
 													
 													
 													
-													<!-- size -->
-													
-													
-
-										
-			
-			
+													<!-- size -->		
 																<?php if ($option['type'] == 'select') { ?>
 																		<!-- size -->
 																<div class="col-md-6 col-sm-6">
-																	<span class="info-type-label">Размер рамы:</span>
+																
 																	<!-- select -->
 																		<div class="form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
-																	<label class="control-label" for="input-option<?php echo $option['product_option_id']; ?>"><?php echo $option['name']; ?></label>
+																	
+																	<span class="info-type-label"><label class="control-label" for="input-option<?php echo $option['product_option_id']; ?>"><?php echo $option['name']; ?></label></span>
+																
 																	<select name="option[<?php echo $option['product_option_id']; ?>]" id="input-option<?php echo $option['product_option_id']; ?>" class="form-control">
 																	<option value=""><?php echo $text_select; ?></option>
 																	<?php foreach ($option['product_option_value'] as $option_value) { ?>
@@ -126,6 +156,7 @@
 																	</option>
 																	<?php } ?>
 																	</select>
+																	
 																	</div>
 			
 																</div>	
@@ -149,24 +180,24 @@
 																				<div id="input-option<?php echo $option['product_option_id']; ?>">
 																				
 																				<span class="info-type-color">
-																				<?php foreach ($option['product_option_value'] as $option_value) { ?>
-																				<span style="background-color:<?php echo $option_value['sort_order']; ?>">
+																					<?php foreach ($option['product_option_value'] as $option_value) { ?>
+																					<span style="background-color:<?php echo $option_value['sort_order']; ?>">
 																			
-																				<label>
-																				<input type="radio" name="option[<?php echo $option['product_option_id']; ?>]" value="<?php echo $option_value['product_option_value_id']; ?>" />
-																				<?php if ($option_value['image']) { ?>
-																				<img src="<?php echo $option_value['image']; ?>" alt="<?php echo $option_value['name'] . ($option_value['price'] ? ' ' . $option_value['price_prefix'] . $option_value['price'] : ''); ?>" class="img-thumbnail" /> 
-																				<?php } ?> 
+																					<label>
+																					<input type="radio" name="option[<?php echo $option['product_option_id']; ?>]" value="<?php echo $option_value['product_option_value_id']; ?>" />
+																					<?php if ($option_value['image']) { ?>
+																					<img src="<?php echo $option_value['image']; ?>" alt="<?php echo $option_value['name'] . ($option_value['price'] ? ' ' . $option_value['price_prefix'] . $option_value['price'] : ''); ?>" class="img-thumbnail" /> 
+																					<?php } ?> 
 					
-																				<?php echo $option_value['name']; ?>
-																				<?php if ($option_value['price']) { ?>
-																				(<?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>)
-																				<?php } ?>
-																				</label>
+																					<?php echo $option_value['name']; ?>
+																					<?php if ($option_value['price']) { ?>
+																					(<?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>)
+																					<?php } ?>
+																					</label>
 				
-				  </span>
+																					</span>
 																				
-																				<?php } ?>
+																					<?php } ?>
 																				</span>
 																					</div>
 																				</div>
@@ -1083,51 +1114,6 @@
 	</div>
 <!---enditem--->
 
-<div id="product">
-
-													<!-- purchase form-->
-											<div class="">
-												<div class="row">
-													<!-- amount -->
-													<div class="col-md-6 col-sm-6">
-														<div class="info-purchase-count">
-															<button class="input_control input_minus">
-																<span class="icon icon_control">
-																	<svg>
-																		<use xlink:href="#icon_minus"></use>
-																	</svg>
-																</span>
-															</button>
-															<label class="control-label" for="input-quantity"><?php echo $entry_qty; ?></label>
-															<input type="text" name="quantity" value="<?php echo $minimum; ?>" size="2" id="input-quantity" class="form-control">
-															<input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />
-															<button class="input_control input_plus">
-																<span class="icon icon_control">
-																	<svg>
-																		<use xlink:href="#icon_plus"></use>
-																	</svg>
-																</span>
-															</button>
-														</div>
-													</div>
-													<!-- button -->
-													<div class="col-md-6 col-sm-6">
-														<a  id="button-cart" class="btn btn_act btn_purchase popup-btn">
-															<span class="btn-icon">
-																<span class="icon">
-																	<svg>
-																		<use xlink:href="#icon_cart"></use>
-																	</svg>
-																</span>
-															</span>
-															<span class="btn-text"><?php echo $button_cart; ?></span>
-														</a>
-													</div>
-												</div>
-											</div>
-		
-		
-</div>	
 
 
 
