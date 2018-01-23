@@ -365,6 +365,7 @@ class ModelCatalogProduct extends Model {
 				$hex_sort_order = (string)dechex($product_option_value['sort_order']);
 				if (strlen($hex_sort_order)==5) $hex_sort_order = "0".$hex_sort_order;
 				$hex_sort_order = "#".$hex_sort_order;
+				if (strlen($hex_sort_order)<5) $hex_sort_order = "0";
 				
 				
 				$product_option_value_data[] = array(
