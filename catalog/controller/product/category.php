@@ -75,7 +75,7 @@ class ControllerProductCategory extends Controller {
 				}
 
 				$category_info = $this->model_catalog_category->getCategory($path_id);
-
+				
 				if ($category_info) {
 					$data['breadcrumbs'][] = array(
 						'text' => $category_info['name'],
@@ -126,6 +126,7 @@ class ControllerProductCategory extends Controller {
 			$data['button_grid'] = $this->language->get('button_grid');
 
 			// Set the last category breadcrumb
+			
 			$data['breadcrumbs'][] = array(
 				'text' => $category_info['name'],
 				'href' => $this->url->link('product/category', 'path=' . $this->request->get['path'])
@@ -162,16 +163,22 @@ class ControllerProductCategory extends Controller {
 			$data['categories'] = array();
 
 			$results = $this->model_catalog_category->getCategories($category_id);
-
 			foreach ($results as $result) {
 				$filter_data = array(
 					'filter_category_id'  => $result['category_id'],
 					'filter_sub_category' => true
 				);
-
+				
+			if ($result['image']) {
+				$thumb = $this->model_tool_image->resize($result['image'], $this->config->get($this->config->get('config_theme') . '_image_category_width'), $this->config->get($this->config->get('config_theme') . '_image_category_height'));
+			} else {
+				$thumb = '';
+			}
 				$data['categories'][] = array(
 					'name' => $result['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
-					'href' => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '_' . $result['category_id'] . $url)
+					'href' => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '_' . $result['category_id'] . $url),
+					'long_name' => $result['meta_title'],
+					'cthumb' => $thumb,	
 				);
 			}
 

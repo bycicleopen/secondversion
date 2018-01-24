@@ -1,81 +1,10 @@
 <?php echo $header; ?>
-
-	<!-- Breadcrumbs -->
-	<div class="breadcrumbs">
-		<div class="container">
-			<ul class="breadcrumbs-items">
-			
-			<?php $i = 1; $j = count($breadcrumbs) ?>
-			<?php foreach ($breadcrumbs as $breadcrumb) { ?>
-				<?php if($i!=$j) {?>
-				<li class="breadcrumbs-item">				
-						<a href="<?php echo $breadcrumb['href']; ?>" class="link breadcrumbs-link"><?php echo $breadcrumb['text']; ?></a>
-						<?php $i++ ?>
-					
-					<span class="breadcrumbs-link_next">
-						<span class="icon">
-							<svg>
-								<use xlink:href="#icon_crumbarr"></use>
-							</svg>
-						</span>
-					</span>
-				</li>	
-				<?php } ?>
-			<?php } ?>
-
-				<li class="breadcrumbs-item"><?php echo $heading_title; ?>
-					<span class="breadcrumbs-link_next">
-						<span class="icon">
-							<svg>
-								<use xlink:href="#icon_crumbarr"></use>
-							</svg>
-						</span>
-					</span>
-				</li>
-			</ul>
-		</div>
-	</div>
-
-
-
-
-<?php if ($categories) { ?>
-	<!-- Category -->
-	<section class="category">
-		<div class="container">
-		 <!--h1><?php //echo $heading_title; ?></h1-->
-			<div class="row">
-
-			 <?php// var_dump($categories)?>
-			            <?php foreach ($categories as $category) { ?>
-          
-				<div class="col-lg-3 col-md-4 col-sm-6">
-					<div class="category-item">
-						<a href="<?php echo $category['href']; ?>" class="category-item_link"></a>
-						<div class="category-item_image">
-							<img src="<?php echo $category['cthumb']; ?>" alt="<?php echo $category['long_name']; ?>">
-						</div>
-						<span class="category-item_title"><?php echo $category['long_name']; ?></span>
-					</div>
-				</div>
-
-			  <?php } ?>
-
-			</div>
-		</div>
-	</section>
-
- <?php } ?>
-
-
-
-
-
-
-
-
 <div class="container">
-
+  <ul class="breadcrumb">
+    <?php foreach ($breadcrumbs as $breadcrumb) { ?>
+    <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+    <?php } ?>
+  </ul>
   <div class="row"><?php echo $column_left; ?>
     <?php if ($column_left && $column_right) { ?>
     <?php $class = 'col-sm-6'; ?>
@@ -87,16 +16,39 @@
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
       <h1><?php echo $heading_title; ?></h1>
       <?php if ($thumb || $description) { ?>
-
+      <div class="row">
+        <?php if ($thumb) { ?>
+        <div class="col-sm-2"><img src="<?php echo $thumb; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-thumbnail" /></div>
+        <?php } ?>
+        <?php if ($description) { ?>
+        <div class="col-sm-10"><?php echo $description; ?></div>
+        <?php } ?>
+      </div>
       <hr>
       <?php } ?>
       <?php if ($categories) { ?>
-  
+      <h3><?php echo $text_refine; ?></h3>
       <?php if (count($categories) <= 5) { ?>
-
+      <div class="row">
+        <div class="col-sm-3">
+          <ul>
+            <?php foreach ($categories as $category) { ?>
+            <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+            <?php } ?>
+          </ul>
+        </div>
+      </div>
       <?php } else { ?>
       <div class="row">
-
+        <?php foreach (array_chunk($categories, ceil(count($categories) / 4)) as $categories) { ?>
+        <div class="col-sm-3">
+          <ul>
+            <?php foreach ($categories as $category) { ?>
+            <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+            <?php } ?>
+          </ul>
+        </div>
+        <?php } ?>
       </div>
       <?php } ?>
       <?php } ?>
