@@ -43,10 +43,10 @@
 	<!-- Category -->
 	<section class="category">
 		<div class="container">
-		 <!--h1><?php //echo $heading_title; ?></h1-->
+		
 			<div class="row">
 
-			 <?php// var_dump($categories)?>
+		
 			            <?php foreach ($categories as $category) { ?>
           
 				<div class="col-lg-3 col-md-4 col-sm-6">
