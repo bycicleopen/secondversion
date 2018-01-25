@@ -58,7 +58,7 @@
 <?php echo $analytic; ?>
 <?php } ?>
 </head>
-<body class="<?php echo $class; ?>">
+<body>
  <!-- Header -->
 	<header class="header">
 		<!-- header top -->
@@ -324,5 +324,5 @@
 		</div>
 	</header>					
 					
-</section>		
+	
 	
