@@ -364,120 +364,131 @@
 							<div class="item-tabs">
 								<nav class="tabs-nav">
 									<ul class="tabs-items">
+									
 										<li class="tabs-item">
 											<a href="#tab1" class="btn btn_default tabs-link is-active">
-												<span class="btn-text">Характеристики</span>
+												<span class="btn-text"><?php echo $tab_attribute; ?></span>
 											</a>
 										</li>
+										
+										
 										<li class="tabs-item">
 											<a href="#tab2" class="btn btn_default tabs-link">
-												<span class="btn-text">Описание</span>
+												<span class="btn-text"><?php echo $tab_description; ?></span>
 											</a>
 										</li>
+										
+										
+										
+										<?php if ($review_status) { ?>
 										<li class="tabs-item">
 											<a href="#tab3" class="btn btn_default tabs-link">
-												<span class="btn-text">Отзывы</span>
+												<span class="btn-text"><?php echo $tab_review; ?></span>
 											</a>
 										</li>
+										<?php } ?>
 									</ul>
 								</nav>
 								<!-- tabs content -->
 								<div class="tabs-content-wrap">
+									 <?php if ($attribute_groups) { ?>
 									<div id="tab1" class="tabs-content is-active">
 										<div class="tab-table-wrap">
 											<table class="tab-table">
+											    <?php foreach ($attribute_groups as $attribute_group) { ?>
+												<thead>
+												<tr>
+													<td colspan="2"><strong><?php echo $attribute_group['name']; ?></strong></td>
+												</tr>
+												</thead>												
+												
 												<tbody class="tab-table-body">
-													<tr>
-														<td class="tab-table-property">Рама</td>
-														<td>Алюминий</td>
+													
+													
+													<?php foreach ($attribute_group['attribute'] as $attribute) { ?>
+													<tr>													
+														<td class="tab-table-property"><?php echo $attribute['name']; ?></td>
+														<td><?php echo $attribute['text']; ?></</td>
 													</tr>
-													<tr>
-														<td class="tab-table-property">Вилка</td>
-														<td>SR Suntour XCR, масляно-пружинная, ход 100мм</td>
-													</tr>
-													<tr>
-														<td class="tab-table-property">Манетки</td>
-														<td>Shimano Alivio, SL-M4000</td>
-													</tr>
-													<tr>
-														<td class="tab-table-property">Тормоза</td>
-														<td>Tektro Draco, гидравлический дисковый, ротор 180/160 мм</td>
-													</tr>
-													<tr>
-														<td class="tab-table-property">Передний переключатель</td>
-														<td>Shimano Alivio, FD-T4000</td>
-													</tr>
-													<tr>
-														<td class="tab-table-property">Задний переключатель</td>
-														<td>Shimano Alivio, RD-T4000</td>
-													</tr>
-													<tr>
-														<td class="tab-table-property">Передняя втулка</td>
-														<td>KT, алюминий</td>
-													</tr>
-													<tr>
-														<td class="tab-table-property">Задняя втулка</td>
-														<td>KT, алюминий</td>
-													</tr>
-													<tr>
-														<td class="tab-table-property">Система</td>
-														<td>Shimano, сталь 22/32/44T</td>
-													</tr>
-													<tr>
-														<td class="tab-table-property">Каретка</td>
-														<td>Shimano, картридж</td>
-													</tr>
-													<tr>
-														<td class="tab-table-property">Кассета</td>
-														<td>Shimano Altus, CS-HG40</td>
-													</tr>
-													<tr>
-														<td class="tab-table-property">Педали</td>
-														<td>алюминий/сталь</td>
-													</tr>
-													<tr>
-														<td class="tab-table-property">Рулевая колонка</td>
-														<td>Neco, алюминий/сталь</td>
-													</tr>
-													<tr>
-														<td class="tab-table-property">Седло</td>
-														<td>спортивное</td>
-													</tr>
-													<tr>
-														<td class="tab-table-property">Обода</td>
-														<td>Weinmann, алюминий, двойные</td>
-													</tr>
-													<tr>
-														<td class="tab-table-property">Покрышки</td>
-														<td>Chao Yang, 27.5</td>
-													</tr>
-													<tr>
-														<td class="tab-table-property">Скорости</td>
-														<td>21 (3*7)</td>
-													</tr>
-													<tr>
-														<td class="tab-table-property">Вес</td>
-														<td>15.5 кг</td>
-													</tr>
-													<tr>
-														<td class="tab-table-property">Диаметр колес</td>
-														<td>27.5 дюймов</td>
-													</tr>
+													<?php } ?>
 												</tbody>
+												 <?php } ?>
 											</table>
 										</div>
 									</div>
+									<?php } ?>
+									
+									
+									
+									
 									<div id="tab2" class="tabs-content">
 										<div class="tab-description">
-											<p class="text">Горный велосипед для взрослых. Данная модель стала компромиссом среди любителей найнеров и фанатов колёс шириной 26 дюймов. Большие колёса легкие и в то же время прочные.</p>
-											<p class="text">Хардтейл для езды в стиле кросс-кантри с оборудованием предпрофессионального класса Shimano, 27 скоростей. Технические особенности: прочная алюминиевая рама, амортизационная вилка SR Suntour XCR, двойные обода Weinmann, дисковые гидравлические тормоза Tektro Draco. Подходит для активной езды по различным дорогам и пересеченной местности. Диаметр колес - 27,5 дюймов. Вес - 15,5 кг.</p>
-											<p class="text">Стальная амортизационная вилка помогает комфортно преодолевать неровности на дороге. Большие колёса легкие и в то же время прочные. Дисковые тормоза обеспечивают плавную остановку велосипеда. Он нужен для тех кто любит скорость и накат по-полной. С ним вам не страшны дороги любых сложностей, так как этот велосипед был придуман для дорог в Украине.</p>
+											<p class="text"><?php echo $description; ?></p>
 										</div>
 									</div>
 									<div id="tab3" class="tabs-content">
 										<div class="tab-coments-wrap">
 											<!-- comments -->
 											<div class="tab-coments">
+											
+											<?php var_dump($reviews); ?>
+											
+<br>---------<br>
+ <?php if ($review_status) { ?>
+            <div class="tab-pane" id="tab-review">
+              <form class="form-horizontal" id="form-review">
+                <div id="review"></div>
+                <h2><?php echo $text_write; ?></h2>
+               
+			   <?php if ($review_guest) { ?>
+               
+
+
+			   <div class="form-group required">
+                  <div class="col-sm-12">
+                    <label class="control-label" for="input-name"><?php echo $entry_name; ?></label>
+                    <input type="text" name="name" value="<?php echo $customer_name; ?>" id="input-name" class="form-control" />
+                  </div>
+                </div>
+              
+
+
+			  <div class="form-group required">
+                  <div class="col-sm-12">
+                    <label class="control-label" for="input-review"><?php echo $entry_review; ?></label>
+                    <textarea name="text" rows="5" id="input-review" class="form-control"></textarea>
+                    <div class="help-block"><?php echo $text_note; ?></div>
+                  </div>
+                </div>
+				
+				
+                <div class="form-group required">
+                  <div class="col-sm-12">
+                    <label class="control-label"><?php echo $entry_rating; ?></label>
+                    &nbsp;&nbsp;&nbsp; <?php echo $entry_bad; ?>&nbsp;
+                    <input type="radio" name="rating" value="1" />
+                    &nbsp;
+                    <input type="radio" name="rating" value="2" />
+                    &nbsp;
+                    <input type="radio" name="rating" value="3" />
+                    &nbsp;
+                    <input type="radio" name="rating" value="4" />
+                    &nbsp;
+                    <input type="radio" name="rating" value="5" />
+                    &nbsp;<?php echo $entry_good; ?></div>
+                </div>
+                <?php echo $captcha; ?>
+                <div class="buttons clearfix">
+                  <div class="pull-right">
+                    <button type="button" id="button-review" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary"><?php echo $button_continue; ?></button>
+                  </div>
+                </div>
+                <?php } else { ?>
+                <?php echo $text_login; ?>
+                <?php } ?>
+              </form>
+            </div>
+            <?php } ?>
 												<!-- coment item -->
 												<div class="tab-coments-item">
 													<div class="coments-item-title">
@@ -527,113 +538,18 @@
 													</div>
 													<p class="text coments-item-text">Горный велосипед для взрослых. Данная модель стала компромиссом среди любителей найнеров и фанатов колёс шириной 26 дюймов. Большие колёса легкие и в то же время прочные.</p>
 												</div>
-												<!-- coment item -->
-												<div class="tab-coments-item">
-													<div class="coments-item-title">
-														<span class="coments-item-title-name">Дмитрий</span>
-														<div class="coments-item-info">
-															<span class="coments-item-date">15 сентября 2017</span>
-															<div class="coments-item-rating">
-																<ul class="rating">
-																	<li class="rating-list">
-																		<span class="icon icon_rating icon_rating-fill">
-																			<svg>
-																				<use xlink:href="#icon_star"></use>
-																			</svg>
-																		</span>
-																	</li>
-																	<li class="rating-list">
-																		<span class="icon icon_rating icon_rating-fill">
-																			<svg>
-																				<use xlink:href="#icon_star"></use>
-																			</svg>
-																		</span>
-																	</li>
-																	<li class="rating-list">
-																		<span class="icon icon_rating icon_rating-fill">
-																			<svg>
-																				<use xlink:href="#icon_star"></use>
-																			</svg>
-																		</span>
-																	</li>
-																	<li class="rating-list">
-																		<span class="icon icon_rating">
-																			<svg>
-																				<use xlink:href="#icon_star"></use>
-																			</svg>
-																		</span>
-																	</li>
-																	<li class="rating-list">
-																		<span class="icon icon_rating">
-																			<svg>
-																				<use xlink:href="#icon_star"></use>
-																			</svg>
-																		</span>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<p class="text coments-item-text">Благодарен за модель навигатор. Полностью соответствует описанию на сайте. Выполнили заказ должным образом! Все на высшем уровне. Всем друзьям буду рекомендовать этот интернет магазин!</p>
-												</div>
-												<!-- coment item -->
-												<div class="tab-coments-item">
-													<div class="coments-item-title">
-														<span class="coments-item-title-name">Владислав</span>
-														<div class="coments-item-info">
-															<span class="coments-item-date">23 октября 2017</span>
-															<div class="coments-item-rating">
-																<ul class="rating">
-																	<li class="rating-list">
-																		<span class="icon icon_rating icon_rating-fill">
-																			<svg>
-																				<use xlink:href="#icon_star"></use>
-																			</svg>
-																		</span>
-																	</li>
-																	<li class="rating-list">
-																		<span class="icon icon_rating icon_rating-fill">
-																			<svg>
-																				<use xlink:href="#icon_star"></use>
-																			</svg>
-																		</span>
-																	</li>
-																	<li class="rating-list">
-																		<span class="icon icon_rating icon_rating-fill">
-																			<svg>
-																				<use xlink:href="#icon_star"></use>
-																			</svg>
-																		</span>
-																	</li>
-																	<li class="rating-list">
-																		<span class="icon icon_rating icon_rating-fill">
-																			<svg>
-																				<use xlink:href="#icon_star"></use>
-																			</svg>
-																		</span>
-																	</li>
-																	<li class="rating-list">
-																		<span class="icon icon_rating">
-																			<svg>
-																				<use xlink:href="#icon_star"></use>
-																			</svg>
-																		</span>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<p class="text coments-item-text">Подскажите пожалуйста, а оплачивать товар когда он пришел или нужна предоплата за велосипед или платить нужно сразу полную стоимость?</p>
-												</div>
+												
+												
+		
 											</div>
 											<!-- form comments -->
 											<div class="tab-coments-form">
 												<form action="" method="" class="ajax-form">
-													<h5 class="title coments-form-title">Написать отзыв</h5>
+													<h5 class="title coments-form-title"><?php echo $text_write; ?></h5>
 													<div class="coment-form-row">
 														<div class="row min">
 															<div class="col-sm-4">
-																<input type="text" name="name" class="input input_order" placeholder="Имя" required>
+																<input type="text" name="name" class="input input_order"  value="<?php echo $customer_name; ?>"  placeholder="<?php echo $entry_name; ?>" required>
 															</div>
 															<div class="col-sm-4">
 																<input type="email" name="email" class="input input_order" placeholder="Email" required>
@@ -1006,6 +922,23 @@ $('button[id^=\'button-upload\']').on('click', function() {
 });
 //--></script>
 <script type="text/javascript"><!--
+
+
+// Tabs Item card
+$('.tabs-nav a').on('click', function (e) {
+   e.preventDefault();
+   var toGo = $(this).attr('href');
+   var parent = $(this).closest('tabs-nav a');
+   if (!parent.hasClass('is-active')) {
+         $('.tabs-nav li a').removeClass('is-active');
+         $('.tabs-content').removeClass('is-active');
+         $(toGo).addClass('is-active');
+         $(this).addClass('is-active');
+   } else {
+   }
+});
+
+
 $('#review').delegate('.pagination a', 'click', function(e) {
     e.preventDefault();
 

@@ -484,8 +484,7 @@
   display: inline-block;
   vertical-align: middle;
   max-width: 240px;
-  width: 100%;
-  height: auto;
+  max-height: 160px;
 }
 
 .product-image:hover .product-color {
@@ -2241,30 +2240,4 @@
 .tab-accord-answer {
   display: none;
   padding: 15px 15px 20px;
-}
-
-/*---------- TEMP STYLES ----------*/
-.slider-items {
-  height: 100%;
-  max-height: 415px;
-  overflow: hidden;
-}
-
-.slider-items-brands {
-  height: 115px;
-  overflow: hidden;
-}
-
-.popup {
-  padding: 70px 0;
-  background-color: #436190;
-}
-
-.modal {
-  display: block !important;
-}
-
-.modal,
-.modal-oneclick {
-  margin-bottom: 30px;
 }

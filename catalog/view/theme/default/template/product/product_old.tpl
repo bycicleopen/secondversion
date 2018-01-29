@@ -22,6 +22,9 @@
         <?php } ?>
         <div class="<?php echo $class; ?>">
           <?php if ($thumb || $images) { ?>
+		  
+		  
+		  
           <ul class="thumbnails">
             <?php if ($thumb) { ?>
             <li><a class="thumbnail" href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a></li>
@@ -33,6 +36,9 @@
             <?php } ?>
           </ul>
           <?php } ?>
+		  
+		  
+		  
           <ul class="nav nav-tabs">
             <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
             <?php if ($attribute_groups) { ?>
@@ -42,17 +48,22 @@
             <li><a href="#tab-review" data-toggle="tab"><?php echo $tab_review; ?></a></li>
             <?php } ?>
           </ul>
+		  
+		  
+		  
           <div class="tab-content">
             <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
-            <?php if ($attribute_groups) { ?>
+            
+			<?php if ($attribute_groups) { ?>
             <div class="tab-pane" id="tab-specification">
-              <table class="table table-bordered">
+			 <table class="table table-bordered">
                 <?php foreach ($attribute_groups as $attribute_group) { ?>
                 <thead>
                   <tr>
                     <td colspan="2"><strong><?php echo $attribute_group['name']; ?></strong></td>
                   </tr>
                 </thead>
+				
                 <tbody>
                   <?php foreach ($attribute_group['attribute'] as $attribute) { ?>
                   <tr>
@@ -64,7 +75,10 @@
                 <?php } ?>
               </table>
             </div>
-            <?php } ?>
+		  <?php } ?>
+		  
+		  
+		  
             <?php if ($review_status) { ?>
             <div class="tab-pane" id="tab-review">
               <form class="form-horizontal" id="form-review">
@@ -111,6 +125,10 @@
               </form>
             </div>
             <?php } ?>
+			
+			
+			
+			
           </div>
         </div>
         <?php if ($column_left || $column_right) { ?>
