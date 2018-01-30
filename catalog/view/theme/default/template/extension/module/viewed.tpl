@@ -1,6 +1,6 @@
-<div class="page-content">
-	<div class="container">
+
 		<section class="viewed">
+		  <div class="container">
 				<div class="section-title">
 					<h2 class="title"><?php echo $heading_title; ?></h2>
 					<div class="section-paginator hidden-xs">
@@ -67,7 +67,7 @@
 									<div class="product-price">
 									
 									 <?php if ($product['special']) { ?>
-										<span class="product-price_old"><?php echo $product['special']; ?></span>
+										<span class="product-price_old"><?php echo $product['price']; ?></span>
 										<span class="product-price_new"> <?php echo $product['special']; ?></span>
 										<?php } else { ?>				
 											<span class="product-price_new"><?php echo $product['price']; ?></span>
@@ -118,9 +118,8 @@
 
 					</div>
 				</div>
+				</div>
 			</section>
-      </div>
-</div>		
-		
+
 
 
