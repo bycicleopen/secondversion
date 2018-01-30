@@ -2,7 +2,9 @@
 class ControllerExtensionModuleCarousel extends Controller {
 	public function index($setting) {
 		static $module = 0;
-
+		$this->load->language('extension/module/carousel');
+		$data['text_brands'] = $this->language->get('text_brands');
+		
 		$this->load->model('design/banner');
 		$this->load->model('tool/image');
 

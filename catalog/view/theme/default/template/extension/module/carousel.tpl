@@ -1,7 +1,7 @@
 <section class="about">
 	<div class="container">
 		<div class="section-title">
-			<h2 class="title">Бренды</h2>
+			<h2 class="title"><?php echo $text_brands; ?></h2>
 		</div>
 		
 		<div id="carousel<?php echo $module; ?>" class="owl-carousel">
