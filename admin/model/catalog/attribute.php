@@ -67,7 +67,7 @@ class ModelCatalogAttribute extends Model {
 				$data['start'] = 0;
 			}
 
-			if ($data['limit'] < 1) {
+			if ($data['limit'] < 20) {
 				$data['limit'] = 20;
 			}
 
