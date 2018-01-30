@@ -299,14 +299,13 @@
 											<!--end purchase form-->
 											
 											
-											
 											<!-- actions -->
 											<div class="item-info-actions">
 												<div class="row">
 													<!-- add to fav and compare -->
 													<div class="col-md-6 col-sm-6">
 														<div class="info-actions-wrap">
-															<a href="#addtofav" class="info-actions-link popup-btn">
+															<a href="" class="info-actions-link popup-btn"  data-toggle="tooltip" onclick="wishlist.add('<?php echo $product['product_id']; ?>');">
 																<span class="btn-icon">
 																	<span class="icon">
 																		<svg>
@@ -315,8 +314,9 @@
 																	</span>
 																</span>
 																<span class="btn-text">В избранные</span>
+																
 															</a>
-															<a href="#addtocompare" class="info-actions-link popup-btn">
+															<a href="" class="info-actions-link popup-btn" onclick="compare.add('<?php echo $product['product_id']; ?>');">
 																<span class="btn-icon">
 																	<span class="icon">
 																		<svg>
@@ -324,6 +324,8 @@
 																		</svg>
 																	</span>
 																</span>
+													
+																
 																<span class="btn-text">К сравнению</span>
 															</a>
 														</div>

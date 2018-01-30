@@ -43,16 +43,16 @@
 														<use xlink:href="#icon_sellphone"></use>
 													</svg>
 												</span>
-												<time class="phone-time phone-time_footer">с 9:00 до 18:00 без выходных</time>
+												<time class="phone-time phone-time_footer"><?php echo $text_worktime ?></time>
 											</div>
 
-											<a href="#callback" class="btn btn_act btn_cta-footer popup-btn">Заказать обратный звонок</a>
+											<a href="#callback" class="btn btn_act btn_cta-footer popup-btn"><?php echo $text_backcall ?></a>
 
 										</div>
 
 										<div class="col-md-12 col-sm-6">
 											<div class="footer-adress-wrap">
-												<address class="footer-adress">Хмельницкий ул.Курчатова, 58</address>
+												<address class="footer-adress"><?php echo $text_address; ?></address>
 												<span class="icon icon_adress">
 													<svg>
 														<use xlink:href="#icon_marker"></use>
@@ -68,7 +68,7 @@
 								<div class="col-md-7">
 									<div class="row">
 										<div class="col-md-5 col-sm-6">
-											<span class="footer-title">Компания</span>
+											<span class="footer-title"><?php echo $text_company ?></span>
 											<menu class="footer-menu_items">
 												<li class="footer-menu_item"><a href="<?php echo $actionsInfHref ?>" class="footer-menu_link"><?php echo $actionsInf ?></a></li>
 												<li class="footer-menu_item"><a href="<?php echo $aboutInfHref ?>" class="footer-menu_link"><?php echo $aboutInf ?></a></li>
@@ -80,7 +80,7 @@
 										</div>
 										
 										<div class="col-md-7 col-sm-6">
-											<span class="footer-title">Информация</span>
+											<span class="footer-title"><?php echo $text_information ?></span>
 											<menu class="footer-menu_items">
 												<li class="footer-menu_item"><a href="<?php echo $warrantyInfHref ?>" class="footer-menu_link"><?php echo $warrantyInf ?></a></li>
 												<li class="footer-menu_item"><a href="<?php echo $howToInfHref ?>" class="footer-menu_link"><?php echo $howToInf ?></a></li>
@@ -99,8 +99,8 @@
 								<div class="col-md-12 col-sm-6">
 									<div class="footer-newsseller">
 										<form id="signup" action="" method="" class="form-news">
-											<span class="footer-title">Подписаться на розсылку</span>
-											<input id="email" type="email" name="email" class="input input_email" placeholder="Введите email">
+											<span class="footer-title"><?php echo $text_backcall; ?></span>
+											<input id="email" type="email" name="email" class="input input_email" placeholder="<?php echo $text_email; ?>">
 											<button type="submit" class="btn btn_news">
 												<span class="btn-icon">
 													<span class="icon">
@@ -109,7 +109,7 @@
 														</svg>
 													</span>
 												</span>
-												<span class="btn-text">Подписаться</span>
+												<span class="btn-text"><?php echo $text_subscribe ?></span>
 											</button>
 										</form>
 									</div>
@@ -117,7 +117,7 @@
 
 								<div class="col-md-12 col-sm-6">
 									<div class="footer-social">
-										<span class="footer-title ">Мы в соц сетях</span>
+										<span class="footer-title "><?php echo $text_social ?></span>
 										<ul class="footer-social_items">
 											<li class="footer-social_item">
 												<a href="#" class="footer-social_link social_vk">
@@ -170,12 +170,12 @@
 					<div class="row">
 
 						<div class="col-md-8 col-sm-7">
-							<div class="footer-copyright">&copy; Интернет-магазин «Велосклад» 2016–2017 Велосипеды с доставкой по Украине</div>
+							<div class="footer-copyright"><?php echo $text_bottominfo ?></div>
 						</div>
 
 						<div class="col-md-4 col-sm-5">
 							<div class="footer-payment">
-								<span class="footer-payment-text">Мы принимаем:</span>
+								<span class="footer-payment-text"><?php echo $text_accept ?></span>
 								<ul class="footer-payment_items">
 									<li class="footer-payment_item">
 										<span class="icon icon_payment_footer">1
