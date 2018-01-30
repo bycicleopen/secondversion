@@ -431,15 +431,15 @@
 											<!-- comments -->
 											<div class="tab-coments">
 											
-											<?php var_dump($reviews); ?>
+										
 											
-<br>---------<br>
  <?php if ($review_status) { ?>
-            <div class="tab-pane" id="tab-review">
+      
               <form class="form-horizontal" id="form-review">
                 <div id="review"></div>
-                <h2><?php echo $text_write; ?></h2>
-               
+             
+				<h5 class="title coments-form-title"><?php echo $text_write; ?></h5>
+               	<div class="tab-coments-form">
 			   <?php if ($review_guest) { ?>
                
 
@@ -480,111 +480,27 @@
                 <?php echo $captcha; ?>
                 <div class="buttons clearfix">
                   <div class="pull-right">
-                    <button type="button" id="button-review" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary"><?php echo $button_continue; ?></button>
+                    <button type="button" class="btn btn_act btn_send" id="button-review" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary"><?php echo $button_continue; ?></button>
                   </div>
+				  </div>
+													  
+				  
+				  
+				  
                 </div>
                 <?php } else { ?>
                 <?php echo $text_login; ?>
                 <?php } ?>
               </form>
-            </div>
+           
             <?php } ?>
-												<!-- coment item -->
-												<div class="tab-coments-item">
-													<div class="coments-item-title">
-														<span class="coments-item-title-name">Анатолий</span>
-														<div class="coments-item-info">
-															<span class="coments-item-date">02 марта 2016</span>
-															<div class="coments-item-rating">
-																<ul class="rating">
-																	<li class="rating-list">
-																		<span class="icon icon_rating icon_rating-fill">
-																			<svg>
-																				<use xlink:href="#icon_star"></use>
-																			</svg>
-																		</span>
-																	</li>
-																	<li class="rating-list">
-																		<span class="icon icon_rating icon_rating-fill">
-																			<svg>
-																				<use xlink:href="#icon_star"></use>
-																			</svg>
-																		</span>
-																	</li>
-																	<li class="rating-list">
-																		<span class="icon icon_rating icon_rating-fill">
-																			<svg>
-																				<use xlink:href="#icon_star"></use>
-																			</svg>
-																		</span>
-																	</li>
-																	<li class="rating-list">
-																		<span class="icon icon_rating icon_rating-fill">
-																			<svg>
-																				<use xlink:href="#icon_star"></use>
-																			</svg>
-																		</span>
-																	</li>
-																	<li class="rating-list">
-																		<span class="icon icon_rating icon_rating-fill">
-																			<svg>
-																				<use xlink:href="#icon_star"></use>
-																			</svg>
-																		</span>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<p class="text coments-item-text">Горный велосипед для взрослых. Данная модель стала компромиссом среди любителей найнеров и фанатов колёс шириной 26 дюймов. Большие колёса легкие и в то же время прочные.</p>
-												</div>
-												
+
 												
 		
 											</div>
-											<!-- form comments -->
-											<div class="tab-coments-form">
-												<form action="" method="" class="ajax-form">
-													<h5 class="title coments-form-title"><?php echo $text_write; ?></h5>
-													<div class="coment-form-row">
-														<div class="row min">
-															<div class="col-sm-4">
-																<input type="text" name="name" class="input input_order"  value="<?php echo $customer_name; ?>"  placeholder="<?php echo $entry_name; ?>" required>
-															</div>
-															<div class="col-sm-4">
-																<input type="email" name="email" class="input input_order" placeholder="Email" required>
-															</div>
-															<div class="col-sm-4">
-																<!-- select -->
-																<div class="select-wrap select-rating">
-																	<select id="select-rating" name="rating" class="input input_select" required>
-																		<option selected>Оценка</option>
-																		<option value="1">Плохо</option>
-																		<option value="2">Приемлемо</option>
-																		<option value="1">Средне</option>
-																		<option value="2">Хорошо</option>
-																		<option value="2">Отлично</option>
-																	</select>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="coment-form-row">
-														<div class="row min">
-															<div class="col-sm-12">
-																<!-- textarea -->
-																<textarea id="coment-msg" placeholder="Ваш отзыв" name="comment" class="input input_area input_textarea"></textarea>
-															</div>
-														</div>
-													</div>
-													<!-- send button -->
-													<div class="coment-form-send">
-														<input type="submit" name="order" class="btn btn_act btn_send" value="Отправить">
-														<span class="modal-text_small">* - поля, обязательные для заполнения</span>
-													</div>
-
-												</form>
-											</div>
+											
+											
+		
 										</div>
 									</div>
 								</div>
