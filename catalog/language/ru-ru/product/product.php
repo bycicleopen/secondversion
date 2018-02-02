@@ -38,6 +38,12 @@ $_['entry_review']                            = 'Ваш отзыв';
 $_['entry_rating']                            = 'Рейтинг';
 $_['entry_good']                              = 'Хорошо';
 $_['entry_bad']                               = 'Плохо';
+$_['entry_favorite']           = 'В избранное';
+$_['entry_compare']           = 'К сравнению';
+$_['entry_oneclick']           = 'Купить в один клик';
+$_['entry_spoffer']            = 'Специальное предложение';
+$_['entry_spoffertext']        = 'При покупке велосипеда - в подарок замок!';
+
 
 // Tabs
 $_['tab_description']                         = 'Описание';

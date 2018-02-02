@@ -260,6 +260,13 @@ class ControllerProductProduct extends Controller {
 			$data['entry_rating'] = $this->language->get('entry_rating');
 			$data['entry_good'] = $this->language->get('entry_good');
 			$data['entry_bad'] = $this->language->get('entry_bad');
+			
+			$data['entry_favorite'] = $this->language->get('entry_favorite');
+			$data['entry_compare'] = $this->language->get('entry_compare');
+			$data['entry_oneclick'] = $this->language->get('entry_oneclick');
+			$data['entry_spoffer'] = $this->language->get('entry_spoffer');
+			$data['entry_spoffertext'] = $this->language->get('entry_spoffertext');
+			
 
 			$data['button_cart'] = $this->language->get('button_cart');
 			$data['button_wishlist'] = $this->language->get('button_wishlist');

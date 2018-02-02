@@ -39,6 +39,12 @@ $_['entry_review']                            = 'Ваш відгук';
 $_['entry_rating']                            = 'Рейтинг';
 $_['entry_good']                              = 'Добре';
 $_['entry_bad']                               = 'Погано';
+$_['entry_favorite']           = 'В улюблені';
+$_['entry_compare']           = 'До порівняння';
+$_['entry_oneclick']           = 'Купити в один клік';
+$_['entry_spoffer']            = 'Спеціальна пропозиція';
+$_['entry_spoffertext']        = 'При купівлі велосипеда - в подарунок замок!';
+
 
 // Tabs
 $_['tab_description']                         = 'Опис';

@@ -313,7 +313,7 @@
 																		</svg>
 																	</span>
 																</span>
-																<span class="btn-text">В избранные</span>
+																<span class="btn-text"><?php echo $entry_favorite; ?>  </span>
 																
 															</a>
 															<a href="" class="info-actions-link popup-btn" onclick="compare.add('<?php echo $product['product_id']; ?>');">
@@ -326,14 +326,14 @@
 																</span>
 													
 																
-																<span class="btn-text">К сравнению</span>
+																<span class="btn-text"><?php echo $entry_compare; ?>   </span>
 															</a>
 														</div>
 													</div>
 													<!-- one click cta -->
 													<div class="col-md-6 col-sm-6">
 														<div class="item-info-oneclick">
-															<a href="#oneclick" class="link info-oneclick-link popup-btn">Купить в 1 клик</a>
+															<a href="#oneclick" class="link info-oneclick-link popup-btn"><?php echo $entry_oneclick; ?>  </a>
 														</div>
 													</div>
 
@@ -350,9 +350,9 @@
 															</svg>
 														</span>
 													</span>
-													<span class="info-bonus-text">Специальное предложение</span>
+													<span class="info-bonus-text"><?php echo $entry_spoffer; ?>  </span>
 												</div>
-												<p class="info-bonus-descr">При покупке велосипеда — в подарок замок!</p>
+												<p class="info-bonus-descr"><?php echo $entry_spoffertext; ?>  </p>
 											</div>
 										</div>
 									</div>

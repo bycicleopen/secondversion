@@ -18,7 +18,7 @@ $_['text_login']               = 'Please <a href="%s">login</a> or <a href="%s">
 $_['text_no_reviews']          = 'There are no reviews for this product.';
 $_['text_note']                = '<span class="text-danger">Note:</span> HTML is not translated!';
 $_['text_success']             = 'Thank you for your review. It has been submitted to the webmaster for approval.';
-$_['text_related']             = 'Similae products';
+$_['text_related']             = 'Similar products';
 $_['text_tags']                = 'Tags:';
 $_['text_error']               = 'Product not found!';
 $_['text_payment_recurring']   = 'Payment Profile';
@@ -38,6 +38,12 @@ $_['entry_review']             = 'Your Review';
 $_['entry_rating']             = 'Rating';
 $_['entry_good']               = 'Good';
 $_['entry_bad']                = 'Bad';
+$_['entry_favorite']           = 'To favorites';
+$_['entry_compare']           = 'To compare';
+$_['entry_oneclick']           = 'Buy in one click';
+$_['entry_spoffer']            = 'Special offer';
+$_['entry_spoffertext']        = 'When buying a bicycle - a gift to the castle!';
+
 
 // Tabs
 $_['tab_description']          = 'Description';
