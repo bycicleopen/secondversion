@@ -16024,3 +16024,100 @@
 2018-02-02 7:58:56 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
 2018-02-02 7:58:56 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 308
 2018-02-02 7:58:56 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 319
+2018-02-02 8:02:12 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:02:12 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-02-02 8:02:23 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 35
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: colors in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-02 8:02:23 - PHP Warning:  Invalid argument supplied for foreach() in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: manufacturer in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 64
+2018-02-02 8:02:23 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 35
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: colors in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-02 8:02:23 - PHP Warning:  Invalid argument supplied for foreach() in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: manufacturer in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 64
+2018-02-02 8:02:23 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 35
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: colors in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-02 8:02:23 - PHP Warning:  Invalid argument supplied for foreach() in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: manufacturer in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 64
+2018-02-02 8:02:23 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 35
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: colors in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-02 8:02:23 - PHP Warning:  Invalid argument supplied for foreach() in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: manufacturer in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 64
+2018-02-02 8:02:23 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 35
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: colors in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-02 8:02:23 - PHP Warning:  Invalid argument supplied for foreach() in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: manufacturer in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\special.tpl on line 64
+2018-02-02 8:02:23 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\featured.tpl on line 34
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: colors in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-02 8:02:23 - PHP Warning:  Invalid argument supplied for foreach() in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: manufacturer in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\featured.tpl on line 63
+2018-02-02 8:02:23 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\featured.tpl on line 34
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: colors in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-02 8:02:23 - PHP Warning:  Invalid argument supplied for foreach() in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: manufacturer in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\featured.tpl on line 63
+2018-02-02 8:02:23 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\featured.tpl on line 34
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: colors in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-02 8:02:23 - PHP Warning:  Invalid argument supplied for foreach() in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: manufacturer in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\featured.tpl on line 63
+2018-02-02 8:02:23 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\featured.tpl on line 34
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: colors in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-02 8:02:23 - PHP Warning:  Invalid argument supplied for foreach() in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-02 8:02:23 - PHP Notice:  Undefined index: manufacturer in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\featured.tpl on line 63
+2018-02-02 8:02:23 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-02-02 8:02:30 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:02:30 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-02-02 8:02:43 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:02:43 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-02-02 8:07:04 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:07:04 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-02-02 8:07:04 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 308
+2018-02-02 8:07:04 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 319
+2018-02-02 8:20:49 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:20:49 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-02-02 8:20:49 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 308
+2018-02-02 8:20:49 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 319
+2018-02-02 8:21:25 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:21:25 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-02-02 8:21:25 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 308
+2018-02-02 8:21:25 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 319
+2018-02-02 8:21:33 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:21:33 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-02-02 8:21:33 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 308
+2018-02-02 8:21:33 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 319
+2018-02-02 8:21:36 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:21:36 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-02-02 8:21:36 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 308
+2018-02-02 8:21:36 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 319
+2018-02-02 8:25:29 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:25:29 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-02-02 8:25:29 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 308
+2018-02-02 8:25:29 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 319
+2018-02-02 8:25:35 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:25:35 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:25:35 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-02-02 8:25:35 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 308
+2018-02-02 8:25:35 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 319
+2018-02-02 8:25:45 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:25:45 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:25:45 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-02-02 8:25:45 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 308
+2018-02-02 8:25:45 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 319
+2018-02-02 8:29:49 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:29:49 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:29:49 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-02-02 8:29:49 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 308
+2018-02-02 8:29:49 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 319
+2018-02-02 8:30:14 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:30:14 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:30:14 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-02-02 8:30:14 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 308
+2018-02-02 8:30:14 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 319
+2018-02-02 8:33:39 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:33:39 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:33:39 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-02-02 8:33:39 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 308
+2018-02-02 8:33:39 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 319
+2018-02-02 8:36:15 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:36:15 - PHP Notice:  Undefined variable: special in D:\usr\www\basic\catalog\view\theme\default\template\extension\module\viewed.tpl on line 35
+2018-02-02 8:36:15 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-02-02 8:36:15 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 308
+2018-02-02 8:36:15 - PHP Notice:  Undefined variable: product in D:\usr\www\basic\catalog\view\theme\default\template\product\product.tpl on line 319

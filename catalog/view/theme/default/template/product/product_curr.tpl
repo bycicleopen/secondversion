@@ -510,49 +510,6 @@
 						</div>
 					
  <?php echo $column_right; ?>
-  <!--related-->
-						<?php if ($products) { ?>
- 						<!-- item aside -->
-						<div class="col-lg-3 visible-lg">
-							<aside class="aside">
-					
-								<div class="similar">
-									<h4 class="title similar-title"><?php echo $text_related; ?></h4>
-									
-									 <?php foreach ($products as $product) { ?>
-									<article class="similar-item">
-										<div class="similar-item-image">
-											<a href="<?php echo $product['href']; ?>" class="similar-item-image-link">
-												<img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>">
-											</a>
-										</div>
-										<div class="similar-item-content">
-											<h3 class="similar-item-title">
-												<a href="<?php echo $product['href']; ?>" class="similar-item-link"><?php echo $product['name']; ?></a>
-											</h3>
-											<?php if ($product['price']) { ?>	
-											<div class="similar-item-price-wrap">						
-											<?php if (!$product['special']) { ?>               
-												<span class="similar-item-price"><?php echo $product['price']; ?></span>
-											<?php } else { ?>
-												<span class="similar-item-price"><?php echo $product['special']; ?></span>
-												<span class="similar-item-price_old"><?php echo $product['price']; ?></span>
-											<?php } ?>
-											</div>								
-											<?php } ?>								
-										</div>
-									</article>
-									 <?php } ?>
-								</div>
-							</aside>
-						</div>
-						 <?php } ?>
- <!--end related-->
-
-
-
- 
- 
 
 </section>
 
