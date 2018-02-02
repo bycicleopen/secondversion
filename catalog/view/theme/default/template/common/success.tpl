@@ -49,14 +49,13 @@
     <?php $class = 'col-sm-12'; ?>
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
-      <h2 class="title contact-info-title"><?php echo $heading_title; ?></h2>
+      <h1 class="title contact-info-title"><?php echo $heading_title; ?></h1>
       <span class="text"><?php echo $text_message; ?></span>
      <span class="text">
-														<a href="<?php echo $continue; ?>" class="btn btn_act btn_form" >
-													
-															<span class="btn-text"><?php echo $button_continue; ?></span>
-														</a>
-														</span>
+		<a href="<?php echo $continue; ?>" class="btn btn_act btn_form" >
+			<span class="btn-text"><?php echo $button_continue; ?></span>
+		</a>
+	</span>
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>
