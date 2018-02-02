@@ -19,7 +19,7 @@ $_['text_login']                              = 'Будьласка <a href="%s"
 $_['text_no_reviews']                         = 'Немає відгуків про цей товар.';
 $_['text_note']                               = '<span class = "text-danger"> Увага: </span> HTML не підтримується!';
 $_['text_success']                            = 'Дякую за ваш відгук. Він був направлений на модерацію.';
-$_['text_related']                            = 'Рекомендовані товари';
+$_['text_related']                            = 'Схожі товари';
 $_['text_tags']                               = 'Теги:';
 $_['text_error']                              = 'Товар не знайдено!';
 $_['text_payment_recurring']                  = 'Платіжні профілі';
