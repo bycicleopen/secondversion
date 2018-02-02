@@ -3,6 +3,7 @@ class ControllerInformationContact extends Controller {
 	private $error = array();
 
 	public function index() {
+	
 		$this->load->language('information/contact');
 
 		$this->document->setTitle($this->language->get('heading_title'));
@@ -95,6 +96,8 @@ class ControllerInformationContact extends Controller {
 		$data['fax'] = $this->config->get('config_fax');
 		$data['open'] = nl2br($this->config->get('config_open'));
 		$data['comment'] = $this->config->get('config_comment');
+		
+		echo $data['address']."addr";
 
 		$data['locations'] = array();
 
@@ -121,8 +124,11 @@ class ControllerInformationContact extends Controller {
 					'open'        => nl2br($location_info['open']),
 					'comment'     => $location_info['comment']
 				);
+				
+				
 			}
 		}
+var_dump($data['locations']);
 
 		if (isset($this->request->post['name'])) {
 			$data['name'] = $this->request->post['name'];

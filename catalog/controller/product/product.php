@@ -458,7 +458,6 @@ class ControllerProductProduct extends Controller {
 				} else {
 					$rating = false;
 				}
-var_dump($image);
 				$data['products'][] = array(
 					'product_id'  => $result['product_id'],
 					'thumb'       => $image,
