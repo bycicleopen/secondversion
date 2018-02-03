@@ -23,66 +23,6 @@ function getURLVar(key) {
 }
 
 $(document).ready(function() {
-
-	//Ajax load product
-    $('input[name^=\'filter\']').change(function() {
-        var filter = [];
-        $('input[name^=\'filter\']:checked').each(function(element) {
-            filter.push(this.value);
-        });
-        //location = 'http://opencard/index.php?route=product/category&path=24&filter=' + filter.join(',');
-
-
-            $.ajax({
-                //url: 'index.php?route=checkout/cart/add',
-                url: 'index.php?route=product/category/myajax_post',
-                type: 'post',
-                data: filter.join(','),
-                dataType: 'json',
-                beforeSend: function() {
-                },
-                complete: function() {
-                },
-                success: function(json) {
-
-                    if (json['redirect']) {
-                        //location = json['redirect'];
-                        alert('Редирект');
-                    }
-
-                    if (json['success']) {
-
-                    	console.log(json['success'][28]);
-
-                        //var data = JSON.parse(json['success']);
-                        //console.log(data);
-
-                        // $.getJSON(json['success'], function(data){
-                        //         console.log(data);
-                        // });
-
-                        //$('#content').html(json['success']);
-                        //$('#content').parent().before('<div class="alert alert-success"><i class="fa fa-check-circle"></i> ' + json['success'] + ' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
-						//alert('Есть ответ');
-                        // Need to set timeout otherwise it wont update the total
-                        setTimeout(function () {
-                            //$('#cart > button').html('<span id="cart-total"><i class="fa fa-shopping-cart"></i> ' + json['total'] + '</span>');
-                            //$('#cart > button').html('<span class="header-user-icon"><span class="icon"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon_cart"></use></svg></span></span><span class="header-user-text">Корзина</span><span class="add-count add-count_cart header-user-count" data-value=" ' + json['total'] + '"></span>');
-                        }, 100);
-
-                        //$('html, body').animate({ scrollTop: 0 }, 'slow');
-
-                        //$('#cart > ul').load('index.php?route=common/cart/info ul li');
-                    }
-                },
-                error: function(xhr, ajaxOptions, thrownError) {
-                    alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
-                }
-            });
-
-    });
-
-	//
 	// Highlight any found errors
 	$('.text-danger').each(function() {
 		var element = $(this).parent().parent();
@@ -221,8 +161,7 @@ var cart = {
 
 					// Need to set timeout otherwise it wont update the total
 					setTimeout(function () {
-						//$('#cart > button').html('<span id="cart-total"><i class="fa fa-shopping-cart"></i> ' + json['total'] + '</span>');
-                        $('#cart > button').html('<span class="header-user-icon"><span class="icon"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon_cart"></use></svg></span></span><span class="header-user-text">Корзина</span><span class="add-count add-count_cart header-user-count" data-value=" ' + json['total'] + '"></span>');
+						$('#cart > button').html('<span id="cart-total"><i class="fa fa-shopping-cart"></i> ' + json['total'] + '</span>');
 					}, 100);
 
 					$('html, body').animate({ scrollTop: 0 }, 'slow');
@@ -250,8 +189,7 @@ var cart = {
 			success: function(json) {
 				// Need to set timeout otherwise it wont update the total
 				setTimeout(function () {
-					//$('#cart > button').html('<span id="cart-total"><i class="fa fa-shopping-cart"></i> ' + json['total'] + '</span>');
-                    $('#cart > button').html('<span class="header-user-icon"><span class="icon"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon_cart"></use></svg></span></span><span class="header-user-text">Корзина</span><span class="add-count add-count_cart header-user-count" data-value=" ' + json['total'] + '"></span>');
+					$('#cart > button').html('<span id="cart-total"><i class="fa fa-shopping-cart"></i> ' + json['total'] + '</span>');
 				}, 100);
 
 				if (getURLVar('route') == 'checkout/cart' || getURLVar('route') == 'checkout/checkout') {
@@ -280,8 +218,7 @@ var cart = {
 			success: function(json) {
 				// Need to set timeout otherwise it wont update the total
 				setTimeout(function () {
-					//$('#cart > button').html('<span id="cart-total"><i class="fa fa-shopping-cart"></i> ' + json['total'] + '</span>');
-                    $('#cart > button').html('<span class="header-user-icon"><span class="icon"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon_cart"></use></svg></span></span><span class="header-user-text">Корзина</span><span class="add-count add-count_cart header-user-count" data-value=" ' + json['total'] + '"></span>');
+					$('#cart > button').html('<span id="cart-total"><i class="fa fa-shopping-cart"></i> ' + json['total'] + '</span>');
 				}, 100);
 				
 				var now_location = String(document.location.pathname);
@@ -353,9 +290,6 @@ var wishlist = {
 				}
 
 				$('#wishlist-total span').html(json['total']);
-
-				$('#wishlist_header').html('<span class="header-user-icon"><span class="icon"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon_favourite"></use></svg></span></span><span class="add-count add-count_favourite header-user-count" data-value="' + json['total'] + '"></span>');
-
 				$('#wishlist-total').attr('title', json['total']);
 
 				$('html, body').animate({ scrollTop: 0 }, 'slow');
@@ -384,8 +318,6 @@ var compare = {
 					$('#content').parent().before('<div class="alert alert-success"><i class="fa fa-check-circle"></i> ' + json['success'] + ' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
 
 					$('#compare-total').html(json['total']);
-
-                    $('.ajax_compare').html('<span class="header-user-icon"><span class="icon"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon_compare"></use></svg></span></span><span class="add-count add-count_compare header-user-count" data-value="' + json['total'] + '"></span>');
 
 					$('html, body').animate({ scrollTop: 0 }, 'slow');
 				}

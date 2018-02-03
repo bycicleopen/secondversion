@@ -1,0 +1,15 @@
+1. Зміни в common.js фунція Cart+
+2. додати stelesheet common+
+3. Header.tpl+
+3. Зміни в хедер контроллер
+4. Додати модель catalog/attribute_group
+5. common/language.tpl+
+6. В адмінці поміняти назви мов на скорочені
+7.common/cart.tpl+
+8.controller/common/cart.php
+9.common/search.tpl+
+10. В адмінці додати групи атрибутів для популярних запитів від 100 до 200
+
+11. language header.php $_['promotional_code_head'] = 'Enter promotional code';
+12. checkout/cart.php
+12. checkout/cart.tpl

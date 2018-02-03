@@ -15,3 +15,4 @@ $_['text_checkout']      = 'Оформление заказа';
 $_['text_search']        = 'Поиск';
 $_['text_all']           = 'Показать все';
 $_['text_page']          = 'страница';
+$_['promotional_code_head'] = 'Введите промокод';

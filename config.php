@@ -1,9 +1,9 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost/basic/');
+define('HTTP_SERVER', 'http://localhost/basic_second/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://localhost/basic/');
+define('HTTPS_SERVER', 'http://localhost/basic_second/');
 
 // DIR
 define('DIR_APPLICATION', 'h:/usr/www/basic_second/catalog/');

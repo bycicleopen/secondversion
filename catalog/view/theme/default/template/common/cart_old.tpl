@@ -1,17 +1,5 @@
-<div id="cart" class="btn-group btn-block btn-group btn-block">
-  <button type="button" data-toggle="dropdown" data-loading-text="<?php echo $text_loading; ?>" class="but_n btn btn-inverse btn-block btn-lg dropdown-toggle header-user_link">
-
-
-    <span class="header-user-icon">
-                    <span class="icon">
-                        <svg>
-                            <use xlink:href="#icon_cart"></use>
-                        </svg>
-                    </span>
-                </span>
-      <span class="header-user-text">Корзина</span>
-      <span class="add-count add-count_cart header-user-count" data-value="<?php echo $text_items; ?>"></span>
-  </button>
+<div id="cart" class="btn-group btn-block">
+  <button type="button" data-toggle="dropdown" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-inverse btn-block btn-lg dropdown-toggle"><i class="fa fa-shopping-cart"></i> <span id="cart-total"><?php echo $text_items; ?></span></button>
   <ul class="dropdown-menu pull-right">
     <?php if ($products || $vouchers) { ?>
     <li>

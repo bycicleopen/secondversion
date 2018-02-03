@@ -37,7 +37,8 @@
 		<link href="catalog/view/theme/default/stylesheet/bootstrap.css" rel="stylesheet">
 		<link href="catalog/view/theme/default/stylesheet/general.css" rel="stylesheet"><!-- conflict style-->
 		<link href="catalog/view/theme/default/stylesheet/normal.css" rel="stylesheet">
-		<link href="catalog/view/theme/default/stylesheet/styles.css" rel="stylesheet"-->
+		<link href="catalog/view/theme/default/stylesheet/styles.css" rel="stylesheet">
+		<link rel="stylesheet" href="catalog/view/theme/default/stylesheet/common.css">
 		<!--conflict cart--script src="http://code.jquery.com/jquery-1.10.2.js"></script-->
 		<!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
 		<!--script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script-->
@@ -112,16 +113,40 @@
 													</svg>
 												</span>
 											</span>
-											<span class="header-user-text">Введите промокод</span>
+											<span class="header-user-text"><?php echo $text_promocode; ?></span>
 										</a>
 									</li>
-								</ul>								
-								<ul class="header-user_items">
-									<li class="">
-										
-										<div class="col-sm-3"><?php echo $cart; ?></div>
-									</li>
-								</ul>
+								</ul>	
+								
+            <ul class="header-user_items">
+              <li class="header-user_item">
+                <a id="wishlist_header" href="<?php echo $wishlist; ?>" class="header-user_link">
+				<span class="header-user-icon">
+                  <span class="icon">
+                    <svg>
+                      <use xlink:href="#icon_favourite"></use>
+                    </svg>
+                  </span>
+				</span>
+                  <span class="add-count add-count_favourite header-user-count" data-value="<?php echo $text_wishlist; ?>"></span>
+                </a>
+              </li>
+              <li class="header-user_item">
+                <a href="<?php echo $compare; ?>" class="header-user_link ajax_compare">
+										<span class="header-user-icon">
+											<span class="icon">
+												<svg>
+													<use xlink:href="#icon_compare"></use>
+												</svg>
+											</span>
+										</span>
+                  <span class="add-count add-count_compare header-user-count" data-value="<?php echo $text_compare; ?>"></span>
+                </a>
+              </li>
+              <li class="header-user_item"><?php echo $cart; ?></li>
+            </ul>
+								
+								
 							</div>
 						</div>
 					</div>
@@ -143,35 +168,32 @@
 							</a>
 						</div>
 						
-						<div class="col-lg-4 col-md-5">
-							<div class="header-search-wrap">
-								<div class="header-popular">
-									Популярное:
-									<menu class="header-popular_list">
-										<li class="header-popular_item">
-										<a href="http://localhost/basic/index.php?route=product/search&search=Велосипед" class="header-popular_link link">Велосипед</a></li>
-										<li class="header-popular_item">
-										<a href="http://localhost/basic/index.php?route=product/search&search=Горные" class="header-popular_link link">Горные</a></li>
-										<li class="header-popular_item">
-										<a href="http://localhost/basic/index.php?route=product/search&search=Запчасти" class="header-popular_link link">Запчасти</a></li>
-										<li class="header-popular_item">
-										<a href="http://localhost/basic/index.php?route=product/search&search=Шлем" class="header-popular_link link">Шлем</a></li>												
-									</menu>
-								</div>	
-								<?php echo $search; ?>		
-							</div>
-						</div>			
+		        <div class="col-lg-4 col-md-5">
+          <div class="header-search-wrap">
+            <div class="header-popular">
+              Популярное:
+              <menu class="header-popular_list">
+                <?php foreach ($popular_queries as $popular_query) { ?>
+                <li class="header-popular_item">
+                  <a href="/index.php?route=product/search&search=<?php echo $popular_query['name'];?>" class="header-popular_link link"><?php echo $popular_query['name'];?></a>
+                </li>
+                <?php } ?>
+              </menu>
+            </div>
+            <?php echo $search; ?>
+          </div>
+        </div>		
 						<div class="col-lg-5 col-md-3">
 							<div class="header-phone">
-								<div class="phone-wrap">
-									<a href="tel:+380685001002" class="phone-call">+38(068) 500-10-02</a>
-									<span class="icon">
-										<svg>
-											<use xlink:href="#icon_sellphone"></use>
-										</svg>
-									</span>
-									<time class="phone-time">с 9:00 до 18:00 без выходных</time>
-								</div>
+            <div class="phone-wrap">
+              <a href="tel:<?php echo $telephone2; ?>" class="phone-call"><?php echo $telephone; ?></a>
+              <span class="icon">
+              <svg>
+                <use xlink:href="#icon_sellphone"></use>
+              </svg>
+            </span>
+              <time class="phone-time"><?php echo $open; ?></time>
+            </div>
 								
 								<a href="#callback" class="btn btn_cta header-cta popup-btn visible-lg">
 									<span class="btn-icon">

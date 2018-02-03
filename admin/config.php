@@ -1,7 +1,7 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost/basic/admin/');
-define('HTTP_CATALOG', 'http://localhost/basic/');
+define('HTTP_SERVER', 'http://localhost/basic_second/admin/');
+define('HTTP_CATALOG', 'http://localhost/basic_second/');
 
 // HTTPS
 define('HTTPS_SERVER', 'http://localhost/basic/admin/');
