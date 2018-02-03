@@ -16487,3 +16487,90 @@
 2018-02-02 12:44:34 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
 2018-02-02 12:46:18 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
 2018-02-02 12:54:54 - PHP Notice:  Undefined variable: shipping in D:\usr\www\basic\catalog\view\theme\default\template\common\header.tpl on line 91
+2018-02-03 12:37:19 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 34
+2018-02-03 12:37:19 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:37:19 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:37:19 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 63
+2018-02-03 12:37:19 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 34
+2018-02-03 12:37:19 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:37:19 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:37:19 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 63
+2018-02-03 12:37:19 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 34
+2018-02-03 12:37:19 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:37:19 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:37:19 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 63
+2018-02-03 12:37:19 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 34
+2018-02-03 12:37:19 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:37:19 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:37:19 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 63
+2018-02-03 12:37:19 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 35
+2018-02-03 12:37:19 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:37:19 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:37:19 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 64
+2018-02-03 12:37:19 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 35
+2018-02-03 12:37:19 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:37:19 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:37:19 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 64
+2018-02-03 12:37:19 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 35
+2018-02-03 12:37:19 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:37:19 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:37:19 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 64
+2018-02-03 12:37:19 - PHP Notice:  Undefined variable: shipping in H:\usr\www\basic_second\catalog\view\theme\default\template\common\header.tpl on line 88
+2018-02-03 12:37:49 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 34
+2018-02-03 12:37:49 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:37:49 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:37:49 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 63
+2018-02-03 12:37:49 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 34
+2018-02-03 12:37:49 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:37:49 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:37:49 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 63
+2018-02-03 12:37:49 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 34
+2018-02-03 12:37:49 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:37:49 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:37:49 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 63
+2018-02-03 12:37:49 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 34
+2018-02-03 12:37:49 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:37:49 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:37:49 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 63
+2018-02-03 12:37:50 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 35
+2018-02-03 12:37:50 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:37:50 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:37:50 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 64
+2018-02-03 12:37:50 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 35
+2018-02-03 12:37:50 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:37:50 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:37:50 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 64
+2018-02-03 12:37:50 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 35
+2018-02-03 12:37:50 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:37:50 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:37:50 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 64
+2018-02-03 12:37:50 - PHP Notice:  Undefined variable: shipping in H:\usr\www\basic_second\catalog\view\theme\default\template\common\header.tpl on line 88
+2018-02-03 12:38:00 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 34
+2018-02-03 12:38:00 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:38:00 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:38:00 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 63
+2018-02-03 12:38:00 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 34
+2018-02-03 12:38:00 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:38:00 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:38:00 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 63
+2018-02-03 12:38:00 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 34
+2018-02-03 12:38:00 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:38:00 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:38:00 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 63
+2018-02-03 12:38:00 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 34
+2018-02-03 12:38:00 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:38:00 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 45
+2018-02-03 12:38:00 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\featured.tpl on line 63
+2018-02-03 12:38:00 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 35
+2018-02-03 12:38:00 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:38:00 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:38:00 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 64
+2018-02-03 12:38:00 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 35
+2018-02-03 12:38:00 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:38:00 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:38:00 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 64
+2018-02-03 12:38:00 - PHP Notice:  Undefined variable: special in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 35
+2018-02-03 12:38:00 - PHP Notice:  Undefined index: colors in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:38:00 - PHP Warning:  Invalid argument supplied for foreach() in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 46
+2018-02-03 12:38:00 - PHP Notice:  Undefined index: manufacturer in H:\usr\www\basic_second\catalog\view\theme\default\template\extension\module\special.tpl on line 64
+2018-02-03 12:38:00 - PHP Notice:  Undefined variable: shipping in H:\usr\www\basic_second\catalog\view\theme\default\template\common\header.tpl on line 88
