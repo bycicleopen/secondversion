@@ -1,3 +1,4 @@
+Сергій:
 1. Зміни в common.js фунція Cart+
 2. додати stelesheet common+
 3. Header.tpl+
