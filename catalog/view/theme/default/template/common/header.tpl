@@ -259,7 +259,7 @@
 			<div class="nav hidden-sm hidden-xs">
 				<div class="container">
 					<div class="nav-wrap">
-						<a href="http://localhost/basic/index.php?route=product/special" class="nav-link link-discount">
+						<a href="/index.php?route=product/special" class="nav-link link-discount">
 							<span class="btn-icon">
 								<span class="icon">
 									<svg>
@@ -869,6 +869,144 @@
 
 	</section>
 
+	<!-- Navbar -->
+	
+	
+			<?php if ($categories) { ?>
+			<div class="container">
+				<nav id="menu" class="navbar">
+					<div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
+						<button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
+					</div>
+					<div class="collapse navbar-collapse navbar-ex1-collapse">
+						<ul class="nav navbar-nav">	
+							<?php foreach ($categories as $category) { ?>
+								
+								<?php if ($category['children']) { ?>
+									
+									<li class="dropdown"><a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']."__"; ?></a>
+										<div class="dropdown-menu">
+											<div class="dropdown-inner">		
+												<?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
+													<ul class="list-unstyled">
+														<?php foreach ($children as $child) { ?>
+															<li><a href="<?php echo $child['href']; ?>"><?php echo $child['name']; ?></a></li>
+														<?php } ?>
+													</ul>
+												<?php } ?>
+												
+												
+											</div>
+										<a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
+									</li>
+									
+									<?php } else { ?>
+									<li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+								<?php } ?>
+								
+								
+								
+							<?php } ?>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		<?php } ?>
+	
+	
+	
+	<div id="navbar" class="nav navbar">
+		<div class="container">
+			
+				<div class="navbar-logo-wrap">
+					<a href="/" class="navbar-logo">
+						<picture>
+							<img src="images/logo-small.svg" alt="ВЕЛОСКЛАД">
+						</picture>
+					</a>
+				</div>
+		
+				<div class="nav-wrap navbar-wrap">
+					<a href="#" class="nav-link nav-link_navbar link-discount link-discount_navbar">
+						<span class="btn-icon">
+							<span class="icon">
+								<svg>
+									<use xlink:href="#icon_discount"></use>
+								</svg>
+							</span>
+						</span>
+						<span class="btn-text">Скидки</span>
+					</a>
+					<nav class="nav-list">
+						<?php if ($categories) { ?>
+						<menu class="nav-items nav-items_navbar">
+							
+							<?php foreach ($categories as $category) { ?>
+							
+							<li class="nav-item">
+								<a href="<?php echo $category['href']; ?>" class="nav-link">
+								<span><?php echo $category['name']; ?></span>
+								</a>
+								
+								<?php if ($category['children']) { ?>
+								<?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
+								<ul class="nav-items_sub">
+									
+									<?php foreach ($children as $child) { ?>
+									<li class="nav-item_sub"><a href="<?php echo $child['href']; ?>" class="nav-link_sub"><?php echo $child['name']; ?></a></li>						
+									<?php } ?>
+								
+								</ul>
+								<?php } ?>
+							    
+								<?php } ?>
+							
+							</li>
+
+							<?php } ?>
+						</menu>
+						<?php } ?>
+					</nav>
+				</div>
+
+				<div class="navbar-user-wrap">
+					<ul class="navbar-user">
+						<li class="navbar-user_item">
+							<a href="#" class="navbar-user_link">
+								<span class="icon">
+									<svg>
+										<use xlink:href="#icon_favourite"></use>
+									</svg>
+								</span>
+								<span class="add-count add-count_favourite" data-value="19"></span>
+							</a>
+						</li>
+						<li class="navbar-user_item">
+							<a href="#" class="navbar-user_link">
+								<span class="icon">
+									<svg>
+										<use xlink:href="#icon_compare"></use>
+									</svg>
+								</span>
+								<span class="add-count add-count_compare" data-value="7"></span>
+								<span class="count">7</span>
+							</a>
+						</li>
+						<li class="navbar-user_item">
+							<a href="#addtocart" class="navbar-user_link popup-btn">
+								<span class="icon">
+									<svg>
+										<use xlink:href="#icon_cart"></use>
+									</svg>
+								</span>
+								<span class="add-count add-count_cart" data-value="3"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				
+		</div>
+	</div>
 
 <script>
     $('.ajax-form').on('submit',function(){
