@@ -3,7 +3,6 @@ class ControllerInformationContact extends Controller {
 	private $error = array();
 
 	public function index() {
-	
 		$this->load->language('information/contact');
 
 		$this->document->setTitle($this->language->get('heading_title'));
@@ -96,8 +95,6 @@ class ControllerInformationContact extends Controller {
 		$data['fax'] = $this->config->get('config_fax');
 		$data['open'] = nl2br($this->config->get('config_open'));
 		$data['comment'] = $this->config->get('config_comment');
-		
-		echo $data['address']."addr";
 
 		$data['locations'] = array();
 
@@ -124,11 +121,8 @@ class ControllerInformationContact extends Controller {
 					'open'        => nl2br($location_info['open']),
 					'comment'     => $location_info['comment']
 				);
-				
-				
 			}
 		}
-var_dump($data['locations']);
 
 		if (isset($this->request->post['name'])) {
 			$data['name'] = $this->request->post['name'];
@@ -224,4 +218,31 @@ var_dump($data['locations']);
 
 		$this->response->setOutput($this->load->view('common/success', $data));
 	}
+	
+	    public function sendMail(){
+			if (($this->request->server['REQUEST_METHOD'] == 'POST')) {
+            $mail = new Mail();
+            $mail->protocol = $this->config->get('config_mail_protocol');
+            $mail->parameter = $this->config->get('config_mail_parameter');
+            $mail->smtp_hostname = $this->config->get('config_mail_smtp_hostname');
+            $mail->smtp_username = $this->config->get('config_mail_smtp_username');
+            $mail->smtp_password = html_entity_decode($this->config->get('config_mail_smtp_password'), ENT_QUOTES, 'UTF-8');
+            $mail->smtp_port = $this->config->get('config_mail_smtp_port');
+            $mail->smtp_timeout = $this->config->get('config_mail_smtp_timeout');
+
+            $mail->setTo($this->config->get('config_email'));
+            $mail->setFrom($this->config->get('config_email'));
+            $mail->setReplyTo($this->request->post['callbacktel']);
+            $mail->setSender(html_entity_decode($this->request->post['callbackname'], ENT_QUOTES, 'UTF-8'));
+            $mail->setSubject(html_entity_decode(sprintf($this->language->get('email_subject'), $this->request->post['callbackname']), ENT_QUOTES, 'UTF-8'));
+            $mail->setText($this->request->post['callbackname']);
+            $mail->send();
+
+            $this->response->redirect($this->url->link('information/contact/success'));
+        } else {
+            echo "Error!";
+        }
+
+    }
+	
 }

@@ -1,25 +1,25 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost/basic_second/admin/');
-define('HTTP_CATALOG', 'http://localhost/basic_second/');
+define('HTTP_SERVER', 'http://localhost/secondversion/secondversion/admin/');
+define('HTTP_CATALOG', 'http://localhost/secondversion/secondversion/');
 
 // HTTPS
 define('HTTPS_SERVER', 'http://localhost/basic/admin/');
 define('HTTPS_CATALOG', 'http://localhost/basic/');
 
 // DIR
-define('DIR_APPLICATION', 'h:/usr/www/basic_second/admin/');
-define('DIR_SYSTEM', 'h:/usr/www/basic_second/system/');
-define('DIR_IMAGE', 'h:/usr/www/basic_second/image/');
-define('DIR_LANGUAGE', 'h:/usr/www/basic_second/admin/language/');
-define('DIR_TEMPLATE', 'h:/usr/www/basic_second/admin/view/template/');
-define('DIR_CONFIG', 'h:/usr/www/basic_second/system/config/');
-define('DIR_CACHE', 'h:/usr/www/basic_second/system/storage/cache/');
-define('DIR_DOWNLOAD', 'h:/usr/www/basic_second/system/storage/download/');
-define('DIR_LOGS', 'h:/usr/www/basic_second/system/storage/logs/');
-define('DIR_MODIFICATION', 'h:/usr/www/basic_second/system/storage/modification/');
-define('DIR_UPLOAD', 'h:/usr/www/basic_second/system/storage/upload/');
-define('DIR_CATALOG', 'h:/usr/www/basic_second/catalog/');
+define('DIR_APPLICATION', 'd:/usr/www/secondversion/secondversion/admin/');
+define('DIR_SYSTEM', 'd:/usr/www/secondversion/secondversion/system/');
+define('DIR_IMAGE', 'd:/usr/www/secondversion/secondversion/image/');
+define('DIR_LANGUAGE', 'd:/usr/www/secondversion/secondversion/admin/language/');
+define('DIR_TEMPLATE', 'd:/usr/www/secondversion/secondversion/admin/view/template/');
+define('DIR_CONFIG', 'd:/usr/www/secondversion/secondversion/system/config/');
+define('DIR_CACHE', 'd:/usr/www/secondversion/secondversion/system/storage/cache/');
+define('DIR_DOWNLOAD', 'd:/usr/www/secondversion/secondversion/system/storage/download/');
+define('DIR_LOGS', 'd:/usr/www/secondversion/secondversion/system/storage/logs/');
+define('DIR_MODIFICATION', 'd:/usr/www/secondversion/secondversion/system/storage/modification/');
+define('DIR_UPLOAD', 'd:/usr/www/secondversion/secondversion/system/storage/upload/');
+define('DIR_CATALOG', 'd:/usr/www/secondversion/secondversion/catalog/');
 
 // DB
 define('DB_DRIVER', 'mysqli');

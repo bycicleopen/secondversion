@@ -1,0 +1,15 @@
+Лена.
+
+1. Додати в header.php додатково в Lamguage.  
+
+
+		<link rel="stylesheet" href="catalog/view/theme/default/stylesheet/magnific-popup.css">
+		
+		js for modal
+		
+		Header modal section.
+		
+		заміна клас = main на клас = 
+		
+		controller/header.php
+		information/contact.php

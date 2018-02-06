@@ -16,3 +16,10 @@ $_['text_search']        = 'Search';
 $_['text_all']           = 'Show All';
 $_['text_page']          = 'page';
 $_['promotional_code_head'] = 'Enter promotional code';
+
+$_['modal_request_call'] = 'Request a call';
+$_['modal_btn_send']    = 'Send';
+$_['modal_name_placeholder'] = 'Your name*';
+$_['modal_tel_placeholder'] = 'Your phone number*';
+$_['modal_text_small'] = '*- required fields';
+

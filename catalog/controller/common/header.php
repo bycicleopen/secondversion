@@ -99,6 +99,12 @@ class ControllerCommonHeader extends Controller {
 		$data['text_page'] = $this->language->get('text_page');
 		$data['text_category'] = $this->language->get('text_category');
 		$data['text_all'] = $this->language->get('text_all');
+		
+		$data['modal_request_call'] = $this->language->get('modal_request_call');
+        $data['modal_btn_send']    = $this->language->get('modal_btn_send');
+        $data['modal_name_placeholder'] = $this->language->get('modal_name_placeholder');
+        $data['modal_tel_placeholder'] = $this->language->get('modal_tel_placeholder');
+        $data['modal_text_small'] = $this->language->get('modal_text_small');
 
 		$data['home'] = $this->url->link('common/home');
 		$data['wishlist'] = $this->url->link('account/wishlist', '', true);
