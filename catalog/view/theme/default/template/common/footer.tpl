@@ -58,7 +58,7 @@
 														<use xlink:href="#icon_marker"></use>
 													</svg>
 												</span>											
-												<a href="<?php echo $schemaInfHref ?>" id="howtoget" class="link footer-adress-link"><?php echo $schemaInf ?></a>
+												<a href="#googlemap" id="howtoget" class="link footer-adress-link"><?php echo $schemaInf ?></a>
 											</div>
 										</div>
 

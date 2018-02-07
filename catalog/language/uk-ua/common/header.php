@@ -24,3 +24,4 @@ $_['modal_btn_send']    = 'Відправити';
 $_['modal_name_placeholder'] = "Ваше им'я*";
 $_['modal_tel_placeholder'] = "Ваш телефон*";
 $_['modal_text_small'] ="*- поля, обов'язкові для заповнення";
+$_['text_discounts'] = 'ЗНИЖКИ';

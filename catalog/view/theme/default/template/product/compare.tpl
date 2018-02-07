@@ -19,93 +19,71 @@
     <?php $class = 'col-sm-12'; ?>
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
-      <h1><?php echo $heading_title; ?></h1>
+      
       <?php if ($products) { ?>
       <table class="table table-bordered">
-        <thead>
-          <tr>
-            <td colspan="<?php echo count($products) + 1; ?>"><strong><?php echo $text_product; ?></strong></td>
-          </tr>
-        </thead>
+				<div class="title-wrap">
+					<h1 class="title main-title"><?php echo $heading_title; ?></h1>
+				</div>
         <tbody>
+
           <tr>
-            <td><?php echo $text_name; ?></td>
+            <td></td>
             <?php foreach ($products as $product) { ?>
-            <td><a href="<?php echo $product['href']; ?>"><strong><?php echo $product['name']; ?></strong></a></td>
+            <td >
+
+
+								<!-- product-item -->
+								<div class="col-md-4 col-sm-6">
+									<div class="compare-product-wrap">
+										<article class="product-item product-item_compare">
+											<div class="product-image">
+												<a href="<?php echo $product['href']; ?>" class="product-image-link">
+													<?php if ($product['thumb']) { ?>
+														<img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>">
+													<?php } ?>
+												</a>
+											</div>
+											<div class="product-text">
+												<h3 class="product-title">
+													<a href="<?php echo $product['href']; ?>" class="product-title-link"><?php echo $product['name']; ?></a>
+												</h3>
+												<span class="product-brand"><?php echo $product['manufacturer']; ?></span>
+											</div>
+											<div class="product-info">
+											
+												<div class="product-price">
+													 <?php if ($product['special']) { ?>
+														<span class="product-price_old"><?php echo $product['price']; ?></span>
+														<span class="product-price_new"><?php echo $product['special']; ?></span>
+												     <?php } else { ?>
+													    <span class="product-price_new"><?php echo $product['price']; ?></span>
+													 <?php } ?>
+												
+												</div>
+											</div>
+											<div class="product-act">
+												<a href="<?php echo $product['remove']; ?>" class="product-act-link">
+													<span class="btn-icon icon-min">
+														<span class="icon">
+															<svg>
+																<use xlink:href="#icon_cross"></use>
+															</svg>
+														</span>
+													</span>
+													<span class="btn-text"><?php echo $button_remove; ?></span>
+												</a>
+											</div>
+										</article>
+									</div>
+
+								</div>
+ 
+			  </td>
             <?php } ?>
           </tr>
-          <tr>
-            <td><?php echo $text_image; ?></td>
-            <?php foreach ($products as $product) { ?>
-            <td class="text-center"><?php if ($product['thumb']) { ?>
-              <img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-thumbnail" />
-              <?php } ?></td>
-            <?php } ?>
-          </tr>
-          <tr>
-            <td><?php echo $text_price; ?></td>
-            <?php foreach ($products as $product) { ?>
-            <td><?php if ($product['price']) { ?>
-              <?php if (!$product['special']) { ?>
-              <?php echo $product['price']; ?>
-              <?php } else { ?>
-              <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
-              <?php } ?>
-              <?php } ?></td>
-            <?php } ?>
-          </tr>
-          <tr>
-            <td><?php echo $text_model; ?></td>
-            <?php foreach ($products as $product) { ?>
-            <td><?php echo $product['model']; ?></td>
-            <?php } ?>
-          </tr>
-          <tr>
-            <td><?php echo $text_manufacturer; ?></td>
-            <?php foreach ($products as $product) { ?>
-            <td><?php echo $product['manufacturer']; ?></td>
-            <?php } ?>
-          </tr>
-          <tr>
-            <td><?php echo $text_availability; ?></td>
-            <?php foreach ($products as $product) { ?>
-            <td><?php echo $product['availability']; ?></td>
-            <?php } ?>
-          </tr>
-          <?php if ($review_status) { ?>
-          <tr>
-            <td><?php echo $text_rating; ?></td>
-            <?php foreach ($products as $product) { ?>
-            <td class="rating"><?php for ($i = 1; $i <= 5; $i++) { ?>
-              <?php if ($product['rating'] < $i) { ?>
-              <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span>
-              <?php } else { ?>
-              <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span>
-              <?php } ?>
-              <?php } ?>
-              <br />
-              <?php echo $product['reviews']; ?></td>
-            <?php } ?>
-          </tr>
-          <?php } ?>
-          <tr>
-            <td><?php echo $text_summary; ?></td>
-            <?php foreach ($products as $product) { ?>
-            <td class="description"><?php echo $product['description']; ?></td>
-            <?php } ?>
-          </tr>
-          <tr>
-            <td><?php echo $text_weight; ?></td>
-            <?php foreach ($products as $product) { ?>
-            <td><?php echo $product['weight']; ?></td>
-            <?php } ?>
-          </tr>
-          <tr>
-            <td><?php echo $text_dimension; ?></td>
-            <?php foreach ($products as $product) { ?>
-            <td><?php echo $product['length']; ?> x <?php echo $product['width']; ?> x <?php echo $product['height']; ?></td>
-            <?php } ?>
-          </tr>
+
+
         </tbody>
         <?php foreach ($attribute_groups as $attribute_group) { ?>
         <thead>
@@ -113,8 +91,9 @@
             <td colspan="<?php echo count($products) + 1; ?>"><strong><?php echo $attribute_group['name']; ?></strong></td>
           </tr>
         </thead>
-        <?php foreach ($attribute_group['attribute'] as $key => $attribute) { ?>
-        <tbody>
+      
+	  <?php foreach ($attribute_group['attribute'] as $key => $attribute) { ?>
+        <tbody class="param-table-body">
           <tr>
             <td><?php echo $attribute['name']; ?></td>
             <?php foreach ($products as $product) { ?>
@@ -126,15 +105,10 @@
             <?php } ?>
           </tr>
         </tbody>
+       
+	   <?php } ?>
         <?php } ?>
-        <?php } ?>
-        <tr>
-          <td></td>
-          <?php foreach ($products as $product) { ?>
-          <td><input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
-            <a href="<?php echo $product['remove']; ?>" class="btn btn-danger btn-block"><?php echo $button_remove; ?></a></td>
-          <?php } ?>
-        </tr>
+
       </table>
       <?php } else { ?>
       <p><?php echo $text_empty; ?></p>
@@ -146,3 +120,128 @@
     <?php echo $column_right; ?></div>
 </div>
 <?php echo $footer; ?>
+
+<!-- Compare Content -->
+	<div class="page-content">
+		<div class="container">
+			<main class="content">
+				<div class="title-wrap">
+					<h1 class="title main-title"><?php echo $heading_title; ?></h1>
+				</div>
+				
+				<div class="row row-collapse">
+
+					<div class="col-sm-3 col-xs-6">
+						<div class="compare-param-empty">
+						</div>
+						<div class="compare-param">
+							<table class="param-table param-table_title">
+								<tbody class="param-table-body">
+									
+									<tr>
+										<td>Рама</td>
+									</tr>
+		
+								</tbody>
+							</table>
+						</div>
+					</div>
+					
+					
+					
+					<div class="col-sm-9 col-xs-6">
+						<!-- compare-product-list -->
+						<div class="compare-product-list">
+							<div class="row row-collapse row-scroll">
+								
+								
+								<?php foreach ($products as $product) { ?>
+								<!-- product-item -->
+								<div class="col-md-4 col-sm-6">
+									<div class="compare-product-wrap">
+										<article class="product-item product-item_compare">
+											<div class="product-image">
+												<a href="#" class="product-image-link">
+													<?php if ($product['thumb']) { ?>
+													   <img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>">
+													<?php } ?>
+												</a>
+											</div>
+											<div class="product-text">
+												<h3 class="product-title">
+													<a href="#" class="product-title-link"><?php echo $product['name']; ?></a>
+												</h3>
+												<span class="product-brand"><?php echo $product['manufacturer']; ?></span>
+											</div>
+											<div class="product-info">
+												<div class="product-price">
+													<?php if ($product['special']) { ?>
+														<span class="product-price_old"><?php $product['price'] ?></span>
+														<span class="product-price_new"><?php $product['special'] ?></span>														
+													<?php } else { ?>
+													   <span class="product-price_new"><?php $product['price'] ?></span>
+												    <?php } ?>
+												</div>
+											</div>
+											
+
+											
+											
+											
+											
+											
+											
+											
+											
+											<div class="product-act">
+												<a href="#" class="product-act-link">
+													<span class="btn-icon icon-min">
+														<span class="icon">
+															<svg>
+																<use xlink:href="#icon_cross"></use>
+															</svg>
+														</span>
+													</span>
+													<span class="btn-text">Удалить</span>
+												</a>
+											</div>
+										</article>
+									</div>
+										
+
+									
+									
+									
+									
+									<!-- product param table -->
+									<div class="compare-product-param">
+										<table class="param-table">
+											<tbody class="param-table-body">
+												<tr>
+													<td>Алюминий</td>
+												</tr>
+												
+											</tbody>
+										</table>
+									</div>
+								</div>
+							
+								<?php } ?>
+								
+								
+								
+								
+						</div>
+
+						</div>
+					</div>
+				</div>
+
+
+
+
+			</main>
+		</div>
+	</div>
+
+

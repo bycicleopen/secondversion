@@ -22,4 +22,5 @@ $_['modal_btn_send']    = 'Send';
 $_['modal_name_placeholder'] = 'Your name*';
 $_['modal_tel_placeholder'] = 'Your phone number*';
 $_['modal_text_small'] = '*- required fields';
+$_['text_discounts'] = 'discounts';
 

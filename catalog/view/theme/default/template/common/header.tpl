@@ -267,7 +267,7 @@
 									</svg>
 								</span>
 							</span>
-							<span class="btn-text">Скидки</span>
+							<span class="btn-text"><?php echo $text_discounts; ?></span>
 						</a>
 						<nav class="nav-list">
 							<menu class="nav-items">
@@ -740,11 +740,11 @@
 		<!-- callback -->
 		<div id="callback" class="modal-oneclick">
 		
-			<form action="" method="" class="ajax-form">
+			 <form method="post" class="ajax-form" action="index.php?route=information/contact/sendMail">
 				<h3 class="title modal-title"><?php echo $modal_request_call; ?></h3>
 				<div class="form-group">
 					<input type="text" name="callbackname" class="input input_modal" placeholder="<?php echo $modal_name_placeholder."*"; ?>" required>
-					<input type="text" name="callbacktel" class="input input_modal" placeholder="<?php echo $modal_tel_placeholder; ?>*"  required pattern="[0-9_-]{10}" title="Формат ХХХ ХХ ХХ ХХХ">
+					<input type="text" name="callbacktel" id="callbacktel" class="input input_modal" placeholder="<?php echo $modal_tel_placeholder; ?>*" required pattern="^((\+3)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" title="Формат ХХХ ХХ ХХ ХХХ">
 				</div>
 				<p class="modal-text_small"><?php echo $modal_text_small; ?></p>
 				<input type="submit" name="callbackbtn"  id = "callbackbtn"  class="btn btn_act btn_submit" value="<?php echo $modal_btn_send; ?>">
@@ -927,7 +927,7 @@
 				</div>
 		
 				<div class="nav-wrap navbar-wrap">
-					<a href="#" class="nav-link nav-link_navbar link-discount link-discount_navbar">
+					<a href="/index.php?route=product/special" class="nav-link nav-link_navbar link-discount link-discount_navbar">
 						<span class="btn-icon">
 							<span class="icon">
 								<svg>
@@ -935,7 +935,7 @@
 								</svg>
 							</span>
 						</span>
-						<span class="btn-text">Скидки</span>
+						<span class="btn-text"><?php echo $text_discounts; ?></span>
 					</a>
 					<nav class="nav-list">
 						<?php if ($categories) { ?>
@@ -972,35 +972,39 @@
 				<div class="navbar-user-wrap">
 					<ul class="navbar-user">
 						<li class="navbar-user_item">
-							<a href="#" class="navbar-user_link">
+							<a href="<?php echo $wishlist; ?>" class="navbar-user_link">
 								<span class="icon">
 									<svg>
 										<use xlink:href="#icon_favourite"></use>
 									</svg>
 								</span>
-								<span class="add-count add-count_favourite" data-value="19"></span>
+								<span class="add-count add-count_favourite" data-value="<?php echo $text_wishlist; ?>"></span>
 							</a>
 						</li>
 						<li class="navbar-user_item">
-							<a href="#" class="navbar-user_link">
+							<a href="<?php echo $compare; ?>" class="navbar-user_link">
 								<span class="icon">
 									<svg>
 										<use xlink:href="#icon_compare"></use>
 									</svg>
 								</span>
-								<span class="add-count add-count_compare" data-value="7"></span>
-								<span class="count">7</span>
+								<span class="add-count add-count_compare" data-value="<?php echo $text_compare; ?>"></span>
+								<span class="count"><?php echo $text_compare; ?></span>
 							</a>
 						</li>
+					
 						<li class="navbar-user_item">
-							<a href="#addtocart" class="navbar-user_link popup-btn">
+							<div class="navbar-user_link popup-btn">
 								<span class="icon">
-									<svg>
-										<use xlink:href="#icon_cart"></use>
-									</svg>
+									
+										<?php echo $cart; ?>
+									
 								</span>
-								<span class="add-count add-count_cart" data-value="3"></span>
-							</a>
+								
+								
+								
+								
+							</div>
 						</li>
 					</ul>
 				</div>
@@ -1008,22 +1012,6 @@
 		</div>
 	</div>
 
-<script>
-    $('.ajax-form').on('submit',function(){
-        event.preventDefault();
-        var msg = $(this).serialize();
-        $.ajax({
-            type: 'POST',
-            url: 'index.php?route=information/contact/sendMail',
-            data: msg,
-            success: function(data){
-                window.location.replace('index.php?route=information/contact/success');
-            },
-            error: function(xhr){
-                alert('An error occurred.' + xhr.response);
-            }
-        });
-    })
-</script>
+
 
 	

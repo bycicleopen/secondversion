@@ -73,6 +73,7 @@ class ControllerCommonHeader extends Controller {
 
         $data['telephone'] = $this->config->get('config_telephone');
         $data['telephone2'] = $this->config->get('config_telephone2');
+		
 
         //Время работы
 
@@ -105,6 +106,10 @@ class ControllerCommonHeader extends Controller {
         $data['modal_name_placeholder'] = $this->language->get('modal_name_placeholder');
         $data['modal_tel_placeholder'] = $this->language->get('modal_tel_placeholder');
         $data['modal_text_small'] = $this->language->get('modal_text_small');
+		
+		$data['text_discounts'] = $this->language->get('text_discounts');
+
+		
 
 		$data['home'] = $this->url->link('common/home');
 		$data['wishlist'] = $this->url->link('account/wishlist', '', true);
@@ -122,8 +127,8 @@ class ControllerCommonHeader extends Controller {
 		$data['checkout'] = $this->url->link('checkout/checkout', '', true);
 		$data['contact'] = $this->url->link('information/contact');
 		$data['telephone'] = $this->config->get('config_telephone');
-
-		
+	
+	
 				/*Add information for bycicles*/
 		$data['text_information'] = $this->language->get('text_information');
 		
